@@ -1,0 +1,42 @@
+body {
+	font-family: 'Roboto',Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	
+}
+
+
+//menu
+
+.pushy-content{
+	padding: 0 25px;
+	.pushy-link{
+		border-bottom: 1px solid $blanco;
+	}
+}
+
+
+header {
+	padding: 20px 10px 20px 10px;
+	position: relative;
+	.logo {
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+
+	}
+	.menu-btn {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		border:none;
+		background-color: transparent;
+		width: 50px;
+		height: 50px;
+		font-size: 35px;
+	}
+}

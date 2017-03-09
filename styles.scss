@@ -1,0 +1,38 @@
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+
+//estilos generales
+
+//color
+$primary-color:#00B6ED;
+$secondary-color:#99CB00;
+$footer-color:#033E76;
+$blanco:#ffffff;
+
+$color-text:#777575;
+
+$color-menu:#4990E2;
+
+//colores de botones
+$light-blue:#3CB9E1;
+$green:#BCCA37;
+$blue:#1176AD;
+$orange:#EA6C2D;
+$purple:#852269;
+$gray:#B8B6B6;
+
+//color boxes
+$color-box-1:#4990E2;
+$color-box-2:#FC4A66;
+$color-box-3:#5C2C80;
+
+
+
+  @import "scss/menu";
+  @import "scss/header";
+  @import "scss/footer";
+  @import "scss/main";
+
+
+
