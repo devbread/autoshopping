@@ -9,9 +9,7 @@ $primary-color:#00B6ED;
 $secondary-color:#99CB00;
 $footer-color:#033E76;
 $blanco:#ffffff;
-
 $color-text:#777575;
-
 $color-menu:#4990E2;
 
 //colores de botones
@@ -33,6 +31,8 @@ $color-box-3:#5C2C80;
   @import "scss/header";
   @import "scss/footer";
   @import "scss/main";
+  @import "scss/ficha";
+  @import "scss/resultados";
 
 
 
