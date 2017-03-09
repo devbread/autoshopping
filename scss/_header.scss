@@ -4,7 +4,12 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	
+	@include breakpoint(medium){
+		background-color: purple;
+	}
+	@include breakpoint(large){
+		background-color: yellow;
+	}
 }
 
 
