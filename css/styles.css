@@ -5840,10 +5840,10 @@ header {
     text-align: center;
     color: #ffffff;
     margin-bottom: 10px;
-    border-radius: 50px;
     border: 5px solid #ffffff;
     box-shadow: 1px 3px 7px 0 rgba(0, 0, 0, 0.5); }
     .mainColor .btnsCuadros .link_rect:last-child {
       margin-right: 0; }
     .mainColor .btnsCuadros .link_rect img {
-      width: 100%; }
+      width: 100%;
+      display: inline-block; }
