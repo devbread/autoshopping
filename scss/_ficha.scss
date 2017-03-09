@@ -1,0 +1,26 @@
+.recomendacion,.recomendacion-usados{
+	background-color:$light-blue;
+	color:$blanco;
+	padding:15px;
+	margin-top:15px;
+	text-align:center;
+	a{
+		color: white;
+		margin-top:10px;
+		padding:5px 10px;
+		border:1px solid white;
+	}
+	h3{
+		text-align: left;
+		padding-left:15px;
+	}
+	img{
+		margin:0 auto;
+	}
+	.linea{
+		border-right:1px solid white;
+	}
+}
+.recomendacion-usados{
+	background-color:$green;
+}
