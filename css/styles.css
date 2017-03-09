@@ -5765,12 +5765,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased; }
-  @media (min-width: 992px) {
-    body {
-      background-color: purple; } }
-  @media (min-width: 1200px) {
-    body {
-      background-color: yellow; } }
 
 .pushy-content {
   padding: 0 25px; }
