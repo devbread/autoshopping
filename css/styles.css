@@ -5846,4 +5846,5 @@ header {
     .mainColor .btnsCuadros .link_rect:last-child {
       margin-right: 0; }
     .mainColor .btnsCuadros .link_rect img {
-      width: 100%; }
+      width: 100%;
+      display: inline-block; }
