@@ -5948,6 +5948,14 @@ header {
   @media (min-width: 768px) {
     .mainColor {
       background-color: #ffffff; } }
+  .mainColor .btnsCuadros h1 {
+    display: none; }
+    @media (min-width: 768px) {
+      .mainColor .btnsCuadros h1 {
+        display: block;
+        text-align: center;
+        color: #777575;
+        font-size: 1.250; } }
   @media (min-width: 768px) {
     .mainColor .btnsCuadros {
       display: flex;
@@ -6006,12 +6014,9 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#62ddf3', endColorstr='#27aed9',GradientType=1 ); }
   .mainColor .btnsCuadros .color-2 {
     background: #e0e848;
-    background: -moz-linear-gradient(-45deg, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, #e0e848), color-stop(61%, #b0bf1b), color-stop(100%, #b0bf1b));
-    background: -webkit-linear-gradient(-45deg, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
-    background: -o-linear-gradient(-45deg, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
-    background: -ms-linear-gradient(-45deg, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
-    background: linear-gradient(135deg, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
+    background: -webkit-linear-gradient(bottom left, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
+    background: -o-linear-gradient(bottom left, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
+    background: linear-gradient(to top right, #e0e848 0%, #b0bf1b 61%, #b0bf1b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e848', endColorstr='#b0bf1b', GradientType=1 ); }
   .mainColor .btnsCuadros .color-3 {
     background: #02aed9;
