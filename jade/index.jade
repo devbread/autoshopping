@@ -22,15 +22,29 @@ html.no-js(lang='es')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#') Inicio
+              a(href='#')
+                span.icolink-1 
+                |Inicio
             li.pushy-link
-              a(href='#') Sucursales
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
             li.pushy-link
-              a(href='#') Eventos y noticias
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
             li.pushy-link
-              a(href='#') Quienes somos
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
             li.pushy-link
-              a(href='#') Contáctenos
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
       //- Site Overlay
       .site-overlay
       #container
@@ -56,23 +70,24 @@ html.no-js(lang='es')
           .container 
             .row
               .btnsCuadros
-                .col-xs-4
+                h1 Encuentra la alternativa que buscas en:
+                .col-md-1
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-1(href="#")
                     img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-4
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-2(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-4
+                    img(src="img/ico-2.png", alt="Autos Nuevos")
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-3(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-            .row
-              .btnsCuadros
-                .col-xs-4
+                    img(src="img/ico-3.png", alt="Autos Nuevos")
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-4(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-4
-                  a.link_rect.color-5(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
+                    img(src="img/ico-4.png", alt="Autos Nuevos")
+                .col-xs-12.col-sm-4.col-md-2
+                  a.link_rect.color-5.lastCircle(href="#")
+                    img(src="img/ico-5.png", alt="Autos Nuevos")
+                .col-md-1
 
           //- .row
           //-   .btnsCuadros
