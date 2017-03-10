@@ -11,5 +11,9 @@
         @media (min-width: 1200px) {
             @content;
         }
+    } @else if $mq == ip {
+        @media (min-width: 640px) {
+            @content; 
+        }
     }  
 }

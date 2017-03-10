@@ -13,6 +13,99 @@ body {
 	padding: 0 25px;
 	.pushy-link{
 		border-bottom: 1px solid $blanco;
+		padding: 1em 0;
+		a{
+			font-size: 1.3em;
+		}
+	}
+	
+	.icolink-1	{
+		width: 33px;
+		height: 33px;
+		display: block;
+		margin:0 auto;
+	}
+	.icolink-1{	
+		background:transparent url('../img/inicio.png') no-repeat;
+		width: 33px;
+		height: 33px;
+		display: block;
+		margin:0 auto;
+	}
+	.icolink-2{	
+		background:transparent url('../img/promo.png') no-repeat;
+		width: 33px;
+		height: 33px;
+		display: block;
+		margin:0 auto;
+	}
+	.icolink-3{	
+		background:transparent url('../img/noticias.png') no-repeat;
+		width: 33px;
+		height: 33px;
+		display: block;
+		margin:0 auto;
+	}
+	.icolink-4{	
+		background:transparent url('../img/quienes.png') no-repeat;
+		width: 33px;
+		height: 33px;
+		display: block;
+		margin:0 auto;
+	}
+	.icolink-5{ 
+		background:transparent url('../img/contacto.png') no-repeat;
+		width: 33px;
+		height: 33px;
+		display: block;
+		margin:0 auto;
+	}
+
+	.formMovil{
+		width: 100%;
+		position: relative;
+		margin-top: 1.8em;
+		margin-bottom: 1.5em;
+		.searchMovil{
+			width: 90%;
+			border:1px solid $blanco;
+			background: transparent;
+			color: $blanco; 
+			padding: 10px;
+			font-style: italic;
+			border-radius: 5px 0px 0px 5px;
+		}
+
+		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  color: $blanco;
+		}
+		::-moz-placeholder { /* Firefox 19+ */
+		  color: $blanco;
+		}
+		:-ms-input-placeholder { /* IE 10+ */
+		  color: $blanco;
+		}
+		:-moz-placeholder { /* Firefox 18- */
+		  color: $blanco;
+		}
+		.buscarMovil{
+			position: absolute;
+			right: 0;
+			border-right:1px solid $blanco;
+			border-top:1px solid $blanco;
+			border-bottom:1px solid $blanco;
+			border-left:1px solid $blanco;
+			bottom: 0;
+			top:0;
+			border-radius: 0px 5px 5px 0px;
+			background-color: $footer-color;
+			-webkit-appearance: none;
+			cursor: pointer;
+			.ion-ios-search-strong{
+			 	color: $blanco;
+			 	font-size: 20px;
+			}
+		}
 	}
 }
 
@@ -24,7 +117,9 @@ header {
 		width: 60%;
 		display: block;
 		margin: 0 auto;
-
+		@include breakpoint(small) {
+			width: 40%;
+		}
 	}
 	.menu-btn {
 		position: absolute;

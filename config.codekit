@@ -2801,6 +2801,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/contacto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 917,
+		"inputAbbreviatedPath": "\/img\/contacto.png",
+		"outputAbbreviatedPath": "\/img\/contacto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ford_01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2823,6 +2834,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ico-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2129,
+		"inputAbbreviatedPath": "\/img\/ico-2.png",
+		"outputAbbreviatedPath": "\/img\/ico-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2383,
+		"inputAbbreviatedPath": "\/img\/ico-3.png",
+		"outputAbbreviatedPath": "\/img\/ico-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1621,
+		"inputAbbreviatedPath": "\/img\/ico-4.png",
+		"outputAbbreviatedPath": "\/img\/ico-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2353,
+		"inputAbbreviatedPath": "\/img\/ico-5.png",
+		"outputAbbreviatedPath": "\/img\/ico-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/inicio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 435,
+		"inputAbbreviatedPath": "\/img\/inicio.png",
+		"outputAbbreviatedPath": "\/img\/inicio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2841,6 +2907,50 @@
 		"initialSize": 3448,
 		"inputAbbreviatedPath": "\/img\/logo_derco.png",
 		"outputAbbreviatedPath": "\/img\/logo_derco.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lupa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 554,
+		"inputAbbreviatedPath": "\/img\/lupa.png",
+		"outputAbbreviatedPath": "\/img\/lupa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/noticias.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 283,
+		"inputAbbreviatedPath": "\/img\/noticias.png",
+		"outputAbbreviatedPath": "\/img\/noticias.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 448,
+		"inputAbbreviatedPath": "\/img\/promo.png",
+		"outputAbbreviatedPath": "\/img\/promo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/quienes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602,
+		"inputAbbreviatedPath": "\/img\/quienes.png",
+		"outputAbbreviatedPath": "\/img\/quienes.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
