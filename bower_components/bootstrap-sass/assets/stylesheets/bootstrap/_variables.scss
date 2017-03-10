@@ -295,6 +295,14 @@ $screen-xs-min:              $screen-xs !default;
 //** Deprecated `$screen-phone` as of v3.0.1
 $screen-phone:               $screen-xs-min !default;
 
+//iphone 6
+
+$screen-ip:                  64	0px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-ip-min:              $screen-ip !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone-ip:               $screen-ip-min !default;
+
 // Small screen / tablet
 //** Deprecated `$screen-sm` as of v3.0.1
 $screen-sm:                  768px !default;

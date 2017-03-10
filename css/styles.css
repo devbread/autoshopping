@@ -5905,6 +5905,9 @@ header {
     width: 60%;
     display: block;
     margin: 0 auto; }
+    @media (min-width: 768px) {
+      header .logo {
+        width: 40%; } }
   header .menu-btn {
     position: absolute;
     right: 0px;
@@ -5945,18 +5948,6 @@ header {
   @media (min-width: 768px) {
     .mainColor {
       background-color: #ffffff; } }
-  .mainColor:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 330px	 322px;
-    border-color: transparent transparent #ffffff transparent;
-    opacity: .3;
-    z-index: -1; }
   @media (min-width: 768px) {
     .mainColor .btnsCuadros {
       display: flex;
@@ -5965,8 +5956,11 @@ header {
       justify-content: center;
       align-items: center;
       align-content: center; } }
+  @media (min-width: 992px) {
+    .mainColor .btnsCuadros {
+      display: initial; } }
   .mainColor .btnsCuadros .link_rect {
-    width: 100%;
+    width: 90%;
     border-radius: 50%;
     padding: 25px;
     display: block;
@@ -5978,12 +5972,32 @@ header {
     .mainColor .btnsCuadros .link_rect img {
       width: 100%;
       display: inline-block; }
+      @media (min-width: 768px) {
+        .mainColor .btnsCuadros .link_rect img {
+          width: 70%; } }
+      @media (min-width: 992px) {
+        .mainColor .btnsCuadros .link_rect img {
+          width: 100%; } }
     @media (min-width: 768px) {
       .mainColor .btnsCuadros .link_rect {
-        border-radius: 0; } }
+        border-radius: 8px;
+        margin-bottom: 55px;
+        padding: 45px 25px;
+        margin-left: auto;
+        margin-right: auto; } }
+    @media (min-width: 992px) {
+      .mainColor .btnsCuadros .link_rect {
+        width: 100%; } }
   .mainColor .btnsCuadros .lastCircle {
     width: 45% !important;
     margin: 0 auto; }
+    @media (min-width: 768px) {
+      .mainColor .btnsCuadros .lastCircle {
+        width: 90% !important;
+        margin: 0 0 55px 0; } }
+    @media (min-width: 992px) {
+      .mainColor .btnsCuadros .lastCircle {
+        width: 100% !important; } }
   .mainColor .btnsCuadros .color-1 {
     background: #62ddf3;
     background: -webkit-linear-gradient(top left, #62ddf3 0%, #27aed9 100%);
