@@ -5946,22 +5946,42 @@ header {
       background: linear-gradient(135deg, #bc3fa3 0%, #7f1c63 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc3fa3', endColorstr='#7f1c63', GradientType=1 ); }
 
+.superior-foto .cuadro-foto {
+  border: 1px solid #B8B6B6;
+  padding: 0;
+  margin: 0 0 30px 0; }
+  .superior-foto .cuadro-foto h2 {
+    padding: 15px;
+    margin: 0; }
+.superior-foto .primera-tabla tr:first-of-type {
+  color: white;
+  background-color: #BCCA37; }
+.superior-foto .table i {
+  font-size: 30px; }
+.superior-foto .segunda-tabla {
+  text-align: center; }
+  .superior-foto .segunda-tabla th {
+    text-align: center; }
+
 .recomendacion, .recomendacion-usados {
   background-color: #3CB9E1;
   color: #ffffff;
   padding: 15px;
   margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center; }
   .recomendacion a, .recomendacion-usados a {
     color: white;
     margin-top: 10px;
+    margin-bottom: 15px;
     padding: 5px 10px;
     border: 1px solid white; }
   .recomendacion h3, .recomendacion-usados h3 {
     text-align: left;
     padding-left: 15px; }
   .recomendacion img, .recomendacion-usados img {
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
   .recomendacion .linea, .recomendacion-usados .linea {
     border-right: 1px solid white; }
 

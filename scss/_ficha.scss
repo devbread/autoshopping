@@ -1,12 +1,43 @@
+.superior-foto{
+	.cuadro-foto{
+		border:1px solid $gray;
+		padding:0;
+		margin: 0 0 30px 0;
+		h2{
+			
+			padding:15px;
+			margin:0;
+		}
+	}
+	.primera-tabla{
+		tr:first-of-type{
+			color:white;
+			background-color:$green;
+		}
+	}
+	.table{
+		i{
+			font-size: 30px;
+		}
+	}
+	.segunda-tabla{
+		text-align:center;
+		th{
+			text-align: center;
+		}
+	}
+}
 .recomendacion,.recomendacion-usados{
 	background-color:$light-blue;
 	color:$blanco;
 	padding:15px;
 	margin-top:15px;
+	margin-bottom:15px;
 	text-align:center;
 	a{
 		color: white;
 		margin-top:10px;
+		margin-bottom: 15px;
 		padding:5px 10px;
 		border:1px solid white;
 	}
@@ -16,6 +47,7 @@
 	}
 	img{
 		margin:0 auto;
+		width: 100%;
 	}
 	.linea{
 		border-right:1px solid white;
