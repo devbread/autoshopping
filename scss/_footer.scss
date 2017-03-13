@@ -1,6 +1,8 @@
 .footer-nav{
 	background-color:#033E76;
 	color:white;
+	text-align:center;
+	padding:40px 0;
 	a{
 		color:white;
 	}
@@ -10,12 +12,30 @@
 		li{
 			padding:0px;
 			font-size: 12px;
+			i{
+				font-size: 2em;
+			}
 		}
 	}
-
-	.caja-footer{
+	@include breakpoint(medium){
+		text-align: left;
 	}
-	padding:40px 0;
+    .caja-footer{
+		display: block;
+		height: 134px;
+		@include breakpoint(medium){
+			border-right: 1px solid white;
+		}
+		&:last-child{
+			border-right:none;
+		}
+    }
+    .btn-enviar-footer{
+    	color:white;
+    	background-color:#215586;
+    	border-color:#215586;
+    	margin-bottom:5px;
+    }
 }
 .footer-down{
 	background-color:#2985CB;

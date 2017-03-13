@@ -3008,6 +3008,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/g+.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 383,
+		"inputAbbreviatedPath": "\/img\/g+.png",
+		"outputAbbreviatedPath": "\/img\/g+.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/geely.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3177,7 +3188,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3448,
+		"initialSize": 3334,
 		"inputAbbreviatedPath": "\/img\/logo_derco.png",
 		"outputAbbreviatedPath": "\/img\/logo_derco.png",
 		"outputPathIsOutsideProject": 0,
@@ -3400,6 +3411,17 @@
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/quienes.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/quienes.jade",
+		"outputAbbreviatedPath": "\/jade\/quienes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados.jade": {
