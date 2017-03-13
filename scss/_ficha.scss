@@ -1,12 +1,82 @@
+.superior-foto{
+	font-size:14px;
+	.cuadro-foto{
+		border:1px solid $gray;
+		padding:0;
+		h2{
+			
+			padding:15px;
+			margin:0;
+		}
+
+	}
+	.banda-rrss{
+		margin:15px 0;
+		.no-padding-left{
+			padding-left:0;
+		}
+		.icono-rrss{
+			.circulo-azul,.circulo-celeste,.circulo-anaranjado{
+				background-color:#3B5998;
+				border-radius:50%;
+				width: 30px;
+				height: 30px;
+				padding:2px 11px;
+				i{
+					color: white;
+					font-size: 18px;
+				}
+			}
+			.circulo-celeste{
+	
+				background-color:#55ACEE;
+				padding:2px 7px;
+			}
+			
+		}
+		.circulo-anaranjado{
+			border-radius:50%;
+			width: 30px;
+			height: 30px;
+			background-color:#DC4E41;
+			padding:4px 7px;
+		}
+		.texto-compartir{
+			margin:8px 0 ;
+			color:#3B5998;
+			font-size: 13px;
+
+		}
+	}
+	.primera-tabla{
+		tr:first-of-type{
+			color:white;
+			background-color:$green;
+		}
+	}
+	.table{
+		i{
+			font-size: 30px;
+		}
+	}
+	.segunda-tabla{
+		text-align:center;
+		th{
+			text-align: center;
+		}
+	}
+}
 .recomendacion,.recomendacion-usados{
 	background-color:$light-blue;
 	color:$blanco;
 	padding:15px;
 	margin-top:15px;
+	margin-bottom:15px;
 	text-align:center;
 	a{
 		color: white;
 		margin-top:10px;
+		margin-bottom: 15px;
 		padding:5px 10px;
 		border:1px solid white;
 	}
@@ -16,6 +86,7 @@
 	}
 	img{
 		margin:0 auto;
+		width: 100%;
 	}
 	.linea{
 		border-right:1px solid white;
@@ -23,4 +94,7 @@
 }
 .recomendacion-usados{
 	background-color:$green;
+}
+.no-padding{
+	padding:0!important;
 }

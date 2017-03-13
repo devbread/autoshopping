@@ -15,15 +15,29 @@
     <script src="js/modernizr.js"></script>
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <nav data-focus="#first-link" class="pushy pushy-right">
       <div class="pushy-content">
         <ul>
-          <li class="pushy-link"><a href="#">Inicio</a></li>
-          <li class="pushy-link"><a href="#">Sucursales</a></li>
-          <li class="pushy-link"><a href="#">Eventos y noticias</a></li>
-          <li class="pushy-link"><a href="#">Quienes somos</a></li>
-          <li class="pushy-link"><a href="#">Contáctenos</a></li>
+          <li class="pushy-link"><a href="#"><span class="icolink-1"> </span>Inicio</a></li>
+          <li class="pushy-link"><a href="#"> <span class="icolink-2"> </span>Sucursales</a></li>
+          <li class="pushy-link"><a href="#"> <span class="icolink-3"> </span>Eventos y noticias</a></li>
+          <li class="pushy-link"><a href="#"><span class="icolink-4"> </span>Quienes somos</a></li>
+          <li class="pushy-link"><a href="#"><span class="icolink-5"> </span>Contáctenos</a></li>
         </ul>
+        <form class="formMovil">
+          <input type="search" placeholder="buscar en el sitio" class="searchMovil">
+          <button class="buscarMovil"><i class="ion-ios-search-strong"></i></button>
+        </form>
       </div>
     </nav>
     <div class="site-overlay"></div>
@@ -32,6 +46,11 @@
         <div class="row">
           <header class="col-sm-12"><a href="index.html" class="logo"><img src="img/logo.png" alt="" class="img-responsive"></a>
             <button class="menu-btn"> <i class="ion-navicon"></i></button>
+            <form class="buscadorDesktop">
+              <input type="search" placeholder="Buscar en el sitio" class="desk">
+              <button class="desk-search"><i class="ion-ios-search-strong"></i></button>
+              <div class="btnContact"><a href="#"> <img src="img/btnContact.png" alt=""></a></div>
+            </form>
           </header>
         </div>
         <div class="row">
@@ -42,20 +61,128 @@
           </div>
         </div>
       </div>
-      <section class="mainColor">
+      <section id="selector" class="mainColor">
         <div class="container"> 
           <div class="row">
             <div class="btnsCuadros">
-              <div class="col-xs-4"><a href="#" class="link_rect color-1"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
-              <div class="col-xs-4"><a href="#" class="link_rect color-2"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
-              <div class="col-xs-4"><a href="#" class="link_rect color-3"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
+              <h1>Encuentra la alternativa que buscas en:</h1>
+              <div class="col-md-1"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-1"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-2"><img src="img/ico-2.png" alt="Autos usados"></a></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-3"><img src="img/ico-3.png" alt="Motos"></a></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-4"><img src="img/ico-4.png" alt="Camiones"></a></div>
+              <div class="col-xs-12 col-sm-4 col-md-2"><a href="#" class="link_rect color-5 lastCircle"><img src="img/ico-5.png" alt="Servicios"></a></div>
+              <div class="col-md-1"></div>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="marcas">
+        <div class="container">
           <div class="row">
-            <div class="btnsCuadros">
-              <div class="col-xs-4"><a href="#" class="link_rect color-4"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
-              <div class="col-xs-4"><a href="#" class="link_rect color-5"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
+            <div class="col-md-1"></div>
+            <div class="col-sm-10">
+              <div class="boxTitle">
+                <h2>Nuestras Marcas</h2>
+              </div>
+              <div class="owl-carousel owl-theme">
+                <div>
+                  <div class="marcas-ico">
+                    <ul>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div class="marcas-ico">
+                    <ul>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                      <li><img src="img/suzuki.jpg" alt="" class="img-responsive"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </section>
+      <section class="cajas-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <div class="row">
+                <div class="col-md-4">
+                  <div href="#" class="caja-info__contacto">
+                    <div class="caja-info__icoInfo"><img src="img/ico-6.jpg" alt="" class="responsive"></div>
+                    <h3>Contacto</h3>
+                    <p> <a href="#">Estamos atentos de resolver cualquier duda o consulta que tenga sobre autos.</a></p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div href="#" class="caja-info__promos">
+                    <div class="caja-info__icoInfo"><img src="img/ico-7.jpg" alt="" class="responsive"></div>
+                    <h3>Promociones</h3>
+                    <p> <a href="#">Sorpréndete y conoce las mejores promociones de autos o servicios.</a></p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div href="#" class="caja-info__pistas">
+                    <div class="caja-info__icoInfo"><img src="img/ico-8.jpg" alt="" class="responsive"></div>
+                    <h3>Contacto</h3>
+                    <p> <a href="#">Estamos atentos de resolver cualquier duda o consulta qu etenga sobre autos.</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </section>
+      <section class="eventos">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <div class="rotador"></div>
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </section>
+      <section class="contacto">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+              <h3>Contactanos</h3>
+              <form class="formulario">
+                <div class="inputswraper">
+                  <input type="text" placeholder="Nombre" class="inputswraper-top">
+                  <input type="text" placeholder="Apellido">
+                  <input type="text" placeholder="Teléfono">
+                  <input type="text" placeholder="Email" class="inputswraper-bottom">
+                </div>
+                <textarea placeholder="Escriba su comentario..."></textarea>
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
+            <div class="col-md-5">
+              <h3>Encuentranos en facebook</h3>
+              <div class="facebook">
+                <div class="fb-page"></div>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
           </div>
         </div>
       </section>

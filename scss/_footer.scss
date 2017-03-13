@@ -1,6 +1,7 @@
 .footer-nav{
 	background-color:#033E76;
 	color:white;
+	padding:40px 0;
 	a{
 		color:white;
 	}
@@ -10,12 +11,24 @@
 		li{
 			padding:0px;
 			font-size: 12px;
+			i{
+				font-size: 2em;
+			}
 		}
 	}
-
-	.caja-footer{
-	}
-	padding:40px 0;
+    .caja-footer{
+    	border-right: 1px solid white;
+		display: block;
+		height: 134px;
+		&:last-child{
+			border-right:none;
+		}
+    }
+    .btn-enviar-footer{
+    	color:white;
+    	background-color:#215586;
+    	border-color:#215586;
+    }
 }
 .footer-down{
 	background-color:#2985CB;

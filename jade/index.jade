@@ -17,20 +17,43 @@ html.no-js(lang='es')
 
     script(src='js/modernizr.js')
   body
+      #fb-root
+      script.
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
       //- Pushy Menu
       nav.pushy.pushy-right(data-focus='#first-link')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#') Inicio
+              a(href='#')
+                span.icolink-1 
+                |Inicio
             li.pushy-link
-              a(href='#') Sucursales
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
             li.pushy-link
-              a(href='#') Eventos y noticias
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
             li.pushy-link
-              a(href='#') Quienes somos
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
             li.pushy-link
-              a(href='#') Contáctenos
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
       //- Site Overlay
       .site-overlay
       #container
@@ -41,6 +64,13 @@ html.no-js(lang='es')
                 img.img-responsive(src="img/logo.png", alt="")
               button.menu-btn 
                 i.ion-navicon
+              form.buscadorDesktop
+                input.desk(type="search", placeholder="Buscar en el sitio")
+                button.desk-search
+                  i.ion-ios-search-strong
+                .btnContact
+                  a(href="#") 
+                    img(src="img/btnContact.png", alt="")
 
           .row
             .owl-carousel.owl-theme
@@ -52,36 +82,124 @@ html.no-js(lang='es')
 
               .div 
                 img.img-responsive(src="img/banner.jpg", alt="")
-        section.mainColor
+        section.mainColor#selector
           .container 
             .row
               .btnsCuadros
-                .col-xs-4
+                h1 Encuentra la alternativa que buscas en:
+                .col-md-1
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-1(href="#")
                     img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-4
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-2(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-4
+                    img(src="img/ico-2.png", alt="Autos usados")
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-3(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-            .row
-              .btnsCuadros
-                .col-xs-4
+                    img(src="img/ico-3.png", alt="Motos")
+                .col-xs-6.col-sm-4.col-md-2
                   a.link_rect.color-4(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-4
-                  a.link_rect.color-5(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
+                    img(src="img/ico-4.png", alt="Camiones")
+                .col-xs-12.col-sm-4.col-md-2
+                  a.link_rect.color-5.lastCircle(href="#")
+                    img(src="img/ico-5.png", alt="Servicios")
+                .col-md-1
+        section.marcas
+          .container
+            .row
+              .col-md-1
+              .col-sm-10
+                .boxTitle
+                  h2 Nuestras Marcas
+                .owl-carousel.owl-theme
+                  div
+                    .marcas-ico
+                      ul
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
 
-          //- .row
-          //-   .btnsCuadros
-          //-     .col-xs-4
-          //-       a.link_rect(href="#")
-          //-         img(src="img/ico-1.png", alt="Autos Nuevos")
-          //-     .col-xs-4
-          //-       a.link_rect(href="#")
-          //-         img(src="img/ico-1.png", alt="Autos Nuevos")
+                  div
+                    .marcas-ico
+                      ul
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                        li
+                          img.img-responsive(src="img/suzuki.jpg", alt="")
+              .col-md-1
+        section.cajas-info
+          .container
+            .row
+              .col-md-1
+              .col-md-10
+                  .row
+                    .col-md-4
+                      .caja-info__contacto(href="#")
+                        .caja-info__icoInfo
+                          img.responsive(src="img/ico-6.jpg", alt="") 
+                        h3 Contacto
+                        p 
+                          a(href="#")|Estamos atentos de resolver cualquier duda o consulta que tenga sobre autos.
+                    .col-md-4
+                      .caja-info__promos(href="#")
+                        .caja-info__icoInfo
+                          img.responsive(src="img/ico-7.jpg", alt="")
+                        h3 Promociones
+                        p 
+                          a(href="#")|Sorpréndete y conoce las mejores promociones de autos o servicios.
+                    .col-md-4
+                      .caja-info__pistas(href="#")
+                        .caja-info__icoInfo
+                          img.responsive(src="img/ico-8.jpg", alt="")
+                        h3 Contacto
+                        p 
+                          a(href="#")|Estamos atentos de resolver cualquier duda o consulta qu etenga sobre autos.
+              .col-md-1
+        section.eventos
+          .container
+            .row
+              .col-md-1
+              .col-md-10
+                .rotador
+              .col-md-1
+        section.contacto
+          .container
+            .row
+              .col-md-1
+              .col-md-5
+                h3 Contactanos
+                form.formulario
+                  .inputswraper
+                    input.inputswraper-top(type="text", placeholder="Nombre")
+                    input(type="text", placeholder="Apellido")
+                    input(type="text", placeholder="Teléfono")
+                    input.inputswraper-bottom(type="text", placeholder="Email")
+                  textarea(placeholder="Escriba su comentario...")
+                  input(type="submit", value="Enviar")
+              .col-md-5
+                h3 Encuentranos en facebook
+                .facebook
+                  .fb-page
+              .col-md-1
+
+
+
+
         .container.container-fluid.footer-nav
           nav
               .col-md-1
@@ -140,3 +258,4 @@ html.no-js(lang='es')
       script(src='js/main.js')
       script(src='js/flowtype.js')
       script(src='js/pushy.min.js')
+
