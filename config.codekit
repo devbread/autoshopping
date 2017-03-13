@@ -2761,7 +2761,7 @@
 		},
 	"\/ficha.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2788,6 +2788,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/arrow-select.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 426,
+		"inputAbbreviatedPath": "\/img\/arrow-select.png",
+		"outputAbbreviatedPath": "\/img\/arrow-select.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1905,
+		"inputAbbreviatedPath": "\/img\/baic.jpg",
+		"outputAbbreviatedPath": "\/img\/baic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2799,6 +2821,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/brilliance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3827,
+		"inputAbbreviatedPath": "\/img\/brilliance.jpg",
+		"outputAbbreviatedPath": "\/img\/brilliance.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/btnContact.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2806,6 +2839,127 @@
 		"initialSize": 3172,
 		"inputAbbreviatedPath": "\/img\/btnContact.png",
 		"outputAbbreviatedPath": "\/img\/btnContact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-camioneta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2381,
+		"inputAbbreviatedPath": "\/img\/cat-green-camioneta.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-camioneta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-citycar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2870,
+		"inputAbbreviatedPath": "\/img\/cat-green-citycar.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-citycar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-deportivo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2355,
+		"inputAbbreviatedPath": "\/img\/cat-green-deportivo.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-deportivo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-electrico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3496,
+		"inputAbbreviatedPath": "\/img\/cat-green-electrico.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-electrico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-furgon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2393,
+		"inputAbbreviatedPath": "\/img\/cat-green-furgon.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-furgon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-hatchback.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2869,
+		"inputAbbreviatedPath": "\/img\/cat-green-hatchback.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-hatchback.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-minibus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3004,
+		"inputAbbreviatedPath": "\/img\/cat-green-minibus.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-minibus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-sedan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2424,
+		"inputAbbreviatedPath": "\/img\/cat-green-sedan.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-sedan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-suv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2630,
+		"inputAbbreviatedPath": "\/img\/cat-green-suv.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-suv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-green-todoterreno.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2790,
+		"inputAbbreviatedPath": "\/img\/cat-green-todoterreno.png",
+		"outputAbbreviatedPath": "\/img\/cat-green-todoterreno.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/changan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3551,
+		"inputAbbreviatedPath": "\/img\/changan.jpg",
+		"outputAbbreviatedPath": "\/img\/changan.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2861,6 +3015,39 @@
 		"initialSize": 383,
 		"inputAbbreviatedPath": "\/img\/g+.png",
 		"outputAbbreviatedPath": "\/img\/g+.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/geely.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3276,
+		"inputAbbreviatedPath": "\/img\/geely.jpg",
+		"outputAbbreviatedPath": "\/img\/geely.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/greatwall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3490,
+		"inputAbbreviatedPath": "\/img\/greatwall.jpg",
+		"outputAbbreviatedPath": "\/img\/greatwall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hiunday.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3516,
+		"inputAbbreviatedPath": "\/img\/hiunday.jpg",
+		"outputAbbreviatedPath": "\/img\/hiunday.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2957,7 +3144,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5832,
+		"initialSize": 947,
 		"inputAbbreviatedPath": "\/img\/icon-usado.jpg",
 		"outputAbbreviatedPath": "\/img\/icon-usado.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2971,6 +3158,17 @@
 		"initialSize": 435,
 		"inputAbbreviatedPath": "\/img\/inicio.png",
 		"outputAbbreviatedPath": "\/img\/inicio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3174,
+		"inputAbbreviatedPath": "\/img\/jac.jpg",
+		"outputAbbreviatedPath": "\/img\/jac.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3008,6 +3206,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mahindra.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2213,
+		"inputAbbreviatedPath": "\/img\/mahindra.jpg",
+		"outputAbbreviatedPath": "\/img\/mahindra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mazda.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3235,
+		"inputAbbreviatedPath": "\/img\/mazda.jpg",
+		"outputAbbreviatedPath": "\/img\/mazda.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/montreal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3015,6 +3235,17 @@
 		"initialSize": 70653,
 		"inputAbbreviatedPath": "\/img\/montreal.jpg",
 		"outputAbbreviatedPath": "\/img\/montreal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/noti-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81185,
+		"inputAbbreviatedPath": "\/img\/noti-1.jpg",
+		"outputAbbreviatedPath": "\/img\/noti-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3074,11 +3305,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/renault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2547,
+		"inputAbbreviatedPath": "\/img\/renault.jpg",
+		"outputAbbreviatedPath": "\/img\/renault.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/suzuki.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4254,
+		"initialSize": 3013,
 		"inputAbbreviatedPath": "\/img\/suzuki.jpg",
 		"outputAbbreviatedPath": "\/img\/suzuki.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3144,9 +3386,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha.jade",
-		"outputAbbreviatedPath": "\/jade\/ficha.html",
+		"outputAbbreviatedPath": "\/ficha.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/footer.jade": {
@@ -3169,6 +3411,17 @@
 		"outputAbbreviatedPath": "\/jade\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/quienes.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/quienes.jade",
+		"outputAbbreviatedPath": "\/quienes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados.jade": {
