@@ -3,6 +3,7 @@
 
 
 
+<<<<<<< HEAD
 config.codekit
 <<<<<<< HEAD
 =======
@@ -13,3 +14,6 @@ config.codekit
 
 config.codekit
 >>>>>>> Jadra
+=======
+*.codekit
+>>>>>>> origin/Master
