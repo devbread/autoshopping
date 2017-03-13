@@ -66,6 +66,9 @@ body {
 		position: relative;
 		margin-top: 1.8em;
 		margin-bottom: 1.5em;
+		@include breakpoint(medium){
+			display: none;
+		}
 		.searchMovil{
 			width: 90%;
 			border:1px solid $blanco;
@@ -101,6 +104,7 @@ body {
 			background-color: $footer-color;
 			-webkit-appearance: none;
 			cursor: pointer;
+			padding: 0 15px;
 			.ion-ios-search-strong{
 			 	color: $blanco;
 			 	font-size: 20px;
@@ -120,6 +124,11 @@ header {
 		@include breakpoint(small) {
 			width: 40%;
 		}
+		@include breakpoint(medium){
+			width: 30%;
+			margin: 0;
+			float: left;
+		}
 	}
 	.menu-btn {
 		position: absolute;
@@ -132,5 +141,69 @@ header {
 		width: 50px;
 		height: 50px;
 		font-size: 35px;
+		@include breakpoint(medium){
+			font-size: 45px;
+			top: 12px;
+		}
 	}
+
+	//buscador header solo desktop
+	.buscadorDesktop{
+		display: none;
+		@include breakpoint(medium){
+			display: block;
+			float: right;
+			margin-top: 10px;
+			margin-right: 40px;
+		}
+		.desk{
+			-webkit-appearance: none;
+			border:1px solid #f1f0f0;
+			padding:5px;
+			border-radius: 10px;
+			font-style: italic;
+			font-size: 14px;
+			width: 200px;
+		}
+		.desk-search{
+			background-color: $footer-color;
+			-webkit-appearance: none;
+			border:none;
+			position: relative;
+			top:0;
+			bottom:0;
+			left: -15px;
+			border:2px solid $footer-color;
+			right: 0;
+			padding:3px 15px;
+			color: $blanco;
+			-webkit-border-top-right-radius: 5px;
+			-webkit-border-bottom-right-radius: 5px;
+			-moz-border-radius-topright: 5px;
+			-moz-border-radius-bottomright: 5px;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			cursor: pointer;
+		}
+		.btnContact{
+		    float: right;
+		    position: relative;
+		    top: -2px;
+		    padding:0 20px;
+		}
+	}
+}
+
+
+
+//owl
+.owl-theme .owl-dots{
+	@include breakpoint(small){
+		background-color: $blanco !important;
+		padding: 10px 0;
+		
+	}
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background-color: $primary-color !important;
 }
