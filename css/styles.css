@@ -6405,7 +6405,6 @@ header {
     font-size: 1.2em;
     border-radius: 5px; }
 
-<<<<<<< HEAD
 .superior-foto {
   font-size: 14px; }
   .superior-foto .cuadro-foto {
@@ -6449,7 +6448,7 @@ header {
     text-align: center; }
     .superior-foto .segunda-tabla th {
       text-align: center; }
-=======
+
 .categoriasIcons {
   width: 100%;
   border-top: 1px solid #BCCA37;
@@ -6480,7 +6479,7 @@ header {
           display: block; }
           .categoriasIcons ul li a span img {
             width: 70%; }
->>>>>>> test
+
 
 .recomendacion, .recomendacion-usados {
   background-color: #3CB9E1;
