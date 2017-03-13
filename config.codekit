@@ -2705,6 +2705,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/buscador-usados.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/buscador-usados.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/owl.carousel.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -2768,6 +2777,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/arrow-select.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1732,
+		"inputAbbreviatedPath": "\/img\/arrow-select.jpg",
+		"outputAbbreviatedPath": "\/img\/arrow-select.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2775,6 +2795,17 @@
 		"initialSize": 107877,
 		"inputAbbreviatedPath": "\/img\/banner.jpg",
 		"outputAbbreviatedPath": "\/img\/banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/btnContact.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3172,
+		"inputAbbreviatedPath": "\/img\/btnContact.png",
+		"outputAbbreviatedPath": "\/img\/btnContact.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2878,6 +2909,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ico-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13493,
+		"inputAbbreviatedPath": "\/img\/ico-6.jpg",
+		"outputAbbreviatedPath": "\/img\/ico-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10982,
+		"inputAbbreviatedPath": "\/img\/ico-7.jpg",
+		"outputAbbreviatedPath": "\/img\/ico-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15319,
+		"inputAbbreviatedPath": "\/img\/ico-8.jpg",
+		"outputAbbreviatedPath": "\/img\/ico-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-usado.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5832,
+		"inputAbbreviatedPath": "\/img\/icon-usado.jpg",
+		"outputAbbreviatedPath": "\/img\/icon-usado.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/inicio.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2922,6 +2997,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/montreal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70653,
+		"inputAbbreviatedPath": "\/img\/montreal.jpg",
+		"outputAbbreviatedPath": "\/img\/montreal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/noticias.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2929,6 +3015,17 @@
 		"initialSize": 283,
 		"inputAbbreviatedPath": "\/img\/noticias.png",
 		"outputAbbreviatedPath": "\/img\/noticias.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/paris.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130824,
+		"inputAbbreviatedPath": "\/img\/paris.jpg",
+		"outputAbbreviatedPath": "\/img\/paris.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2962,6 +3059,17 @@
 		"initialSize": 62297,
 		"inputAbbreviatedPath": "\/img\/recomendado_01.png",
 		"outputAbbreviatedPath": "\/img\/recomendado_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/suzuki.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4254,
+		"inputAbbreviatedPath": "\/img\/suzuki.jpg",
+		"outputAbbreviatedPath": "\/img\/suzuki.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3007,6 +3115,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/jade\/buscador-usados.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/buscador-usados.jade",
+		"outputAbbreviatedPath": "\/jade\/buscador-usados.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/jade\/ficha.jade": {
 		"compileDebug": 1,
@@ -3267,6 +3386,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/owl.carousel.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/owl.carousel.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/pgwslider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/pgwslider.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/pgwslider.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
