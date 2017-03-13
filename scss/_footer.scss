@@ -1,6 +1,7 @@
 .footer-nav{
 	background-color:#033E76;
 	color:white;
+	text-align:center;
 	padding:40px 0;
 	a{
 		color:white;
@@ -16,10 +17,15 @@
 			}
 		}
 	}
+	@include breakpoint(medium){
+		text-align: left;
+	}
     .caja-footer{
-    	border-right: 1px solid white;
 		display: block;
 		height: 134px;
+		@include breakpoint(medium){
+			border-right: 1px solid white;
+		}
 		&:last-child{
 			border-right:none;
 		}
@@ -28,6 +34,7 @@
     	color:white;
     	background-color:#215586;
     	border-color:#215586;
+    	margin-bottom:5px;
     }
 }
 .footer-down{

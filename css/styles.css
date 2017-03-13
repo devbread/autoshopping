@@ -5984,6 +5984,7 @@ header {
 .footer-nav {
   background-color: #033E76;
   color: white;
+  text-align: center;
   padding: 40px 0; }
   .footer-nav a {
     color: white; }
@@ -5995,22 +5996,31 @@ header {
       font-size: 12px; }
       .footer-nav ul li i {
         font-size: 2em; }
+  @media (min-width: 992px) {
+    .footer-nav {
+      text-align: left; } }
   .footer-nav .caja-footer {
-    border-right: 1px solid white;
     display: block;
     height: 134px; }
+    @media (min-width: 992px) {
+      .footer-nav .caja-footer {
+        border-right: 1px solid white; } }
     .footer-nav .caja-footer:last-child {
       border-right: none; }
   .footer-nav .btn-enviar-footer {
     color: white;
     background-color: #215586;
-    border-color: #215586; }
+    border-color: #215586;
+    margin-bottom: 5px; }
 
 .footer-down {
   background-color: #2985CB;
   color: white;
   text-align: center;
   padding: 40px 10px; }
+
+.noPadding {
+  padding: 0; }
 
 .mainColor {
   padding: 4em 20px;
@@ -6218,8 +6228,43 @@ header {
   .cajas-info .caja-info__pistas {
     background-color: #5C2C80; }
 
-.rotador {
-  background-color: pink; }
+.eventos {
+  margin-bottom: 55px;
+  display: none; }
+  @media (min-width: 992px) {
+    .eventos {
+      display: block; } }
+  .eventos h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #777575;
+    font-size: 1.25em; }
+  .eventos p {
+    color: #777575;
+    text-align: center;
+    font-size: 0.9em; }
+  .eventos .nav-tabs {
+    border-bottom: 0; }
+  .eventos .nav-tabs > li {
+    margin-bottom: 0; }
+  .eventos .nav-stacked > li + li {
+    float: none;
+    margin-left: 0; }
+  .eventos .nav-tabs > li > a {
+    padding: 0; }
+    .eventos .nav-tabs > li > a img {
+      max-width: 97%; }
+  .eventos .nav-tabs > li.active > a {
+    border: none; }
+  .eventos .nav-tabs > li > a {
+    margin-right: 0;
+    line-height: none;
+    border: none;
+    border-radius: 0; }
+  .eventos .nav-tabs > li.active > a, .eventos .nav-tabs > li.active > a:hover {
+    border: none; }
+  .eventos .nav-stacked > li + li {
+    margin-top: 0; }
 
 .contacto {
   display: none; }
@@ -6283,9 +6328,15 @@ header {
 .busqTitulo {
   padding: 10px;
   background-color: #BCCA37; }
+  @media (min-width: 768px) {
+    .busqTitulo {
+      padding: 10px 20px; } }
   .busqTitulo .iconSection {
     float: left;
     width: 15%; }
+    @media (min-width: 768px) {
+      .busqTitulo .iconSection {
+        width: auto; } }
   .busqTitulo p {
     float: left;
     line-height: 42px;
@@ -6294,6 +6345,10 @@ header {
     margin-bottom: 0;
     margin-left: 15px;
     font-size: 1.2em; }
+    @media (min-width: 768px) {
+      .busqTitulo p {
+        line-height: 50px;
+        font-size: 1.5em; } }
   .busqTitulo .buttonColapse {
     float: right;
     color: #ffffff;
@@ -6341,7 +6396,7 @@ header {
     border-radius: 3px;
     -webkit-appearance: none;
     background-color: #ffffff;
-    background: url(../img/arrow-select.jpg) center right no-repeat; }
+    background: url(../img/arrow-select.png) center right no-repeat; }
   .buscador .formBusqueda {
     -webkit-appearance: none;
     width: 90%;
@@ -6401,13 +6456,46 @@ header {
     .superior-foto .segunda-tabla th {
       text-align: center; }
 
+.categoriasIcons {
+  width: 100%;
+  border-top: 1px solid #BCCA37;
+  border-bottom: 1px solid #BCCA37;
+  padding: 20px 0;
+  margin-bottom: 25px; }
+  .categoriasIcons h3 {
+    color: #777575;
+    text-align: center;
+    font-size: 1.25em;
+    margin: 0 0 20px 0; }
+  .categoriasIcons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .categoriasIcons ul li {
+      display: inline-block;
+      margin-right: 6px;
+      margin-bottom: 20px;
+      text-align: center; }
+      .categoriasIcons ul li:last-child {
+        margin-right: 0; }
+      .categoriasIcons ul li a {
+        color: #777575; }
+        .categoriasIcons ul li a span {
+          width: 110px;
+          text-align: center;
+          display: block; }
+          .categoriasIcons ul li a span img {
+            width: 70%; }
+
+
 .recomendacion, .recomendacion-usados {
   background-color: #3CB9E1;
   color: #ffffff;
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-align: center; }
+  text-align: center;
+  min-height: 320px; }
   .recomendacion a, .recomendacion-usados a {
     color: white;
     margin-top: 10px;
@@ -6437,7 +6525,7 @@ section.resultados .caja-resultado {
       font-size: 20px;
       font-weight: bold; }
   section.resultados .caja-resultado .btn-default, section.resultados .caja-resultado .btn-primary {
-    width: 47%;
+    width: 46%;
     background-color: #BCCA37;
     border-color: #BCCA37;
     color: white;

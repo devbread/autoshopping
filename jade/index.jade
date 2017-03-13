@@ -175,14 +175,39 @@ html.no-js(lang='es')
             .row
               .col-md-1
               .col-md-10
-                .rotador
+                h3 Eventos y noticias
+                p Acá encontraras toda la información de eventos en Chile y noticias sobre el mercado de autos.
+              .col-md-1
+            .row
+              .col-md-1
+              .col-md-10
+                .row
+                  .col-md-9
+                    .row.tab-content
+                      #home.tab-pane.fade.active.in(role='tabpanel')
+                        img.img-responsive(src="img/noti-1.jpg", alt="")
+                      #profile.tab-pane.fade(role='tabpanel')
+                        img.img-responsive(src="img/noti-1.jpg", alt="")
+                      #messages.tab-pane.fade(role='tabpanel')
+                        img.img-responsive(src="img/noti-1.jpg", alt="")
+                  .col-md-3.noPadding
+                    ul.nav.nav-tabs.nav-stacked.text-center(role='tablist')
+                      li.active(role='presentation')
+                        a(href='#home', aria-controls='home', role='tab', data-toggle='tab')
+                          img.img-responsive(src="img/noti-1.jpg", alt="")
+                      li(role='presentation')
+                        a(href='#profile', aria-controls='profile', role='tab', data-toggle='tab')
+                          img.img-responsive(src="img/noti-1.jpg", alt="")
+                      li(role='presentation')
+                        a(href='#messages', aria-controls='messages', role='tab', data-toggle='tab')
+                          img.img-responsive(src="img/noti-1.jpg", alt="")
               .col-md-1
         section.contacto
           .container
             .row
               .col-md-1
               .col-md-5
-                h3 Contactanos
+                h3 Contáctanos
                 form.formulario
                   .inputswraper
                     input.inputswraper-top(type="text", placeholder="Nombre")
