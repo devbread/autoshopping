@@ -5984,6 +5984,7 @@ header {
 .footer-nav {
   background-color: #033E76;
   color: white;
+  text-align: center;
   padding: 40px 0; }
   .footer-nav a {
     color: white; }
@@ -5995,16 +5996,22 @@ header {
       font-size: 12px; }
       .footer-nav ul li i {
         font-size: 2em; }
+  @media (min-width: 992px) {
+    .footer-nav {
+      text-align: left; } }
   .footer-nav .caja-footer {
-    border-right: 1px solid white;
     display: block;
     height: 134px; }
+    @media (min-width: 992px) {
+      .footer-nav .caja-footer {
+        border-right: 1px solid white; } }
     .footer-nav .caja-footer:last-child {
       border-right: none; }
   .footer-nav .btn-enviar-footer {
     color: white;
     background-color: #215586;
-    border-color: #215586; }
+    border-color: #215586;
+    margin-bottom: 5px; }
 
 .footer-down {
   background-color: #2985CB;
@@ -6487,7 +6494,8 @@ header {
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-align: center; }
+  text-align: center;
+  min-height: 320px; }
   .recomendacion a, .recomendacion-usados a {
     color: white;
     margin-top: 10px;
@@ -6517,7 +6525,7 @@ section.resultados .caja-resultado {
       font-size: 20px;
       font-weight: bold; }
   section.resultados .caja-resultado .btn-default, section.resultados .caja-resultado .btn-primary {
-    width: 47%;
+    width: 46%;
     background-color: #BCCA37;
     border-color: #BCCA37;
     color: white;
