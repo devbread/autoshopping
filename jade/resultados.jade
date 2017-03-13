@@ -22,83 +22,107 @@ html.no-js(lang='es')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#') Inicio
+              a(href='#')
+                span.icolink-1 
+                |Inicio
             li.pushy-link
-              a(href='#') Sucursales
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
             li.pushy-link
-              a(href='#') Eventos y noticias
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
             li.pushy-link
-              a(href='#') Quienes somos
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
             li.pushy-link
-              a(href='#') Contáctenos
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
       //- Site Overlay
       .site-overlay
-      .container#container
-        .row
-          header.col-sm-12
-            a.logo(href="index.html")
-              img.img-responsive(src="img/logo.png", alt="" style="width:50%;")
-            button.menu-btn 
-              i.ion-navicon
-    .container            
+      #container
+        .container
+          .row
+            header.col-sm-12
+              a.logo(href="index.html")
+                img.img-responsive(src="img/logo.png", alt="")
+              button.menu-btn 
+                i.ion-navicon
+              form.buscadorDesktop
+                input.desk(type="search", placeholder="Buscar en el sitio")
+                button.desk-search
+                  i.ion-ios-search-strong
+                .btnContact
+                  a(href="#") 
+                    img(src="img/btnContact.png", alt="")
+    .container
       section.resultados
+        h2 Resultados de la búsqueda 50 resultados
         .row
-          .caja-resultado.col-md-4
-            img(src="img/thumbnail.png")
-            .row
-              .col-xs-8
-                p.model Hyundai Tucson
-                p.year 2012
-                p.price $15.000.999
+          .col-sm-6.col-md-4
+            .thumbnail.caja-resultado
+              img(src='img/thumbnail.png', alt='...')
+              .caption.col-xs-8
+                h3 Hyundai Tucson
+                p.precio-resultados $13.000.990
+                p año 2012
               .col-xs-4
-                img(src="img/concesionario.png")
-            .row
-              .col-xs-6
-                button.btn.btn-ficha Ver Ficha
-              .col-xs-6
-                button.btn.btn-cotizar Cotizar
-          .caja-resultado.col-md-4
-            img(src="img/thumbnail.png")
-            .row
-              .col-xs-8
-                p.model Hyundai Tucson
-                p.year 2012
-                p.price $15.000.999
+                img.logo-concesionario(src="img/concesionario.png")
+              .row
+                .col-xs-12
+                  p
+                    a.btn.btn-primary(href='#', role='button') Cotizar
+                    a.btn.btn-default(href='#', role='button') Ver Ficha
+          .col-sm-6.col-md-4
+            .thumbnail.caja-resultado
+              img(src='img/thumbnail.png', alt='...')
+              .caption.col-xs-8
+                h3 Hyundai Tucson
+                p.precio-resultados $13.000.990
+                p año 2012
               .col-xs-4
-                img(src="img/concesionario.png")
-            .row
-              .col-xs-6
-                button.btn.btn-ficha Ver Ficha
-              .col-xs-6
-                button.btn.btn-cotizar Cotizar
-          .caja-resultado.col-md-4
-            img(src="img/thumbnail.png")
-            .row
-              .col-xs-8
-                p.model Hyundai Tucson
-                p.year 2012
-                p.price $15.000.999
+                img.logo-concesionario(src="img/concesionario.png")
+              .row
+                .col-xs-12
+                  p
+                    a.btn.btn-primary(href='#', role='button') Cotizar
+                    a.btn.btn-default(href='#', role='button') Ver Ficha
+          .col-sm-6.col-md-4
+            .thumbnail.caja-resultado
+              img(src='img/thumbnail.png', alt='...')
+              .caption.col-xs-8
+                h3 Hyundai Tucson
+                p.precio-resultados $13.000.990
+                p año 2012
               .col-xs-4
-                img(src="img/concesionario.png")
-            .row
-              .col-xs-6
-                button.btn.btn-ficha Ver Ficha
-              .col-xs-6
-                button.btn.btn-cotizar Cotizar
-          .caja-resultado.col-md-4
-            img(src="img/thumbnail.png")
-            .row
-              .col-xs-8
-                p.model Hyundai Tucson
-                p.year 2012
-                p.price $15.000.999
+                img.logo-concesionario(src="img/concesionario.png")
+              .row
+                .col-xs-12
+                  p
+                    a.btn.btn-primary(href='#', role='button') Cotizar
+                    a.btn.btn-default(href='#', role='button') Ver Ficha
+          .col-sm-6.col-md-4
+            .thumbnail.caja-resultado
+              img(src='img/thumbnail.png', alt='...')
+              .caption.col-xs-8
+                h3 Hyundai Tucson
+                p.precio-resultados $13.000.990
+                p año 2012
               .col-xs-4
-                img(src="img/concesionario.png")
-            .row
-              .col-xs-6
-                button.btn.btn-ficha Ver Ficha
-              .col-xs-6
-                button.btn.btn-cotizar Cotizar
+                img.logo-concesionario(src="img/concesionario.png")
+              .row
+                .col-xs-12
+                  p
+                    a.btn.btn-primary(href='#', role='button') Cotizar
+                    a.btn.btn-default(href='#', role='button') Ver Ficha
+
 
 
       script(src='js/jquery.min.js')

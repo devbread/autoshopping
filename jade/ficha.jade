@@ -22,24 +22,46 @@ html.no-js(lang='es')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#') Inicio
+              a(href='#')
+                span.icolink-1 
+                |Inicio
             li.pushy-link
-              a(href='#') Sucursales
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
             li.pushy-link
-              a(href='#') Eventos y noticias
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
             li.pushy-link
-              a(href='#') Quienes somos
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
             li.pushy-link
-              a(href='#') Contáctenos
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
       //- Site Overlay
       .site-overlay
-      .container#container
-        .row
-          header.col-sm-12
-            a.logo(href="index.html")
-              img.img-responsive(src="img/logo.png", alt="" style="width:50%;")
-            button.menu-btn 
-              i.ion-navicon
+      #container
+        .container
+          .row
+            header.col-sm-12
+              a.logo(href="index.html")
+                img.img-responsive(src="img/logo.png", alt="")
+              button.menu-btn 
+                i.ion-navicon
+              form.buscadorDesktop
+                input.desk(type="search", placeholder="Buscar en el sitio")
+                button.desk-search
+                  i.ion-ios-search-strong
+                .btnContact
+                  a(href="#") 
+                    img(src="img/btnContact.png", alt="")
     .container            
       section.ficha
         .row
@@ -50,6 +72,24 @@ html.no-js(lang='es')
                   h2 FORD MUSTANG
                   a.link_rect(href="#")
                     img(src="img/ford_01.png", alt="Autos Nuevos" style="width:100%;")
+                .row.banda-rrss
+                  .col-xs-4.col-sm-7.col-md-6.col-lg-7.no-padding-left
+                    hr
+                  .col-xs-3.col-sm-2.col-md-3.col-lg-2.no-padding
+                    p.texto-compartir Compartir 
+                      i.ion-arrow-right-b
+                  .col-xs-1.col-sm-1.icono-rrss
+                    a(href='#')
+                      .circulo-azul  
+                        i.ion-social-facebook
+                  .col-xs-1.col-sm-1.icono-rrss
+                    a(href='#')
+                      .circulo-celeste  
+                        i.ion-social-twitter
+                  .col-xs-1.col-sm-1
+                    a(href='#')
+                      .circulo-anaranjado  
+                        img(src="img/g+.png")
               .col-md-5
                 table.table.table-striped.primera-tabla
                   tr
@@ -100,6 +140,9 @@ html.no-js(lang='es')
                     th Tipo
                     td Automóvil
                   tr(align="center")
+                    th Cilndrada
+                    td 1.300 cc.
+                  tr(align="center")
                     th Llantas
                     td No
                   tr(align="center")
@@ -115,29 +158,32 @@ html.no-js(lang='es')
               .col-md-6
                 table.table.table-striped.segunda-tabla.bordered
                   tr(align="center")
-                    th Año
-                    td 2010
-                  tr(align="center")
-                    th Precio
-                    td $5.000.999
-                  tr(align="center")
-                    th Kilometraje
-                    td 131.746
-                  tr(align="center")
-                    th Tipo
-                    td Automóvil
-                  tr(align="center")
-                    th Llantas
+                    th Velocidad Crucero
                     td No
                   tr(align="center")
-                    th Frenos ABS
+                    th 4x4
                     td No
                   tr(align="center")
-                    th Airbag
+                    th Aire Acondicionado
                     td Si
                   tr(align="center")
-                    th Espejo Eléctrico
+                    th Cierre Centralizado
                     td Si
+                  tr(align="center")
+                    th Dirección Hidráulica
+                    td No
+                  tr(align="center")
+                    th Alza Vidrios
+                    td Si
+                  tr(align="center")
+                    th Alarma
+                    td Si
+                  tr(align="center")
+                    th Tapiz Cuero
+                    td No
+                  tr(align="center")
+                    th Local
+                    td Departamental
           #sidebar.sidebar-offcanvas.col-md-4
             .cuadro-cotizacion
                 form#contact_form.well.form-horizontal(action=' ', method='post')
@@ -226,10 +272,59 @@ html.no-js(lang='es')
           .col-md-4
             img(src="img/usados_01.png" style="display:block;")
             a(href="#" style="display:block;") Subaru Impreza • año 2017 • $11.390.000
-
-      script(src='js/jquery.min.js')
-      script(src='js/bootstrap.min.js')
-      script(src='js/owl.carousel.min.js')
-      script(src='js/main.js')
-      script(src='js/flowtype.js')
-      script(src='js/pushy.min.js')
+    .container-fluid.footer-nav
+        nav
+            .col-md-1
+            .col-md-2.col-sm-3.caja-footer
+              h4 General
+              ul
+                li.footer-link
+                  a(href='#') Inicio
+                li.footer-link
+                  a(href='#') Sucursales
+                li.footer-link
+                  a(href='#') Eventos y noticias
+                li.footer-link
+                  a(href='#') Quienes somos
+                li.footer-link
+                  a(href='#') Contáctenos
+            .col-md-2.caja-footer
+              h4 Horarios
+              ul
+                li.footer-link
+                  a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+                
+            .col-md-2.caja-footer
+              h4 Dirección
+              ul
+                li.footer-link
+                  a(href='#') Santiago:<br> Departamental #4500,<br> Macul.
+            .col-md-2.caja-footer
+              h4 Contáctanos
+              ul
+                li.footer-link
+                  a(href='#') Teléfono: (2) 2701 2407
+                li.footer-link
+                  a(href='#') contacto@autoshopping.cl
+            .col-md-2.col-xs-8
+              ul 
+                li.footer-link
+                  .input-group
+                    input(type="text" placeholder="Suscríbete").form-control
+                    span.input-group-btn
+                      button(type="button").btn.btn-default.btn-enviar-footer Enviar
+                li.footer-link
+                  a(href='#') Encuentranos
+                li.footer-link
+                  a(href='#') 
+                    i.ion-social-facebook
+            .col-md-1
+      .container-fluid.footer-down
+        p.disclaimer
+          | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+    script(src='js/jquery.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/owl.carousel.min.js')
+    script(src='js/main.js')
+    script(src='js/flowtype.js')
+    script(src='js/pushy.min.js')
