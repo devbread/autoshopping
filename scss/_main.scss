@@ -1,3 +1,8 @@
+//helpers
+.noPadding{
+	padding: 0;
+}
+
 
 .mainColor{
 	padding: 4em 20px;
@@ -262,10 +267,64 @@
 
 
 //eventos y noticias
-
-.rotador{
-	background-color: pink;
+.eventos{
+	margin-bottom: 55px;
+	display: none;
+	@include breakpoint(medium){
+		display: block;
+	}
+h3{
+	text-align: center;
+	font-weight: bold;
+	color: $color-text;
+	font-size: 1.25em;
 }
+
+p{
+	color: $color-text;
+	text-align: center;
+	font-size: 0.9em;
+} 
+
+.nav-tabs{
+	border-bottom: 0;
+}
+
+.nav-tabs > li{
+	margin-bottom: 0;
+}
+
+.nav-stacked > li + li{
+	float: none;
+	margin-left: 0;
+}
+.nav-tabs > li > a{
+	padding: 0;
+	& img{
+		max-width: 97%;
+	} 
+}
+
+.nav-tabs > li.active > a{
+	border:none;
+}
+
+.nav-tabs > li > a {
+	margin-right: 0;
+	line-height: none;
+	border:none;
+	border-radius: 0;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover{
+	border:none;
+}
+
+.nav-stacked > li + li{
+	margin-top: 0;
+}
+}
+
 
 //contactanos y facebook
 
@@ -352,9 +411,15 @@
 .busqTitulo{
 	padding:10px;
 	background-color: $green;
+	@include breakpoint(small){
+		padding: 10px 20px;
+	}
 	.iconSection {
 		float:left;
 		width: 15%;
+		@include breakpoint(small){
+			width: auto;
+		}
 	}
 	p{
 		float:left;
@@ -364,6 +429,10 @@
 		margin-bottom: 0;
 		margin-left: 15px;
 		font-size: 1.2em;
+		@include breakpoint(small){
+			line-height: 50px;
+			font-size: 1.5em;
+		}
 	}
 	.buttonColapse{
 		float:right;
@@ -428,7 +497,7 @@
 		border-radius:3px;
 		-webkit-appearance: none;
 		background-color: $blanco;
-		background:url(../img/arrow-select.jpg) center right no-repeat;
+		background:url(../img/arrow-select.png) center right no-repeat;
 	}
 	.formBusqueda{
 		-webkit-appearance: none;
@@ -445,4 +514,53 @@
 		font-size: 1.2em;
 		border-radius:5px;
 	}
+}
+
+
+//categorias iconos
+
+.categoriasIcons{
+	width: 100%;
+	border-top:1px solid $green;
+	border-bottom:1px solid $green;
+	padding: 20px 0;
+	margin-bottom: 25px;
+	h3{
+		color:$color-text;
+		text-align: center;
+		font-size: 1.25em;
+		margin:0 0 20px 0;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li{
+			display: inline-block;
+			margin-right: 6px;
+			margin-bottom: 20px;
+			text-align: center;
+			&:last-child{
+				margin-right: 0;
+			}
+			a{
+				color: $color-text;
+
+				& span{     
+					width: 110px;
+					text-align: center;
+					display: block;
+					& img{
+						width: 70%;
+					}
+				}
+			}
+		}
+	}
+}
+
+//marcas categorías
+
+.marcascategorias{
+	
 }
