@@ -70,8 +70,15 @@ html.no-js(lang='es')
               .col-md-7
                 .cuadro-foto
                   h2 FORD MUSTANG
-                  a.link_rect(href="#")
-                    img(src="img/ford_01.png", alt="Autos Nuevos" style="width:100%;")
+                  .bg
+                    a.link_rect(title="Image 1" href="#")
+                      img(src="img/ford_01.jpg", alt="Autos Nuevos" id="image-1" class="thumbnail img-responsive reset-thumbnail" style="width:100%;")
+                    .overlay
+                      img(src="img/ford_01.jpg", alt="Autos Nuevos" id="image-1" class="thumbnail img-responsive reset-thumbnail" style="width:100%;")
+                      .cuadro-gris
+                        i.ion-plus-circled
+                        p FOTOS
+                    
                 .row.banda-rrss
                   .col-xs-4.col-sm-7.col-md-5.col-lg-7.no-padding-left
                     hr
@@ -124,8 +131,7 @@ html.no-js(lang='es')
                   tr
                     th Telefono
                     td(align="right") 9 5118 6558
-              
-              .col-md-6
+              .col-md-6.hidden-xs.hidden-sm
                 table.table.table-striped.segunda-tabla.bordered
                   tr(align="center")
                     th Año
@@ -154,8 +160,7 @@ html.no-js(lang='es')
                   tr(align="center")
                     th Espejo Eléctrico
                     td Si
-                
-              .col-md-6
+              .col-md-6.hidden-xs.hidden-sm
                 table.table.table-striped.segunda-tabla.bordered
                   tr(align="center")
                     th Velocidad Crucero
@@ -184,68 +189,159 @@ html.no-js(lang='es')
                   tr(align="center")
                     th Local
                     td Departamental
-          #sidebar.sidebar-offcanvas.col-md-4
+            .col-xs-12.hidden-md.hidden-lg.no-padding
+              button#toggleButton
+                span Más Detalles >
+              .col-md-6#disclaimer.no-padding(style="display:none;")
+                table.table.table-striped.segunda-tabla.bordered
+                  tr(align="center")
+                    th Año
+                    td 2010
+                  tr(align="center")
+                    th Precio
+                    td $5.000.999
+                  tr(align="center")
+                    th Kilometraje
+                    td 131.746
+                  tr(align="center")
+                    th Tipo
+                    td Automóvil
+                  tr(align="center")
+                    th Cilndrada
+                    td 1.300 cc.
+                  tr(align="center")
+                    th Llantas
+                    td No
+                  tr(align="center")
+                    th Frenos ABS
+                    td No
+                  tr(align="center")
+                    th Airbag
+                    td Si
+                  tr(align="center")
+                    th Espejo Eléctrico
+                    td Si
+                table.table.table-striped.segunda-tabla.bordered.no-padding
+                  tr(align="center")
+                    th Velocidad Crucero
+                    td No
+                  tr(align="center")
+                    th 4x4
+                    td No
+                  tr(align="center")
+                    th Aire Acondicionado
+                    td Si
+                  tr(align="center")
+                    th Cierre Centralizado
+                    td Si
+                  tr(align="center")
+                    th Dirección Hidráulica
+                    td No
+                  tr(align="center")
+                    th Alza Vidrios
+                    td Si
+                  tr(align="center")
+                    th Alarma
+                    td Si
+                  tr(align="center")
+                    th Tapiz Cuero
+                    td No
+                  tr(align="center")
+                    th Local
+                    td Departamental
+          .hidden#img-repo
+            .item#image-1
+              img(title="Image 11" src="img/img_01.jpg").thumbnail.img-responsive
+            .item#image-1
+              img(title="Image 12" src="img/img_02.jpg").thumbnail.img-responsive
+            .item#image-1
+              img(title="Image 13" src="img/img_03.jpg").thumbnail.img-responsive
+          #modal-gallery.modal(role='dialog')
+            .modal-dialog
+              .modal-content
+                .modal-header
+                  button.close(type='button', data-dismiss='modal') ×
+                .modal-body
+                  #modal-carousel.carousel
+                    .carousel-inner
+                    a.carousel-control.left(href='#modal-carousel', data-slide='prev')
+                      i.glyphicon.glyphicon-chevron-left
+                    a.carousel-control.right(href='#modal-carousel', data-slide='next')
+                      i.glyphicon.glyphicon-chevron-right
+
+          #sidebar.sidebar-offcanvas.col-md-4.hidden-sm.hidden-xs
             .cuadro-cotizacion
-                form#contact_form.well.form-horizontal(action=' ', method='post')
-                  fieldset
-                    // Form Name
-                    legend Cotiza aquí
-                    // Text input
-                    .form-group
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='first_name', placeholder='Nombre', type='text')
-                    // Text input
-                    .form-group
-                     
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='last_name', placeholder='Apellido', type='text')
-                    // Text input
-                    .form-group
+              form#contact_form.well.form-horizontal(action=' ', method='post')
+                fieldset
+                  // Form Name
+                  legend Cotiza aquí
+                  // Text input
+                  .form-group
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='first_name', placeholder='Nombre', type='text')
+                  // Text input
+                  .form-group
                    
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='phone', placeholder='(845)555-1212', type='text')
-                    
-                    .form-group
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='last_name', placeholder='Apellido', type='text')
+                  // Text input
+                  .form-group
+                 
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='phone', placeholder='(845)555-1212', type='text')
                   
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='email', placeholder='Mail', type='text')
-                    // Text input
-                    .form-group
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='address', placeholder='Marca', type='text')
-                    // Text input
-                    .form-group
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='city', placeholder='Modelo', type='text')
-                    
-                    // Text input
-                    .form-group
-                      .col-md-12.inputGroupContainer
-                        
-                        input.form-control(name='zip', placeholder='Año', type='text')
-                    // Text area
-                    .form-group
-                      .col-md-12.inputGroupContainer
-                        
-                        textarea.form-control(name='comment', placeholder='Project Description')
-                    // Success message
-                    #success_message.alert.alert-success.hidden(role='alert')
-                      | Success 
-                      i.glyphicon.glyphicon-thumbs-up
-                      |  Thanks for contacting us, we will get back to you shortly.
-                    // Button
-                    .form-group
-                      label.col-md-4.control-label
-                      .col-md-4
-                        button.btn.btn-warning(type='submit')
-                          | Send 
-                          span.glyphicon.glyphicon-send
+                  .form-group
+                
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='email', placeholder='Mail', type='text')
+                  // Text input
+                  .form-group
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='address', placeholder='Marca', type='text')
+                  // Text input
+                  .form-group
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='city', placeholder='Modelo', type='text')
+                  
+                  // Text input
+                  .form-group
+                    .col-md-12.inputGroupContainer
+                      
+                      input.form-control(name='zip', placeholder='Año', type='text')
+                  // Text area
+                  .form-group
+                    .col-md-12.inputGroupContainer
+                      
+                      textarea.form-control(name='comment', placeholder='Comentarios')
+                  // Success message
+                  #success_message.alert.alert-success.hidden(role='alert')
+                    | Success 
+                    i.glyphicon.glyphicon-thumbs-up
+                    |  Thanks for contacting us, we will get back to you shortly.
+                  // Button
+                  .form-group
+                    label.col-md-4.control-label
+                    .col-md-4
+                      button.btn.btn-warning(type='submit')
+                        | Enviar 
+    .container.hidden-md.hidden-lg
+      .row
+        .col-xs-1
+        .col-xs-10
+          .row
+            .col-sm-6
+              btn.btn-success.btn.btn-100 LLAMAR
+            .col-sm-6
+              btn.btn-primary.btn.btn-100 COTIZAR
+        .col-xs-1
+
+
     .container
       .recomendacion
         h3 ADEMÁS TE RECOMENDAMOS ESTOS MODELOS NUEVOS
@@ -322,6 +418,7 @@ html.no-js(lang='es')
       | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
       
     script(src='js/jquery.min.js')
+    script(src='js/lightbox.js')
     script(src='js/bootstrap.min.js')
     script(src='js/owl.carousel.min.js')
     script(src='js/main.js')
