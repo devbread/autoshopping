@@ -1,0 +1,383 @@
+doctype html
+html.no-js(lang='es')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    //- Place favicon.ico in the root directory
+
+    link(rel='stylesheet', href='css/styles.css')
+    link(rel='stylesheet', href='css/pushy.css')
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+
+    script(src='js/modernizr.js')
+  body
+      //- Pushy Menu
+      nav.pushy.pushy-right(data-focus='#first-link')
+        .pushy-content
+          ul
+            li.pushy-link
+              a(href='#')
+                span.icolink-1 
+                |Inicio
+            li.pushy-link
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
+            li.pushy-link
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
+            li.pushy-link
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
+            li.pushy-link
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
+      //- Site Overlay
+      .site-overlay
+      #container
+        .container
+          .row
+            header.col-sm-12
+              a.logo(href="index.html")
+                img.img-responsive(src="img/logo.png", alt="")
+              button.menu-btn 
+                i.ion-navicon
+              form.buscadorDesktop
+                input.desk(type="search", placeholder="Buscar en el sitio")
+                button.desk-search
+                  i.ion-ios-search-strong
+                .btnContact
+                  a(href="#") 
+                    img(src="img/btnContact.png", alt="")
+        .container
+          .row
+            .busqTitulo.hidden-sm
+              span.iconSection
+                img.img-responsive(src="img/icon-usado.jpg", alt="") 
+              p Contáctanos
+              a.buttonColapse(href="#")
+                i.ion-chevron-down.arrow-down
+                i.ion-chevron-up.arrow-up
+              .clearfix
+
+          .row
+            .col-xs-12
+              section.contactanos
+                .row
+                  .col-md-1.hidden-xs.hidden-sm
+                  .col-xs-12.col-md-10
+                    #horizontalTab
+                      ul
+                        li
+                          a(href='#tab-1') Santiago
+                        li
+                          a(href='#tab-2') La Serena
+                        li
+                          a(href='#tab-3') Viña del Mar
+                        li
+                          a(href='#tab-4') Concepción
+                      #tab-1
+                        .row.colorForm
+                          .col-md-6.hidden-xs.hidden-sm
+                            .imgLeft
+                              img.img-responsive(src="img/pic.png", alt="")
+                          .col-md-6
+                            h2 Hablemos
+                            form.formSantiago
+                                .inputswraper
+                                  input.inputswraper-top(type="text", placeholder="Nombre santiago")
+                                  input(type="text", placeholder="Apellido")
+                                  input(type="text", placeholder="Teléfono")
+                                  input.inputswraper-bottom(type="text", placeholder="Email")
+                                textarea(placeholder="Escriba su comentario...")
+                                input(type="submit", value="Enviar")
+                        .zonaContactos
+                          .col-md-12
+                            .row
+                              .col-md-4
+                                p (2) 2246 4306
+                              .col-md-4
+                                a.mail(href="mailto:contacto@autoshopping.cl") contacto@autoshopping.cl
+                              .col-md-4
+                                a.fb(href="http://www.twitter.com/autoshoppingchile") autoshoppingchile
+                              .clearfix
+                        .dataAtencion.colorForm
+                          span.icocontact 
+                            img(src="img/contact.png", alt="")
+                          h4 Horario de atención
+                          p Lunes a domingo de 10:00 a 20:00 hrs.
+                          .maps
+                            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343', width='100%', height='400px', frameborder='0', style='border:0', allowfullscreen='')
+                          a.back(href="#") Volver
+                      #tab-2
+                        .row.colorForm
+                          .col-md-6.hidden-xs.hidden-sm
+                            .imgLeft
+                              img.img-responsive(src="img/pic.png", alt="")
+                          .col-md-6
+                            h2 Hablemos
+                            form.formSantiago
+                                .inputswraper
+                                  input.inputswraper-top(type="text", placeholder="Nombre La Serena")
+                                  input(type="text", placeholder="Apellido")
+                                  input(type="text", placeholder="Teléfono")
+                                  input.inputswraper-bottom(type="text", placeholder="Email")
+                                textarea(placeholder="Escriba su comentario...")
+                                input(type="submit", value="Enviar")
+                        .dataAtencion
+                          h4 Horario de atención
+                          p Lunes a domingo de 10:00 a 20:00 hrs.
+                          .maps
+                            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343', width='100%', height='400px', frameborder='0', style='border:0', allowfullscreen='')
+                          a.back(href="#") Volver
+                      #tab-3
+                        .row.colorForm
+                          .col-md-6.hidden-xs.hidden-sm
+                            .imgLeft
+                              img.img-responsive(src="img/pic.png", alt="")
+                          .col-md-6
+                            h2 Hablemos
+                            form.formSantiago
+                                .inputswraper
+                                  input.inputswraper-top(type="text", placeholder="Nombre Viña del Mar")
+                                  input(type="text", placeholder="Apellido")
+                                  input(type="text", placeholder="Teléfono")
+                                  input.inputswraper-bottom(type="text", placeholder="Email")
+                                textarea(placeholder="Escriba su comentario...")
+                                input(type="submit", value="Enviar")
+                        .dataAtencion
+                          h4 Horario de atención
+                          p Lunes a domingo de 10:00 a 20:00 hrs.
+                          .maps
+                            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343', width='100%', height='400px', frameborder='0', style='border:0', allowfullscreen='')
+                          a.back(href="#") Volver
+                      #tab-4
+                        .row.colorForm
+                          .col-md-6.hidden-xs.hidden-sm
+                            .imgLeft
+                              img.img-responsive(src="img/pic.png", alt="")
+                          .col-md-6
+                            h2 Hablemos
+                            form.formSantiago
+                                .inputswraper
+                                  input.inputswraper-top(type="text", placeholder="Nombre Concepción")
+                                  input(type="text", placeholder="Apellido")
+                                  input(type="text", placeholder="Teléfono")
+                                  input.inputswraper-bottom(type="text", placeholder="Email")
+                                textarea(placeholder="Escriba su comentario...")
+                                input(type="submit", value="Enviar")
+                        .dataAtencion
+                          h4 Horario de atención
+                          p Lunes a domingo de 10:00 a 20:00 hrs.
+                          .maps
+                            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343', width='100%', height='400px', frameborder='0', style='border:0', allowfullscreen='')
+                          a.back(href="#") Volver
+
+                  .col-md-1.hidden-xs.hidden-sm
+
+          .row
+            .col-xs-12
+              section.masterplan
+                .row
+                  .col-md-1.hidden-xs.hidden-sm
+                  .col-xs-12.col-md-10
+                    img.img-responsive(src="img/masterplan.jpg", alt="Masterplan")
+                  .col-md-1.hidden-xs.hidden-sm
+
+
+          //- .row
+          //-   .col-xs-1
+          //-   .col-xs-10
+          //-     .categoriasIcons
+          //-       h3 Categorías
+          //-       ul
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-citycar.png", alt="citycar")
+          //-             |City Car
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-hatchback.png", alt="hatchback")
+          //-             |Hatchback
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-sedan.png", alt="sedán")
+          //-             |Sedán
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-deportivo.png", alt="deportivo")
+          //-             |Deportivo
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-suv.png", alt="suv")
+          //-             |SUV
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-camioneta.png", alt="camioneta")
+          //-             |Camioneta
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-minibus.png", alt="minibus")
+          //-             |Minibus
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-furgon.png", alt="minibus")
+          //-             |Furgón
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-todoterreno.png", alt="todo terreno")
+          //-             |Todo Terreno
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-electrico.png", alt="eléctrico")
+          //-             |Eléctrico
+          //-   .col-xs-1
+          //- .row
+          //-   .col-xs-1
+          //-   .col-xs-10
+          //-     .marcascategorias
+          //-       h3 Marcas
+          //-       ul
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/baic.jpg", alt="baic")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/brilliance.jpg", alt="brilliance")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/changan.jpg", alt="changan")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/geely.jpg", alt="geely")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/greatwall.jpg", alt="great wall")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/hiunday.jpg", alt="hyundai")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/jac.jpg", alt="jac")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/mahindra.jpg", alt="mahindra")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/mazda.jpg", alt="mazda")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/renault.jpg", alt="renault")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/suzuki.jpg", alt="suzuki")
+          //-   .col-xs-1
+        
+        //- section.mainColor#selector.ocultar
+        //-   .container 
+        //-     .row
+        //-       .btnsCuadros
+        //-         h1 Encuentra la alternativa que buscas en:
+        //-         .col-md-1
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-1(href="#")
+        //-             img(src="img/ico-1.png", alt="Autos Nuevos")
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-2(href="#")
+        //-             img(src="img/ico-2.png", alt="Autos usados")
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-3(href="#")
+        //-             img(src="img/ico-3.png", alt="Motos")
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-4(href="#")
+        //-             img(src="img/ico-4.png", alt="Camiones")
+        //-         .col-xs-12.col-sm-4.col-md-2
+        //-           a.link_rect.color-5.lastCircle(href="#")
+        //-             img(src="img/ico-5.png", alt="Servicios")
+        //-         .col-md-1
+
+
+
+
+
+        .container.container-fluid.footer-nav
+          nav
+              .col-md-1
+              .col-md-2.col-sm-3.caja-footer
+                h4 General
+                ul
+                  li.footer-link
+                    a(href='#') Inicio
+                  li.footer-link
+                    a(href='#') Sucursales
+                  li.footer-link
+                    a(href='#') Eventos y noticias
+                  li.footer-link
+                    a(href='#') Quienes somos
+                  li.footer-link
+                    a(href='#') Contáctenos
+              .col-md-2.col-sm-3.caja-footer
+                h4 Horarios
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+                  
+              .col-md-2.col-sm-3.caja-footer
+                h4 Dirección
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:<br> Departamental #4500,<br> Macul.
+              .col-md-2.col-sm-6.caja-footer
+                h4 Contáctanos
+                ul
+                  li.footer-link
+                    a(href='#') Teléfono: (2) 2701 2407
+                  li.footer-link
+                    a(href='#') contacto@autoshopping.cl
+              .col-md-2.col-sm-6.caja-footer
+                ul 
+                  li.footer-link
+                    .input-group
+                      input(type="text" placeholder="Suscríbete").form-control
+                      span.input-group-btn
+                        button(type="button").btn.btn-default Enviar
+                  li.footer-link
+                    a(href='#') Encuentranos
+                  li.footer-link
+                    a(href='#') 
+                      i.ion-social-facebook
+              .col-md-1
+        .container.container-fluid.footer-down
+          p.disclaimer
+            | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+
+
+      script(src='js/jquery.min.js')
+      script(src='js/bootstrap.min.js')
+      script(src='js/owl.carousel.min.js')
+      script(src='js/main.js')
+      script(src='js/flowtype.js')
+      script(src='js/pushy.min.js')
+      script(src='js/jquery.responsiveTabs.min.js')
+
