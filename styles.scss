@@ -19,6 +19,8 @@ $blue:#1176AD;
 $orange:#EA6C2D;
 $purple:#852269;
 $gray:#B8B6B6;
+$dark-gray:#6a6a6a;
+$light-gray:#f9f9f9;
 
 $bg-buscador:#E5E5E5;
 
@@ -27,6 +29,9 @@ $color-box-1:#4990E2;
 $color-box-2:#FC4A66;
 $color-box-3:#5C2C80;
 
+//opacidad 
+
+$bg: rgba(0, 0, 0, 0.2);
 
 
   @import "scss/menu";
@@ -35,6 +40,9 @@ $color-box-3:#5C2C80;
   @import "scss/main";
   @import "scss/ficha";
   @import "scss/resultados";
+  @import "scss/secciones";
+  @import "scss/lightbox";
+
 
 
 

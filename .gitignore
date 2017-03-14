@@ -20,5 +20,18 @@ config.codekit
 *.codekit
 >>>>>>> origin/Master
 
+<<<<<<< HEAD
+config.codekit
+
+config.codekit
+=======
 >>>>>>> Master
 *.codekit
+<<<<<<< HEAD
+>>>>>>> test
+
+config.codekit
+=======
+
+*.codekit
+>>>>>>> origin/Master

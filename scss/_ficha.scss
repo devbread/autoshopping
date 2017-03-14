@@ -1,3 +1,4 @@
+
 .superior-foto{
 	font-size:14px;
 	.cuadro-foto{
@@ -8,7 +9,16 @@
 			padding:15px;
 			margin:0;
 		}
-
+		.thumbnail{margin:0;}
+		.reset-thumbnail{
+			display: block;
+		    padding: 0;
+		    margin-bottom:0px;
+		    line-height: 1.428571429;
+		    background-color: #fff;
+		    border: none;
+		    border-radius: 0;
+		}
 	}
 	.banda-rrss{
 		margin:15px 0;
@@ -66,6 +76,18 @@
 		}
 	}
 }
+.btn-100{
+	width:100%;
+	margin-bottom:20px;
+}
+.cuadro-cotizacion{
+	.btn[type="submit"]{
+		box-shadow: 0 2px 6px 0 rgba(0,0,0,0.22), inset 0 -2px 0 0 rgba(0,0,0,0.20);
+		border-radius: 6px;
+		background-color:$green;
+		border-color:$green;
+	}
+}
 .recomendacion,.recomendacion-usados{
 	background-color:$light-blue;
 	color:$blanco;
@@ -93,9 +115,78 @@
 		border-right:1px solid white;
 	}
 }
+#success_message{ display: none;}
 .recomendacion-usados{
 	background-color:$green;
 }
 .no-padding{
 	padding:0!important;
+}
+.bg,
+.overlay {
+    text-align: center;
+}
+img,
+.overlay {
+    transition: .3s all;
+}
+.bg {
+    float: left;
+    position: relative;
+    margin:0 0 30px 0;
+
+    width: 100%;
+    img {
+        max-width: 100%;
+        margin-bottom: -4px;
+        border-radius: 3px;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left:0;
+        bottom: 0;
+        width: 100%;
+        background: $bg;
+        color: #fff;
+        opacity: 0;
+        .cuadro-gris{
+        	padding:20px;
+        	position:absolute;
+        	top:35%;
+        	left:35%;
+        	text-align: center;
+        	width: 30%;
+        	border-radius:6px;
+        	background-color:rgba(255, 255, 255, 0.2);
+        	font-size: 1.5em;
+    	}
+        h2 {
+        	text-align: center;
+	        margin-top: 20%;
+	        cursor:pointer;
+	        z-index: 2;
+	        position:absolute;
+	        top:30px;
+	        font-family: 'Roboto', sans-serif;
+            & span {
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
+            }
+        }
+    }
+    &:hover {
+        .overlay {
+            opacity: 1;
+            cursor:pointer;
+            .cuadro-gris{
+            	
+            }
+        }
+        img {
+            -webkit-filter:blur(2px);
+            filter: blur(2px);
+            border: 1px solid $gray;
+        }
+    }
 }

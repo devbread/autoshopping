@@ -40,7 +40,20 @@ $(document).ready(function(){
                 $(this).next(".navColapseNuevos").slideToggle(500);
                 $(this).find(".arrow-up, .arrow-down").toggle(1);
         });
+        $('#toggleButton').click(function () {
+            var button=this;
+            $('#disclaimer').slideToggle('slow', function () {
+               
+                if ($('#disclaimer').is(':visible')) {
+                    $("span", button).text("Menos Detalles <");
+                } else {
+                    $("span", button).text("Más Detalles >");
+                }
+            });
+        });
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -85,4 +98,5 @@ $(document).ready(function(){
                 event.preventDefault();
             });
 
+>>>>>>> origin/Master
 });

@@ -53,10 +53,17 @@
           <div class="row">
             <div class="col-md-7">
               <div class="cuadro-foto">
-                <h2>FORD MUSTANG</h2><a href="#" class="link_rect"><img src="img/ford_01.png" alt="Autos Nuevos" style="width:100%;"></a>
+                <h2>FORD MUSTANG</h2>
+                <div class="bg"><a title="Image 1" href="#" class="link_rect"><img src="img/ford_01.jpg" alt="Autos Nuevos" id="image-1" style="width:100%;" class="thumbnail img-responsive reset-thumbnail"></a>
+                  <div class="overlay"><img src="img/ford_01.jpg" alt="Autos Nuevos" id="image-1" style="width:100%;" class="thumbnail img-responsive reset-thumbnail">
+                    <div class="cuadro-gris"><i class="ion-plus-circled"></i>
+                      <p>FOTOS</p>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="row banda-rrss">
-                <div class="col-xs-4 col-sm-7 col-md-6 col-lg-7 no-padding-left">
+                <div class="col-xs-4 col-sm-7 col-md-5 col-lg-7 no-padding-left">
                   <hr>
                 </div>
                 <div class="col-xs-3 col-sm-2 col-md-3 col-lg-2 no-padding">
@@ -111,7 +118,7 @@
                 </tr>
               </table>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 hidden-xs hidden-sm">
               <table class="table table-striped segunda-tabla bordered">
                 <tr align="center">
                   <th>Año</th>
@@ -151,7 +158,7 @@
                 </tr>
               </table>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 hidden-xs hidden-sm">
               <table class="table table-striped segunda-tabla bordered">
                 <tr align="center">
                   <th>Velocidad Crucero</th>
@@ -192,8 +199,108 @@
               </table>
             </div>
           </div>
+          <div class="col-xs-12 hidden-md hidden-lg no-padding">
+            <button id="toggleButton"><span>Más Detalles ></span></button>
+            <div id="disclaimer" style="display:none;" class="col-md-6 no-padding">
+              <table class="table table-striped segunda-tabla bordered">
+                <tr align="center">
+                  <th>Año</th>
+                  <td>2010</td>
+                </tr>
+                <tr align="center">
+                  <th>Precio</th>
+                  <td>$5.000.999</td>
+                </tr>
+                <tr align="center">
+                  <th>Kilometraje</th>
+                  <td>131.746</td>
+                </tr>
+                <tr align="center">
+                  <th>Tipo</th>
+                  <td>Automóvil</td>
+                </tr>
+                <tr align="center">
+                  <th>Cilndrada</th>
+                  <td>1.300 cc.</td>
+                </tr>
+                <tr align="center">
+                  <th>Llantas</th>
+                  <td>No</td>
+                </tr>
+                <tr align="center">
+                  <th>Frenos ABS</th>
+                  <td>No</td>
+                </tr>
+                <tr align="center">
+                  <th>Airbag</th>
+                  <td>Si</td>
+                </tr>
+                <tr align="center">
+                  <th>Espejo Eléctrico</th>
+                  <td>Si</td>
+                </tr>
+              </table>
+              <table class="table table-striped segunda-tabla bordered no-padding">
+                <tr align="center">
+                  <th>Velocidad Crucero</th>
+                  <td>No</td>
+                </tr>
+                <tr align="center">
+                  <th>4x4</th>
+                  <td>No</td>
+                </tr>
+                <tr align="center">
+                  <th>Aire Acondicionado</th>
+                  <td>Si</td>
+                </tr>
+                <tr align="center">
+                  <th>Cierre Centralizado</th>
+                  <td>Si</td>
+                </tr>
+                <tr align="center">
+                  <th>Dirección Hidráulica</th>
+                  <td>No</td>
+                </tr>
+                <tr align="center">
+                  <th>Alza Vidrios</th>
+                  <td>Si</td>
+                </tr>
+                <tr align="center">
+                  <th>Alarma</th>
+                  <td>Si</td>
+                </tr>
+                <tr align="center">
+                  <th>Tapiz Cuero</th>
+                  <td>No</td>
+                </tr>
+                <tr align="center">
+                  <th>Local</th>
+                  <td>Departamental</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
-        <div id="sidebar" class="sidebar-offcanvas col-md-4">
+        <div id="img-repo" class="hidden">
+          <div id="image-1" class="item"><img title="Image 11" src="img/img_01.jpg" class="thumbnail img-responsive"></div>
+          <div id="image-1" class="item"><img title="Image 12" src="img/img_02.jpg" class="thumbnail img-responsive"></div>
+          <div id="image-1" class="item"><img title="Image 13" src="img/img_03.jpg" class="thumbnail img-responsive"></div>
+        </div>
+        <div id="modal-gallery" role="dialog" class="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" data-dismiss="modal" class="close">×</button>
+              </div>
+              <div class="modal-body">
+                <div id="modal-carousel" class="carousel">
+                  <div class="carousel-inner"></div><a href="#modal-carousel" data-slide="prev" class="carousel-control left"><i class="glyphicon glyphicon-chevron-left"></i></a><a href="#modal-carousel" data-slide="next" class="carousel-control right"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="sidebar" class="sidebar-offcanvas col-md-4 hidden-sm hidden-xs">
           <div class="cuadro-cotizacion">
             <form id="contact_form" action=" " method="post" class="well form-horizontal">
               <fieldset>
@@ -243,7 +350,7 @@
                 <!-- Text area-->
                 <div class="form-group">
                   <div class="col-md-12 inputGroupContainer">
-                    <textarea name="comment" placeholder="Project Description" class="form-control"></textarea>
+                    <textarea name="comment" placeholder="Comentarios" class="form-control"></textarea>
                   </div>
                 </div>
                 <!-- Success message-->
@@ -252,7 +359,7 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label"></label>
                   <div class="col-md-4">
-                    <button type="submit" class="btn btn-warning">Send <span class="glyphicon glyphicon-send"></span></button>
+                    <button type="submit" class="btn btn-warning">Enviar </button>
                   </div>
                 </div>
               </fieldset>
@@ -261,6 +368,22 @@
         </div>
       </div>
     </section>
+  </div>
+  <div class="container hidden-md hidden-lg">
+    <div class="row">
+      <div class="col-xs-1"></div>
+      <div class="col-xs-10">
+        <div class="row">
+          <div class="col-sm-6">
+            <btn class="btn-success btn btn-100">LLAMAR</btn>
+          </div>
+          <div class="col-sm-6">
+            <btn class="btn-primary btn btn-100">COTIZAR</btn>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-1"></div>
+    </div>
   </div>
   <div class="container">
     <div class="recomendacion">
@@ -328,6 +451,7 @@
   <div class="container-fluid footer-down">
     <p class="disclaimer">El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl</p>
     <script src="js/jquery.min.js"></script>
+    <script src="js/lightbox.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
