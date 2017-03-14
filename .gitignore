@@ -4,6 +4,8 @@
 
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 config.codekit
 <<<<<<< HEAD
 =======
@@ -17,5 +19,14 @@ config.codekit
 =======
 *.codekit
 >>>>>>> origin/Master
+
+<<<<<<< HEAD
+config.codekit
+
+config.codekit
+=======
+>>>>>>> Master
+*.codekit
+>>>>>>> test
 
 config.codekit

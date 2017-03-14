@@ -414,11 +414,19 @@ p{
 	@include breakpoint(small){
 		padding: 10px 20px;
 	}
+	@include breakpoint(medium){
+		width: 83.3333333333%;
+		margin: 0 auto;
+		position: relative;
+	}
 	.iconSection {
 		float:left;
 		width: 15%;
 		@include breakpoint(small){
 			width: auto;
+		}
+		@include breakpoint(medium){
+			position: absolute;
 		}
 	}
 	p{
@@ -433,6 +441,10 @@ p{
 			line-height: 50px;
 			font-size: 1.5em;
 		}
+		@include breakpoint(medium){
+			float: none;
+			text-align: center;
+		}
 	}
 	.buttonColapse{
 		float:right;
@@ -443,6 +455,9 @@ p{
 		line-height: 0;
 		margin-top: 4px;
 		border-radius:3px;
+		@include breakpoint(small){
+			display: none;
+		}
 	}
 }
 
@@ -562,5 +577,40 @@ p{
 //marcas categorías
 
 .marcascategorias{
-	
+	width: 100%;
+	margin-bottom: 30px;
+	@include breakpoint(medium){
+		display: none;
+	}
+		h3{
+			color:$color-text;
+			text-align: center;
+			font-size: 1.25em;
+			margin:20px 0 0 0 0;
+		}
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li{
+				display: inline-block;
+				margin-right: 50px;
+				&:nth-child(even) {
+					margin-right: 0;
+				}
+				@include breakpoint(small){
+					margin-right: 12px;
+					margin-bottom: 15px;
+				}
+				@include breakpoint(small){
+					&:nth-child(even) {
+						margin-right: 12px;
+					}
+				}
+				a{
+					display: block;
+				}
+			}
+		}
+
 }
