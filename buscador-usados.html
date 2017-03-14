@@ -42,7 +42,7 @@
           </header>
         </div>
       </div>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="busqTitulo"><span class="iconSection"><img src="img/icon-usado.jpg" alt="" class="img-responsive"></span>
             <p>Autos Usados</p><a href="#" class="buttonColapse"><i class="ion-chevron-down arrow-down"></i><i class="ion-chevron-up arrow-up"></i></a>
@@ -60,17 +60,27 @@
         </div>
         <div class="row">
           <div class="col-xs-1"></div>
-          <div class="col-xs-10">
+          <div class="col-xs-10 colorBuscador">
             <form class="buscador">
-              <select>
-                <option>Tipo</option>
-              </select>
-              <select>
-                <option>Marca</option>
-              </select>
-              <select>
-                <option>Modelo</option>
-              </select>
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3">
+                  <select>
+                    <option>Tipo</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select>
+                    <option>Marca</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <select>
+                    <option>Modelo</option>
+                  </select>
+                </div>
+                <div class="col-md-1"></div>
+              </div>
               <button class="formBusqueda">Buscar</button>
             </form>
           </div>
@@ -120,6 +130,22 @@
           <div class="col-xs-1"></div>
         </div>
       </div>
+      <section id="selector" class="mainColor ocultar">
+        <div class="container"> 
+          <div class="row">
+            <div class="btnsCuadros">
+              <h1>Encuentra la alternativa que buscas en:</h1>
+              <div class="col-md-1"></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-1"><img src="img/ico-1.png" alt="Autos Nuevos"></a></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-2"><img src="img/ico-2.png" alt="Autos usados"></a></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-3"><img src="img/ico-3.png" alt="Motos"></a></div>
+              <div class="col-xs-6 col-sm-4 col-md-2"><a href="#" class="link_rect color-4"><img src="img/ico-4.png" alt="Camiones"></a></div>
+              <div class="col-xs-12 col-sm-4 col-md-2"><a href="#" class="link_rect color-5 lastCircle"><img src="img/ico-5.png" alt="Servicios"></a></div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <div class="container container-fluid footer-nav">
         <nav>
           <div class="col-md-1"></div>
