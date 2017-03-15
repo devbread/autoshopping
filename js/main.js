@@ -52,13 +52,6 @@ $(document).ready(function(){
             });
         });
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
             var $tabs = $('#horizontalTab');
             $tabs.responsiveTabs({
                 rotate: false,
@@ -97,6 +90,4 @@ $(document).ready(function(){
                 $tabs.responsiveTabs('activate', $(this).val());
                 event.preventDefault();
             });
-
->>>>>>> origin/Master
 });
