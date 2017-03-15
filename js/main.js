@@ -52,10 +52,7 @@ $(document).ready(function(){
             });
         });
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/Master
             var $tabs = $('#horizontalTab');
             $tabs.responsiveTabs({
                 rotate: false,
@@ -94,12 +91,7 @@ $(document).ready(function(){
                 $tabs.responsiveTabs('activate', $(this).val());
                 event.preventDefault();
             });
-<<<<<<< HEAD
-=======
 
-            //igular altura de div
-
->>>>>>> origin/Master
 });
 
 

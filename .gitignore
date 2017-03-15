@@ -47,3 +47,5 @@ config.codekit
 *.codekit
 
 config.codekit
+
+*.codekit
