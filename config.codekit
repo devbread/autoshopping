@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19137",
+"creatorBuild": "19120",
 "files": {
 	"\/bower_components\/bootstrap-sass\/assets\/javascripts\/bootstrap-sprockets.js": {
 		"fileType": 64,
@@ -2788,7 +2788,7 @@
 		},
 	"\/eventos-single.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/eventos-single.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2797,7 +2797,7 @@
 		},
 	"\/ficha-camiones.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha-camiones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2806,7 +2806,7 @@
 		},
 	"\/ficha-motos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha-motos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2815,7 +2815,7 @@
 		},
 	"\/ficha-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2824,7 +2824,7 @@
 		},
 	"\/ficha-usados.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha-usados.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2922,6 +2922,17 @@
 		"initialSize": 3172,
 		"inputAbbreviatedPath": "\/img\/btnContact.png",
 		"outputAbbreviatedPath": "\/img\/btnContact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/camiones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1255,
+		"inputAbbreviatedPath": "\/img\/camiones.png",
+		"outputAbbreviatedPath": "\/img\/camiones.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3249,7 +3260,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1782,
+		"initialSize": 1621,
 		"inputAbbreviatedPath": "\/img\/ico-4.png",
 		"outputAbbreviatedPath": "\/img\/ico-4.png",
 		"outputPathIsOutsideProject": 0,
@@ -3414,7 +3425,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3448,
+		"initialSize": 3334,
 		"inputAbbreviatedPath": "\/img\/logo_derco.png",
 		"outputAbbreviatedPath": "\/img\/logo_derco.png",
 		"outputPathIsOutsideProject": 0,
@@ -3476,13 +3487,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/montreal.jpg": {
-		"fileType": 16384,
+	"\/img\/moto.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 70653,
-		"inputAbbreviatedPath": "\/img\/montreal.jpg",
-		"outputAbbreviatedPath": "\/img\/montreal.jpg",
+		"initialSize": 1519,
+		"inputAbbreviatedPath": "\/img\/moto.png",
+		"outputAbbreviatedPath": "\/img\/moto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3527,6 +3538,17 @@
 		"initialSize": 283,
 		"inputAbbreviatedPath": "\/img\/noticias.png",
 		"outputAbbreviatedPath": "\/img\/noticias.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nuevos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1409,
+		"inputAbbreviatedPath": "\/img\/nuevos.png",
+		"outputAbbreviatedPath": "\/img\/nuevos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3641,6 +3663,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/servicios.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1937,
+		"inputAbbreviatedPath": "\/img\/servicios.png",
+		"outputAbbreviatedPath": "\/img\/servicios.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/suzuki.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3707,6 +3740,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/usados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1145,
+		"inputAbbreviatedPath": "\/img\/usados.png",
+		"outputAbbreviatedPath": "\/img\/usados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/usados_01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3720,7 +3764,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3777,10 +3821,19 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/eventos-single.jade",
-		"outputAbbreviatedPath": "\/jade\/eventos-single.html",
+		"outputAbbreviatedPath": "\/eventos-single.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/jade\/ficha-camiones.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/ficha-camiones.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/ficha-camiones.jade": {
 		"compileDebug": 1,
@@ -3788,9 +3841,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha-camiones.jade",
-		"outputAbbreviatedPath": "\/ficha-camiones.html",
+		"outputAbbreviatedPath": "\/jade\/ficha-camiones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/ficha-motos.jade": {
@@ -3799,9 +3852,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha-motos.jade",
-		"outputAbbreviatedPath": "\/ficha-motos.html",
+		"outputAbbreviatedPath": "\/jade\/ficha-motos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/ficha-nuevos.jade": {
@@ -3810,9 +3863,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha-nuevos.jade",
-		"outputAbbreviatedPath": "\/ficha-nuevos.html",
+		"outputAbbreviatedPath": "\/jade\/ficha-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/ficha-usados.jade": {
@@ -3821,9 +3874,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha-usados.jade",
-		"outputAbbreviatedPath": "\/ficha-usados.html",
+		"outputAbbreviatedPath": "\/jade\/ficha-usados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/footer.jade": {
@@ -3843,9 +3896,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/jade\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/pista.jade": {
@@ -3898,9 +3951,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados-camiones.jade",
-		"outputAbbreviatedPath": "\/resultados-camiones.html",
+		"outputAbbreviatedPath": "\/jade\/resultados-camiones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados-motos.jade": {
@@ -3909,9 +3962,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados-motos.jade",
-		"outputAbbreviatedPath": "\/resultados-motos.html",
+		"outputAbbreviatedPath": "\/jade\/resultados-motos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados-nuevos.jade": {
@@ -3920,9 +3973,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados-nuevos.jade",
-		"outputAbbreviatedPath": "\/resultados-nuevos.html",
+		"outputAbbreviatedPath": "\/jade\/resultados-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados-usados.jade": {
@@ -3931,9 +3984,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados-usados.jade",
-		"outputAbbreviatedPath": "\/resultados-usados.html",
+		"outputAbbreviatedPath": "\/jade\/resultados-usados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/js\/bootstrap.min.js": {
@@ -4249,7 +4302,7 @@
 		},
 	"\/resultados-camiones.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resultados-camiones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4258,7 +4311,7 @@
 		},
 	"\/resultados-motos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resultados-motos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4267,7 +4320,7 @@
 		},
 	"\/resultados-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resultados-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4276,7 +4329,7 @@
 		},
 	"\/resultados-usados.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resultados-usados.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4446,7 +4499,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Digital_02",
+"lastSavedByUser": "Digital_03",
 "manualImportLinks": {
 	},
 "projectAttributes": {
