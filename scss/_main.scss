@@ -1242,4 +1242,37 @@ p{
 			}
 		}
 	}
+
+	//eventos single
+    .box-noticia{
+    	margin-top: 15px;
+		.fecha-autor{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li{
+				color: #2985CB;
+				display: inline-block;
+				border-right:1px solid #2985CB;
+				padding-right: 7px;
+				font-size: 0.8em;
+				&:last-child{
+					border-right: none;
+					padding-left: 4px;
+				}
+			}
+		}
+		h1{
+			font-size: 1.6em;
+			font-weight: light;
+			& span{
+				font-weight: bold;
+			}
+		}
+		p{
+			font-size: 1em;
+			text-align: left;
+		}
+    }
+
 }

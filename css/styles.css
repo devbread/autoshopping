@@ -6996,6 +6996,29 @@ header {
     font-size: 0.9em; }
     .noticias .itemNoticias .linkparrafo:hover, .noticias .itemNoticias .linkparrafo :active {
       text-decoration: none !important; }
+.noticias .box-noticia {
+  margin-top: 15px; }
+  .noticias .box-noticia .fecha-autor {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .noticias .box-noticia .fecha-autor li {
+      color: #2985CB;
+      display: inline-block;
+      border-right: 1px solid #2985CB;
+      padding-right: 7px;
+      font-size: 0.8em; }
+      .noticias .box-noticia .fecha-autor li:last-child {
+        border-right: none;
+        padding-left: 4px; }
+  .noticias .box-noticia h1 {
+    font-size: 1.6em;
+    font-weight: light; }
+    .noticias .box-noticia h1 span {
+      font-weight: bold; }
+  .noticias .box-noticia p {
+    font-size: 1em;
+    text-align: left; }
 
 .superior-foto {
   font-size: 14px; }

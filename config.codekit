@@ -3066,6 +3066,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/filaautos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213799,
+		"inputAbbreviatedPath": "\/img\/filaautos.jpg",
+		"outputAbbreviatedPath": "\/img\/filaautos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/ford_01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
