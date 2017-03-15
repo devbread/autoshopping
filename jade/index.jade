@@ -88,21 +88,49 @@ html.no-js(lang='es')
               .btnsCuadros
                 h1 Encuentra la alternativa que buscas en:
                 .col-md-1
-                .col-xs-6.col-sm-4.col-md-2
+                //- .col-xs-6.col-sm-4.col-md-2
+                //-   a.link_rect.color-1(href="#")
+                //-     img(src="img/ico-1.png", alt="Autos Nuevos")
+                //- .col-xs-6.col-sm-4.col-md-2
+                //-   a.link_rect.color-2(href="#")
+                //-     img(src="img/ico-2.png", alt="Autos usados")
+                //- .col-xs-6.col-sm-4.col-md-2
+                //-   a.link_rect.color-3(href="#")
+                //-     img(src="img/ico-3.png", alt="Motos")
+                //- .col-xs-6.col-sm-4.col-md-2
+                //-   a.link_rect.color-4(href="#")
+                //-     img(src="img/ico-4.png", alt="Camiones")
+                //- .col-xs-6.col-sm-4.col-md-2
+                //-   a.link_rect.color-5.lastCircle(href="#")
+                //-     img(src="img/ico-5.png", alt="Servicios")
+                .col-xs-12.plNo.col-sm-4.col-md-2
                   a.link_rect.color-1(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-2(href="#")
-                    img(src="img/ico-2.png", alt="Autos usados")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-3(href="#")
-                    img(src="img/ico-3.png", alt="Motos")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-4(href="#")
-                    img(src="img/ico-4.png", alt="Camiones")
+                    .icoSelector
+                      img.img-responsive(src="img/nuevos.png", alt="Autos Nuevos")
+                      p Autos Nuevos
                 .col-xs-12.col-sm-4.col-md-2
-                  a.link_rect.color-5.lastCircle(href="#")
-                    img(src="img/ico-5.png", alt="Servicios")
+                  a.link_rect.my-inline-block-class.color-2(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/usados.png", alt="Autos Nuevos")
+                      p Autos Usados
+                .col-xs-12.plNo.col-sm-4.col-md-2
+                  a.link_rect.my-inline-block-class.color-3(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/moto.png", alt="Autos Nuevos")
+                      p Motos
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-4(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/camiones.png", alt="Autos Nuevos")
+                      p Camiones
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-5.centro(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/servicios.png", alt="Autos Nuevos")
+                      p Servicios
+
+
+
                 .col-md-1
         section.marcas
           .container
@@ -116,27 +144,27 @@ html.no-js(lang='es')
                     .marcas-ico
                       ul
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/baic.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/brilliance.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/geely.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/greatwall.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/hiunday.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/jac.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/mahindra.jpg", alt="")
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/mazda.jpg", alt="")
 
                   div
                     .marcas-ico
                       ul
                         li
-                          img.img-responsive(src="img/suzuki.jpg", alt="")
+                          img.img-responsive(src="img/renault.jpg", alt="")
                         li
                           img.img-responsive(src="img/suzuki.jpg", alt="")
                         li
@@ -186,27 +214,46 @@ html.no-js(lang='es')
                     .row.tab-content
                       #home.tab-pane.fade.active.in(role='tabpanel')
                         img.img-responsive(src="img/noti-1.jpg", alt="")
+                        .tituloNoticia
+                          h1 Vestibulum id ligula porta felis…
+                          p Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+                          a.vermas(href="#") ver más 
+
                       #profile.tab-pane.fade(role='tabpanel')
                         img.img-responsive(src="img/noti-1.jpg", alt="")
+                        .tituloNoticia
+                          h1 Vestibulum id ligula porta felis…
+                          p Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+                          a.vermas(href="#") ver más 
                       #messages.tab-pane.fade(role='tabpanel')
                         img.img-responsive(src="img/noti-1.jpg", alt="")
+                        .tituloNoticia
+                          h1 Vestibulum id ligula porta felis…
+                          p Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+                          a.vermas(href="#") ver más 
                   .col-md-3.noPadding
                     ul.nav.nav-tabs.nav-stacked.text-center(role='tablist')
                       li.active(role='presentation')
                         a(href='#home', aria-controls='home', role='tab', data-toggle='tab')
                           img.img-responsive(src="img/noti-1.jpg", alt="")
+                          .tituloh1 
+                            h1 Vestibulum id ligula porta felis…
                       li(role='presentation')
                         a(href='#profile', aria-controls='profile', role='tab', data-toggle='tab')
                           img.img-responsive(src="img/noti-1.jpg", alt="")
+                          .tituloh1 
+                            h1 Vestibulum id ligula porta felis…
                       li(role='presentation')
                         a(href='#messages', aria-controls='messages', role='tab', data-toggle='tab')
                           img.img-responsive(src="img/noti-1.jpg", alt="")
+                          .tituloh1 
+                            h1 Vestibulum id ligula porta felis…
               .col-md-1
         section.contacto
           .container
             .row
               .col-md-1
-              .col-md-5
+              .col-md-6
                 h3 Contáctanos
                 form.formulario
                   .inputswraper
@@ -216,10 +263,11 @@ html.no-js(lang='es')
                     input.inputswraper-bottom(type="text", placeholder="Email")
                   textarea(placeholder="Escriba su comentario...")
                   input(type="submit", value="Enviar")
-              .col-md-5
+              .col-md-4
                 h3 Encuentranos en facebook
                 .facebook
-                  .fb-page
+                  iframe(src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAutoshoppingchile&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId', width='340', height='370', style='border:none;overflow:hidden', scrolling='no', frameborder='0', allowtransparency='true')
+
               .col-md-1
 
 
