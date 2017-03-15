@@ -1,0 +1,181 @@
+doctype html
+html.no-js(lang='es')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    //- Place favicon.ico in the root directory
+
+    link(rel='stylesheet', href='css/styles.css')
+    link(rel='stylesheet', href='css/pushy.css')
+    link(rel='stylesheet', href='css/owl.carousel.min.css')
+    link(rel='stylesheet', href='css/owl.theme.default.min.css')
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+
+    script(src='js/modernizr.js')
+  body
+      body
+      //- Pushy Menu
+      nav.pushy.pushy-right(data-focus='#first-link')
+        .pushy-content
+          ul
+            li.pushy-link
+              a(href='#')
+                span.icolink-1 
+                |Inicio
+            li.pushy-link
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
+            li.pushy-link
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
+            li.pushy-link
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
+            li.pushy-link
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
+      //- Site Overlay
+      .site-overlay
+      #container
+        .container
+          .row
+            header.col-sm-12
+              a.logo(href="index.html")
+                img.img-responsive(src="img/logo.png", alt="")
+              button.menu-btn 
+                i.ion-navicon
+              form.buscadorDesktop
+                input.desk(type="search", placeholder="Buscar en el sitio")
+                button.desk-search
+                  i.ion-ios-search-strong
+                .btnContact
+                  a(href="#") 
+                    img(src="img/btnContact.png", alt="")
+    .container
+      .row
+        .busqTitulo.quienes-titulo.hidden-md.hidden-lg.hidden-sm.hidden-xs
+          h1 Quienes Somos 
+            span
+              img.img-responsive.iconSection(src="img/icon_people.png", alt="") 
+            a.buttonColapse(href="#")
+              i.ion-chevron-down.arrow-down
+              i.ion-chevron-up.arrow-up
+          .clearfix
+        .navColapseNuevos
+          ul
+            li
+              a.nuevos(href="") Autos nuevos
+            li
+              a.usados(href="") Autos usados
+            li
+              a.motos(href="") Motos
+            li
+              a.camiones(href="") Camiones
+            li
+              a.servicios(href="") Servicios
+      section.resultados
+        .row
+          .col-sm-1
+          .col-xs-12.col-sm-10
+            .container
+              .row
+                .col-xs-2.col-lg-2.col-sm-3
+                  h1 Promociones
+                .col-xs-10.col-sm-9.col-lg-10
+                  hr
+            .caja-resultado.thumbnail.thumbnail-promociones.row
+              .col-md-6.no-padding
+                img.img-responsive(src='img/promo_01.png', alt='...')
+              .caption-promo.col-md-6
+                img(src="img/suzuki.png")
+                p All New Vitara
+                p ver más 
+                  i.ion-arrow-right-b
+            .caja-resultado.thumbnail.thumbnail-promociones.row
+              .col-md-6.no-padding
+                img.img-responsive(src='img/promo_02.png', alt='...')
+              .caption-promo.col-md-6
+                img(src="img/geely.png")
+                p Geely CK3
+                p ver más 
+                  i.ion-arrow-right-b
+            .caja-resultado.thumbnail.thumbnail-promociones.row
+              .col-md-6.no-padding
+                img.img-responsive(src='img/promo_03.png', alt='...')
+              .caption-promo.col-md-6
+                img(src="img/baic.png")
+                p Baic Plus
+                p ver más 
+                  i.ion-arrow-right-b
+            
+          .col-sm-1
+
+    .container-fluid.footer-nav
+      .container.no-padding
+        nav
+          .col-md-2.col-sm-6.caja-footer
+            h4 General
+            ul
+              li.footer-link
+                a(href='#') Inicio
+              li.footer-link
+                a(href='#') Sucursales
+              li.footer-link
+                a(href='#') Eventos y noticias
+              li.footer-link
+                a(href='#') Quienes somos
+              li.footer-link
+                a(href='#') Contáctenos
+          .col-md-2.col-sm-6.caja-footer
+            h4 Horarios
+            ul
+              li.footer-link
+                a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+              
+          .col-md-2.col-sm-6.caja-footer
+            h4 Dirección
+            ul
+              li.footer-link
+                a(href='#') Santiago:<br> Departamental #4500,<br> Macul.
+          .col-md-3.col-sm-6.caja-footer
+            h4 Contáctanos
+            ul
+              li.footer-link
+                a(href='#') Teléfono: (2) 2701 2407
+              li.footer-link
+                a(href='#') contacto@autoshopping.cl
+          .col-md-3.col-xs-12
+            ul 
+              li.footer-link
+                .input-group
+                  input(type="text" placeholder="Suscríbete").form-control
+                  span.input-group-btn
+                    button(type="button").btn.btn-default.btn-enviar-footer Enviar
+              li.footer-link
+                a(href='#') Encuentranos
+              li.footer-link
+                a(href='#') 
+                  i.ion-social-facebook
+          
+  .container-fluid.footer-down
+    p.disclaimer
+      | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+      
+    script(src='js/jquery.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/owl.carousel.min.js')
+    script(src='js/main.js')
+    script(src='js/flowtype.js')
+    script(src='js/pushy.min.js')
