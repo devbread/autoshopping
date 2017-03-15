@@ -36,6 +36,9 @@
 				width: 30px;
 				height: 30px;
 				padding:2px 11px;
+				@include breakpoint(large){
+					margin: 0 0 0 12px;
+				}
 				i{
 					color: white;
 					font-size: 18px;
@@ -56,10 +59,14 @@
 		}
 		
 		.texto-compartir{
+
 			text-align: center;
 			margin:8px 0 ;
-			color:#3B5998;
-			font-size: 13px;
+			color:$blue;
+			font-size: 14px;
+			@include breakpoint(medium){
+				font-size: 13px;
+			}
 
 		}
 	}
@@ -67,6 +74,12 @@
 		tr:first-of-type{
 			color:white;
 			background-color:$green;
+		}
+	}
+	.nuevos-bg{
+		tr:first-of-type{
+			color:white;
+			background-color:$light-blue;
 		}
 	}
 	.table{
@@ -90,7 +103,7 @@
 		box-shadow: 0 2px 6px 0 rgba(0,0,0,0.22), inset 0 -2px 0 0 rgba(0,0,0,0.20);
 		border-radius: 6px;
 		background-color:$green;
-		border-color:$green;
+		border-color:transparent;
 	}
 }
 .recomendacion,.recomendacion-usados{
