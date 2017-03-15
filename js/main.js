@@ -52,11 +52,6 @@ $(document).ready(function(){
             });
         });
 
-<<<<<<< HEAD
-=======
-
-
-
 
 
             var $tabs = $('#horizontalTab');
@@ -98,5 +93,4 @@ $(document).ready(function(){
                 event.preventDefault();
             });
 
->>>>>>> origin/Master
 });
