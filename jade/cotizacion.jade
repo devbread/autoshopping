@@ -1,0 +1,315 @@
+doctype html
+html.no-js(lang='es')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    //- Place favicon.ico in the root directory
+
+    link(rel='stylesheet', href='css/styles.css')
+    link(rel='stylesheet', href='css/pushy.css')
+    link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+
+    script(src='js/modernizr.js')
+  body
+      //- Pushy Menu
+      nav.pushy.pushy-right(data-focus='#first-link')
+        .pushy-content
+          ul
+            li.pushy-link
+              a(href='#')
+                span.icolink-1 
+                |Inicio
+            li.pushy-link
+              a(href='#') 
+                span.icolink-2 
+                |Sucursales
+            li.pushy-link
+              a(href='#') 
+                span.icolink-3 
+                |Eventos y noticias
+            li.pushy-link
+              a(href='#')
+                span.icolink-4  
+                |Quienes somos
+            li.pushy-link
+              a(href='#')
+                span.icolink-5 
+                |Contáctenos
+          form.formMovil
+            input.searchMovil(type="search", placeholder="buscar en el sitio")
+            button.buscarMovil
+              i.ion-ios-search-strong
+      //- Site Overlay
+      .site-overlay
+      #container
+        .container
+          .row
+            header.col-sm-12
+              a.logo(href="index.html")
+                img.img-responsive(src="img/logo.png", alt="")
+              button.menu-btn 
+                i.ion-navicon
+              form.buscadorDesktop
+                input.desk(type="search", placeholder="Buscar en el sitio")
+                button.desk-search
+                  i.ion-ios-search-strong
+                .btnContact
+                  a(href="#") 
+                    img(src="img/btnContact.png", alt="")
+        .container
+          .row
+            .busqTitulo.azulnormal
+              span.iconSection
+                img.img-responsive(src="img/icon-cotizacion.png", alt="") 
+              p Cotización
+              a.buttonColapse(href="#")
+                i.ion-chevron-down.arrow-down
+                i.ion-chevron-up.arrow-up
+              .clearfix
+            .navColapseNuevos
+              ul
+                li
+                  a.nuevos(href="") Autos nuevos
+                li
+                  a.usados(href="") Autos usados
+                li
+                  a.motos(href="") Motos
+                li
+                  a.camiones(href="") Camiones
+                li
+                  a.servicios(href="") Servicios
+
+          .row
+            .col-xs-12
+              section.contactanos
+                .row
+                  .col-md-1.hidden-xs.hidden-sm
+                  .col-xs-12.col-md-10
+                    #horizontalTab
+                      .modelo
+                        p.modelo FORD MUSTANG 2014
+                        p.precio 
+                          span $15.000.999 
+                          |Precio Referencial
+                      form.formCotizacion
+                        .inputswraper
+                          input.inputswraper-top(type="text", placeholder="Nombre")
+                          input(type="text", placeholder="Apellido")
+                          input(type="text", placeholder="Teléfono")
+                          input.inputswraper-bottom(type="text", placeholder="RUT")
+                          input.inputswraper-bottom(type="text", placeholder="Email")
+                          .checkwrapper
+                            div
+                              .div-span
+                                input#box1(type='checkbox')
+                                label(for='box1') <span>Requiere financiamiento</span>
+                              .div-span
+                                input#box2(type='checkbox')
+                                label(for='box2') <span>Requiere seguro</span>
+                              .div-span
+                                input#box3(type='checkbox')
+                                label(for='box3') <span>Dejar su auto en parte de pago</span>
+                        //- textarea(placeholder="Escriba su comentario...")
+                        input.btncotizar(type="submit", value="Enviar")
+
+                  .col-md-1.hidden-xs.hidden-sm
+
+          //- .row
+          //-   .col-xs-12
+          //-     section.masterplan
+          //-       .row
+          //-         .col-md-1.hidden-xs.hidden-sm
+          //-         .col-xs-12.col-md-10
+          //-           img.img-responsive(src="img/masterplan.jpg", alt="Masterplan")
+          //-         .col-md-1.hidden-xs.hidden-sm
+
+
+          //- .row
+          //-   .col-xs-1
+          //-   .col-xs-10
+          //-     .categoriasIcons
+          //-       h3 Categorías
+          //-       ul
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-citycar.png", alt="citycar")
+          //-             |City Car
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-hatchback.png", alt="hatchback")
+          //-             |Hatchback
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-sedan.png", alt="sedán")
+          //-             |Sedán
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-deportivo.png", alt="deportivo")
+          //-             |Deportivo
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-suv.png", alt="suv")
+          //-             |SUV
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-camioneta.png", alt="camioneta")
+          //-             |Camioneta
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-minibus.png", alt="minibus")
+          //-             |Minibus
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-furgon.png", alt="minibus")
+          //-             |Furgón
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-todoterreno.png", alt="todo terreno")
+          //-             |Todo Terreno
+          //-         li
+          //-           a(href="") 
+          //-             span 
+          //-               img(src="img/cat-green-electrico.png", alt="eléctrico")
+          //-             |Eléctrico
+          //-   .col-xs-1
+          //- .row
+          //-   .col-xs-1
+          //-   .col-xs-10
+          //-     .marcascategorias
+          //-       h3 Marcas
+          //-       ul
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/baic.jpg", alt="baic")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/brilliance.jpg", alt="brilliance")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/changan.jpg", alt="changan")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/geely.jpg", alt="geely")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/greatwall.jpg", alt="great wall")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/hiunday.jpg", alt="hyundai")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/jac.jpg", alt="jac")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/mahindra.jpg", alt="mahindra")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/mazda.jpg", alt="mazda")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/renault.jpg", alt="renault")
+          //-         li
+          //-           a(href="")
+          //-             img(src="img/suzuki.jpg", alt="suzuki")
+          //-   .col-xs-1
+        
+        //- section.mainColor#selector.ocultar
+        //-   .container 
+        //-     .row
+        //-       .btnsCuadros
+        //-         h1 Encuentra la alternativa que buscas en:
+        //-         .col-md-1
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-1(href="#")
+        //-             img(src="img/ico-1.png", alt="Autos Nuevos")
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-2(href="#")
+        //-             img(src="img/ico-2.png", alt="Autos usados")
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-3(href="#")
+        //-             img(src="img/ico-3.png", alt="Motos")
+        //-         .col-xs-6.col-sm-4.col-md-2
+        //-           a.link_rect.color-4(href="#")
+        //-             img(src="img/ico-4.png", alt="Camiones")
+        //-         .col-xs-12.col-sm-4.col-md-2
+        //-           a.link_rect.color-5.lastCircle(href="#")
+        //-             img(src="img/ico-5.png", alt="Servicios")
+        //-         .col-md-1
+
+
+
+
+
+        .container.container-fluid.footer-nav
+          nav
+              .col-md-1
+              .col-md-2.col-sm-3.caja-footer
+                h4 General
+                ul
+                  li.footer-link
+                    a(href='#') Inicio
+                  li.footer-link
+                    a(href='#') Sucursales
+                  li.footer-link
+                    a(href='#') Eventos y noticias
+                  li.footer-link
+                    a(href='#') Quienes somos
+                  li.footer-link
+                    a(href='#') Contáctenos
+              .col-md-2.col-sm-3.caja-footer
+                h4 Horarios
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+                  
+              .col-md-2.col-sm-3.caja-footer
+                h4 Dirección
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:<br> Departamental #4500,<br> Macul.
+              .col-md-2.col-sm-6.caja-footer
+                h4 Contáctanos
+                ul
+                  li.footer-link
+                    a(href='#') Teléfono: (2) 2701 2407
+                  li.footer-link
+                    a(href='#') contacto@autoshopping.cl
+              .col-md-2.col-sm-6.caja-footer
+                ul 
+                  li.footer-link
+                    .input-group
+                      input(type="text" placeholder="Suscríbete").form-control
+                      span.input-group-btn
+                        button(type="button").btn.btn-default Enviar
+                  li.footer-link
+                    a(href='#') Encuentranos
+                  li.footer-link
+                    a(href='#') 
+                      i.ion-social-facebook
+              .col-md-1
+        .container.container-fluid.footer-down
+          p.disclaimer
+            | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+
+
+      script(src='js/jquery.min.js')
+      script(src='js/bootstrap.min.js')
+      script(src='js/owl.carousel.min.js')
+      script(src='js/main.js')
+      script(src='js/flowtype.js')
+      script(src='js/pushy.min.js')
+      script(src='js/jquery.responsiveTabs.min.js')
+

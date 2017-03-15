@@ -34,6 +34,64 @@ border-radius: 6px;
 	}
 }
 .resultados{
+	.banda-rrss{
+		margin:15px 0;
+		.no-padding-left{
+			padding-left:0;
+		}
+		.icono-rrss{
+			float: left;
+			display: inline-flex;
+			.circulo-azul,.circulo-celeste,.circulo-anaranjado{
+				display: inline-block;
+				margin: 0 0 0 5px;
+				background-color:#3B5998;
+				border-radius:50%;
+				width: 30px;
+				height: 30px;
+				padding:2px 11px;
+				i{
+					color: white;
+					font-size: 18px;
+				}
+			}
+			.circulo-celeste{
+	
+				background-color:#55ACEE;
+				padding:3px 7px;
+			}
+			.circulo-anaranjado{
+				border-radius:50%;
+				width: 30px;
+				height: 30px;
+				background-color:#DC4E41;
+				padding:3px 7px;
+				img{
+					width: 20px;
+				}
+			}
+		}
+		
+		.texto-compartir{
+			text-align: center;
+			margin:8px 0 ;
+			color:#3B5998;
+			font-size: 13px;
+
+		}
+	}
+	h1{
+		font-size: 20px;
+	}
+	hr{
+		margin:30px auto;
+		width: 77%;
+		float:left;
+	}
+	hr.hr-int{
+		width: 100%;
+		margin:15px auto;
+	}
 	color:$dark-gray;
 	h3{
 		color:$blue;
@@ -45,11 +103,49 @@ border-radius: 6px;
 		color: $dark-gray;
 		font-weight: bold;
 	}
-	.thumbnail-quienes{
+	.thumbnail-quienes,.thumbnail-promociones{
 		border-color:$gray !important;
 		min-height: 245px;
 		margin-top: 40px;
 		margin: 30px 0;
+		.caption-promo{
+			text-align: center;
+			img{
+				max-width: 130px;
+				margin-top: 20px;
+			}
+		}
+		.caption-promo-int{
+			padding:5px;
+			text-align: justify;
+			@include breakpoint(medium){
+				
+				padding: 5px 15px 5px 35px;
+			}
+			img{
+				max-width: 80px;
+			}
+			h5{
+				color:$blue;
+				font-size: 20px;
+			}
+		}
+	}
+	.thumbnail-promociones{
+		min-height: 210px;
+		.texto-promo-int{
+			font-size: 13px;
+			text-align:left;
+		}
+		.btn-promo{
+			margin-top: 10px;
+			box-shadow: 0 2px 6px 0 rgba(0,0,0,0.22), inset 0 -2px 0 0 rgba(0,0,0,0.20);
+			border-radius: 6px;
+			color: white;
+			text-transform:uppercase;
+			background-color:$blue;
+			font-size:16px;
+		}
 	}
 }
 .prueba{
