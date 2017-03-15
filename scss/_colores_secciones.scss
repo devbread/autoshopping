@@ -1,0 +1,29 @@
+btn{
+	/* Base: */
+box-shadow: 0 2px 6px 0 rgba(0,0,0,0.22), inset 0 -2px 0 0 rgba(0,0,0,0.20);
+border-radius: 6px;
+}
+.motos-bg{
+	background-color:$blue !important;
+}
+.camiones-bg{
+	background-color:$orange !important;
+}
+.usados-bg{
+	background-color:$green !important;
+}
+.nuevos-bg{
+	background-color:$light-blue !important;
+}
+.motos-border{
+	border-color:$blue !important;
+}
+.camiones-border{
+	border-color:$orange !important;
+}
+.usados-border{
+	border-color:$green !important;
+}
+.nuevos-border{
+	border-color:$light-blue !important;
+}
