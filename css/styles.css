@@ -6036,6 +6036,12 @@ header {
     margin-top: 30px;
     margin-bottom: 30px; } }
 
+.azulnormal {
+  background-color: #4A90E2 !important; }
+
+.fullancho {
+  width: 100%; }
+
 .mainColor {
   padding: 4em 20px;
   background-color: #3CB9E1;
@@ -6387,9 +6393,6 @@ header {
     line-height: 0;
     margin-top: 4px;
     border-radius: 3px; }
-    @media (min-width: 768px) {
-      .busqTitulo .buttonColapse {
-        display: none; } }
 
 .navColapseNuevos {
   width: 100%; }
@@ -6709,11 +6712,11 @@ header {
     width: 75%;
     padding: 40px;
     color: #004275; }
-#horizontalTab .formSantiago, #horizontalTab .formSerena, #horizontalTab .formVina, #horizontalTab .formConce {
+#horizontalTab .formSantiago, #horizontalTab .formSerena, #horizontalTab .formVina, #horizontalTab .formConce, #horizontalTab .formCotizacion {
   margin-top: 20px;
   position: relative;
   padding-bottom: 20px; }
-  #horizontalTab .formSantiago:after, #horizontalTab .formSerena:after, #horizontalTab .formVina:after, #horizontalTab .formConce:after {
+  #horizontalTab .formSantiago:after, #horizontalTab .formSerena:after, #horizontalTab .formVina:after, #horizontalTab .formConce:after, #horizontalTab .formCotizacion:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -6721,36 +6724,36 @@ header {
     bottom: 0;
     background-color: #00B6ED; }
     @media (min-width: 992px) {
-      #horizontalTab .formSantiago:after, #horizontalTab .formSerena:after, #horizontalTab .formVina:after, #horizontalTab .formConce:after {
+      #horizontalTab .formSantiago:after, #horizontalTab .formSerena:after, #horizontalTab .formVina:after, #horizontalTab .formConce:after, #horizontalTab .formCotizacion:after {
         display: none; } }
-  #horizontalTab .formSantiago .inputswraper-top, #horizontalTab .formSerena .inputswraper-top, #horizontalTab .formVina .inputswraper-top, #horizontalTab .formConce .inputswraper-top {
+  #horizontalTab .formSantiago .inputswraper-top, #horizontalTab .formSerena .inputswraper-top, #horizontalTab .formVina .inputswraper-top, #horizontalTab .formConce .inputswraper-top, #horizontalTab .formCotizacion .inputswraper-top {
     -webkit-border-top-left-radius: 8px;
     -webkit-border-top-right-radius: 8px;
     -moz-border-radius-topleft: 8px;
     -moz-border-radius-topright: 8px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px; }
-  #horizontalTab .formSantiago .inputswraper-bottom, #horizontalTab .formSerena .inputswraper-bottom, #horizontalTab .formVina .inputswraper-bottom, #horizontalTab .formConce .inputswraper-bottom {
+  #horizontalTab .formSantiago .inputswraper-bottom, #horizontalTab .formSerena .inputswraper-bottom, #horizontalTab .formVina .inputswraper-bottom, #horizontalTab .formConce .inputswraper-bottom, #horizontalTab .formCotizacion .inputswraper-bottom {
     -webkit-border-bottom-right-radius: 8px;
     -webkit-border-bottom-left-radius: 8px;
     -moz-border-radius-bottomright: 8px;
     -moz-border-radius-bottomleft: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px; }
-  #horizontalTab .formSantiago input[type="text"], #horizontalTab .formSantiago textarea, #horizontalTab .formSerena input[type="text"], #horizontalTab .formSerena textarea, #horizontalTab .formVina input[type="text"], #horizontalTab .formVina textarea, #horizontalTab .formConce input[type="text"], #horizontalTab .formConce textarea {
+  #horizontalTab .formSantiago input[type="text"], #horizontalTab .formSantiago textarea, #horizontalTab .formSerena input[type="text"], #horizontalTab .formSerena textarea, #horizontalTab .formVina input[type="text"], #horizontalTab .formVina textarea, #horizontalTab .formConce input[type="text"], #horizontalTab .formConce textarea, #horizontalTab .formCotizacion input[type="text"], #horizontalTab .formCotizacion textarea {
     width: 100%;
     padding: 10px;
     border: none; }
-  #horizontalTab .formSantiago input[type="text"], #horizontalTab .formSerena input[type="text"], #horizontalTab .formVina input[type="text"], #horizontalTab .formConce input[type="text"] {
+  #horizontalTab .formSantiago input[type="text"], #horizontalTab .formSerena input[type="text"], #horizontalTab .formVina input[type="text"], #horizontalTab .formConce input[type="text"], #horizontalTab .formCotizacion input[type="text"] {
     border: 1px solid #00B6ED;
     padding: 10px; }
-    #horizontalTab .formSantiago input[type="text"]:nth-of-type(2), #horizontalTab .formSerena input[type="text"]:nth-of-type(2), #horizontalTab .formVina input[type="text"]:nth-of-type(2), #horizontalTab .formConce input[type="text"]:nth-of-type(2) {
+    #horizontalTab .formSantiago input[type="text"]:nth-of-type(2), #horizontalTab .formSerena input[type="text"]:nth-of-type(2), #horizontalTab .formVina input[type="text"]:nth-of-type(2), #horizontalTab .formConce input[type="text"]:nth-of-type(2), #horizontalTab .formCotizacion input[type="text"]:nth-of-type(2) {
       border-bottom: 0;
       border-top: 0; }
-    #horizontalTab .formSantiago input[type="text"]:last-child, #horizontalTab .formSerena input[type="text"]:last-child, #horizontalTab .formVina input[type="text"]:last-child, #horizontalTab .formConce input[type="text"]:last-child {
+    #horizontalTab .formSantiago input[type="text"]:last-child, #horizontalTab .formSerena input[type="text"]:last-child, #horizontalTab .formVina input[type="text"]:last-child, #horizontalTab .formConce input[type="text"]:last-child, #horizontalTab .formCotizacion input[type="text"]:last-child {
       border-top: none; }
     @media (min-width: 992px) {
-      #horizontalTab .formSantiago input[type="text"], #horizontalTab .formSerena input[type="text"], #horizontalTab .formVina input[type="text"], #horizontalTab .formConce input[type="text"] {
+      #horizontalTab .formSantiago input[type="text"], #horizontalTab .formSerena input[type="text"], #horizontalTab .formVina input[type="text"], #horizontalTab .formConce input[type="text"], #horizontalTab .formCotizacion input[type="text"] {
         float: left;
         width: 48% !important;
         border-top: 1px solid #C6CFDA !important;
@@ -6760,20 +6763,20 @@ header {
         border-radius: 4px;
         margin-right: 4%;
         margin-bottom: 4%; }
-        #horizontalTab .formSantiago input[type="text"]:nth-of-type(even), #horizontalTab .formSerena input[type="text"]:nth-of-type(even), #horizontalTab .formVina input[type="text"]:nth-of-type(even), #horizontalTab .formConce input[type="text"]:nth-of-type(even) {
+        #horizontalTab .formSantiago input[type="text"]:nth-of-type(even), #horizontalTab .formSerena input[type="text"]:nth-of-type(even), #horizontalTab .formVina input[type="text"]:nth-of-type(even), #horizontalTab .formConce input[type="text"]:nth-of-type(even), #horizontalTab .formCotizacion input[type="text"]:nth-of-type(even) {
           margin-right: 0; } }
-  #horizontalTab .formSantiago textarea, #horizontalTab .formSerena textarea, #horizontalTab .formVina textarea, #horizontalTab .formConce textarea {
+  #horizontalTab .formSantiago textarea, #horizontalTab .formSerena textarea, #horizontalTab .formVina textarea, #horizontalTab .formConce textarea, #horizontalTab .formCotizacion textarea {
     border: 1px solid #00B6ED;
     padding: 10px;
     border-radius: 8px;
     margin-top: 15px;
     height: 175px; }
     @media (min-width: 992px) {
-      #horizontalTab .formSantiago textarea, #horizontalTab .formSerena textarea, #horizontalTab .formVina textarea, #horizontalTab .formConce textarea {
+      #horizontalTab .formSantiago textarea, #horizontalTab .formSerena textarea, #horizontalTab .formVina textarea, #horizontalTab .formConce textarea, #horizontalTab .formCotizacion textarea {
         border: 1px solid #C6CFDA !important;
         margin-top: 4px;
         height: 140px; } }
-  #horizontalTab .formSantiago input[type="submit"], #horizontalTab .formSerena input[type="submit"], #horizontalTab .formVina input[type="submit"], #horizontalTab .formConce input[type="submit"] {
+  #horizontalTab .formSantiago input[type="submit"], #horizontalTab .formSerena input[type="submit"], #horizontalTab .formVina input[type="submit"], #horizontalTab .formConce input[type="submit"], #horizontalTab .formCotizacion input[type="submit"] {
     width: 80%;
     background-color: #00B6ED;
     padding: 8px 40px;
@@ -6787,7 +6790,7 @@ header {
     text-transform: uppercase;
     font-weight: bold; }
     @media (min-width: 992px) {
-      #horizontalTab .formSantiago input[type="submit"], #horizontalTab .formSerena input[type="submit"], #horizontalTab .formVina input[type="submit"], #horizontalTab .formConce input[type="submit"] {
+      #horizontalTab .formSantiago input[type="submit"], #horizontalTab .formSerena input[type="submit"], #horizontalTab .formVina input[type="submit"], #horizontalTab .formConce input[type="submit"], #horizontalTab .formCotizacion input[type="submit"] {
         float: right;
         background-color: #033E76;
         width: 130px;
@@ -6835,6 +6838,67 @@ header {
     @media (min-width: 768px) {
       #horizontalTab .dataAtencion .back {
         display: none; } }
+#horizontalTab .modelo {
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  color: #6A6A6A;
+  margin-bottom: 0; }
+#horizontalTab .precio {
+  color: #6A6A6A;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 0; }
+#horizontalTab .formCotizacion {
+  /* to hide the checkbox itself */
+  /* unchecked icon */
+  /* space between checkbox and label */
+  /* checked icon */
+  /* allow space for check mark */ }
+  #horizontalTab .formCotizacion:after {
+    display: none; }
+  #horizontalTab .formCotizacion .checkwrapper {
+    width: 100%;
+    float: left;
+    margin: 20px 0 20px 0; }
+    #horizontalTab .formCotizacion .checkwrapper .div-span {
+      position: relative; }
+      #horizontalTab .formCotizacion .checkwrapper .div-span label {
+        margin-bottom: 15px; }
+        #horizontalTab .formCotizacion .checkwrapper .div-span label span {
+          color: #4A90E2;
+          position: absolute;
+          top: 1px;
+          left: 30px;
+          font-weight: normal; }
+  #horizontalTab .formCotizacion input[type=checkbox] {
+    display: none; }
+  #horizontalTab .formCotizacion input[type=checkbox] + label:before {
+    display: inline-block;
+    font-weight: normal; }
+  #horizontalTab .formCotizacion input[type=checkbox] + label:before {
+    content: url(../img/check.png);
+    width: 22px;
+    height: 22px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 2px solid #4990E2; }
+  #horizontalTab .formCotizacion input[type=checkbox] + label:before {
+    letter-spacing: 10px; }
+  #horizontalTab .formCotizacion input[type=checkbox]:checked + label:before {
+    content: url(../img/check.png);
+    width: 22px;
+    height: 22px;
+    background-color: #4990E2;
+    border: 2px solid #4990E2; }
+  #horizontalTab .formCotizacion input[type=checkbox]:checked + label:before {
+    letter-spacing: 10px; }
+  #horizontalTab .formCotizacion .btncotizar {
+    background-color: #4990E2 !important; }
+    @media (min-width: 992px) {
+      #horizontalTab .formCotizacion .btncotizar {
+        background-color: #4990E2 !important;
+        float: left !important; } }
 
 .masterplan {
   display: none; }
@@ -6842,6 +6906,119 @@ header {
     .masterplan {
       display: block;
       margin-bottom: 100px; } }
+
+.noticias .tituloNoticias {
+  position: relative;
+  margin: 20px 0 5px 0; }
+  .noticias .tituloNoticias h2, .noticias .tituloNoticias .barline {
+    text-align: left;
+    font-size: 1.2em;
+    color: #6A6A6A;
+    background-color: #ffffff;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    padding-right: 10px; }
+  .noticias .tituloNoticias span.line {
+    display: block; }
+    .noticias .tituloNoticias span.line:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: #6A6A6A;
+      top: 50%;
+      z-index: -1; }
+.noticias .item-eventos {
+  margin: 10px 0;
+  text-decoration: none !important; }
+  .noticias .item-eventos a {
+    display: block;
+    transition: .3s all;
+    position: relative;
+    text-decoration: none !important; }
+    .noticias .item-eventos a span {
+      background-color: rgba(119, 117, 117, 0.6);
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      padding: 10px;
+      bottom: 0;
+      overflow: hidden;
+      -webkit-transition: all 0.15s ease-in-out;
+      -moz-transition: all 0.15s ease-in-out;
+      -o-transition: all 0.15s ease-in-out;
+      -ms-transition: all 0.15s ease-in-out;
+      transition: all 0.15s ease-in-out; }
+      @media (min-width: 768px) {
+        .noticias .item-eventos a span {
+          height: 65%; } }
+      @media (min-width: 992px) {
+        .noticias .item-eventos a span {
+          height: 50%; } }
+      .noticias .item-eventos a span:hover {
+        background-color: rgba(119, 117, 117, 0.9); }
+      .noticias .item-eventos a span .infoWrap {
+        color: #ffffff;
+        text-align: left;
+        position: absolute;
+        bottom: 10px; }
+        .noticias .item-eventos a span .infoWrap .titNoticia {
+          font-weight: bold;
+          font-size: 0.9em;
+          width: 100%; }
+        .noticias .item-eventos a span .infoWrap .titNoticia__bajada {
+          width: 100%;
+          font-weight: normal;
+          font-size: 0.8em; }
+  .noticias .item-eventos p {
+    color: #777575;
+    margin: 10px 0 0 0;
+    font-size: 1em; }
+.noticias .itemNoticias {
+  margin: 10px 0;
+  display: block;
+  text-decoration: none !important; }
+  .noticias .itemNoticias a {
+    text-decoration: none !important; }
+    .noticias .itemNoticias a:hover {
+      text-decoration: none !important; }
+  .noticias .itemNoticias .linktitulo {
+    color: #6A6A6A;
+    font-size: 1em;
+    font-weight: bold; }
+    @media (min-width: 992px) {
+      .noticias .itemNoticias .linktitulo {
+        font-size: 1.5em; } }
+  .noticias .itemNoticias .linkparrafo {
+    color: #6A6A6A;
+    text-align: left;
+    font-size: 0.9em; }
+    .noticias .itemNoticias .linkparrafo:hover, .noticias .itemNoticias .linkparrafo :active {
+      text-decoration: none !important; }
+.noticias .box-noticia {
+  margin-top: 15px; }
+  .noticias .box-noticia .fecha-autor {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .noticias .box-noticia .fecha-autor li {
+      color: #2985CB;
+      display: inline-block;
+      border-right: 1px solid #2985CB;
+      padding-right: 7px;
+      font-size: 0.8em; }
+      .noticias .box-noticia .fecha-autor li:last-child {
+        border-right: none;
+        padding-left: 4px; }
+  .noticias .box-noticia h1 {
+    font-size: 1.6em;
+    font-weight: light; }
+    .noticias .box-noticia h1 span {
+      font-weight: bold; }
+  .noticias .box-noticia p {
+    font-size: 1em;
+    text-align: left; }
 
 .superior-foto {
   font-size: 14px; }

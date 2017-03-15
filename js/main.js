@@ -52,8 +52,11 @@ $(document).ready(function(){
             });
         });
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> test
             var $tabs = $('#horizontalTab');
             $tabs.responsiveTabs({
                 rotate: false,
@@ -92,5 +95,8 @@ $(document).ready(function(){
                 $tabs.responsiveTabs('activate', $(this).val());
                 event.preventDefault();
             });
+<<<<<<< HEAD
 
+=======
+>>>>>>> test
 });

@@ -21,6 +21,14 @@
 	}
 }
 
+.azulnormal{
+	background-color: #4A90E2 !important;
+}
+
+.fullancho{
+	width: 100%;
+}
+
 .mainColor{
 	padding: 4em 20px;
 	background-color: $light-blue;
@@ -480,9 +488,6 @@ p{
 		line-height: 0;
 		margin-top: 4px;
 		border-radius:3px;
-		@include breakpoint(small){
-			display: none;
-		}
 	}
 }
 
@@ -897,7 +902,7 @@ p{
 			}
 		}
 	}
-	.formSantiago,.formSerena,.formVina,.formConce{
+	.formSantiago,.formSerena,.formVina,.formConce,.formCotizacion{
 		margin-top: 20px;
 		position: relative;
 		padding-bottom: 20px;
@@ -1044,6 +1049,71 @@ p{
 			}
 		}
 	}
+
+	//ciotizacion
+
+	.modelo{
+		font-size: 25px;
+		text-align: left;
+		font-weight: bold;
+		color: #6A6A6A;
+		margin-bottom: 0;
+	}
+	.precio{
+		color:#6A6A6A;
+		font-weight: normal;
+		font-size: 18px;
+		margin-top: 0;
+	}
+
+	.formCotizacion {
+		&:after{
+			display: none;
+		}
+		.checkwrapper{
+			width: 100%;
+			float: left;
+			margin: 20px 0 20px 0;
+			.div-span{
+				position: relative;
+				label{
+					margin-bottom: 15px;
+					& span{
+						color: #4A90E2;
+						position: absolute;
+						top: 1px;
+						left: 30px;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+
+		//checkbox
+
+		input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+		input[type=checkbox] + label:before {
+		  display: inline-block;
+		  font-weight: normal;
+		}
+
+		input[type=checkbox] + label:before { content: url(../img/check.png); width: 22px; height: 22px; background-color: #ffffff; border-radius: 2px; border:2px solid #4990E2;} /* unchecked icon */
+		input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+		input[type=checkbox]:checked + label:before { content: url(../img/check.png); width: 22px; height: 22px; background-color: #4990E2; border:2px solid #4990E2; } /* checked icon */
+		input[type=checkbox]:checked + label:before { letter-spacing: 10px; } /* allow space for check mark */
+
+
+
+
+		.btncotizar{
+			background-color: #4990E2 !important;
+			@include breakpoint(medium){
+				background-color: #4990E2 !important;
+				float: left !important;
+			}
+		}
+	}
 }//fin horizontal tab
 
 
@@ -1053,4 +1123,156 @@ p{
 		display: block;
 		margin-bottom: 100px;
 	}
+}
+
+
+
+
+
+//noticias
+
+.noticias{
+	.tituloNoticias{
+		position: relative;
+		margin: 20px 0 5px 0;
+		h2,.barline{
+			text-align: left;
+			font-size: 1.2em;
+			color: #6A6A6A;
+			background-color: $blanco;
+			z-index: 1;
+			// position: relative;
+			display: inline-block;
+			margin: 0;
+			padding-right: 10px;
+		}
+		span.line{
+			display: block;
+			&:after{
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 1px;
+				background-color: #6A6A6A;
+				top: 50%;
+				z-index: -1;
+			}
+		}
+	}
+	.item-eventos{
+		margin: 10px 0;
+		text-decoration: none !important;
+		a{
+			display: block;
+			transition:.3s all;
+			position: relative;
+			text-decoration: none !important;
+			& span{
+				background-color: rgba($color-text,.6);
+				position: absolute;
+				width: 100%;
+				height: 50%;
+				padding: 10px;
+				bottom: 0;
+				@include breakpoint(small){
+					height: 65%;
+				}
+				@include breakpoint(medium){
+					height: 50%;
+				}
+				overflow: hidden;
+				-webkit-transition:all 0.15s ease-in-out;
+				-moz-transition:all 0.15s ease-in-out;
+				-o-transition:all 0.15s ease-in-out;
+				-ms-transition:all 0.15s ease-in-out;
+				transition:all 0.15s ease-in-out;
+
+				&:hover{
+					background-color: rgba($color-text,.9);
+				}
+				.infoWrap{
+					color: $blanco;
+					text-align: left;
+					position: absolute;
+					bottom: 10px;
+					.titNoticia{
+						font-weight: bold;
+						font-size: 0.9em;
+						width: 100%;
+					}
+					.titNoticia__bajada{
+						width: 100%;
+						font-weight: normal;
+						font-size: 0.8em;
+					}
+				}
+			}
+		}
+		p{
+			color: #777575;
+			margin: 10px 0 0 0;
+			font-size: 1em;
+		}
+	}
+	.itemNoticias{
+		margin: 10px 0;
+		display: block;
+		text-decoration: none !important;
+		a{
+			text-decoration: none !important;
+			&:hover{
+				text-decoration: none !important;
+			}
+		}
+		.linktitulo{
+			color: #6A6A6A;
+			font-size: 1em;
+			font-weight: bold;
+
+			@include breakpoint(medium){
+				font-size: 1.5em;
+			}
+		}
+		.linkparrafo{
+			color: #6A6A6A;
+			text-align: left;
+			font-size: 0.9em;
+			&:hover,:active{
+				text-decoration: none !important;
+			}
+		}
+	}
+
+	//eventos single
+    .box-noticia{
+    	margin-top: 15px;
+		.fecha-autor{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li{
+				color: #2985CB;
+				display: inline-block;
+				border-right:1px solid #2985CB;
+				padding-right: 7px;
+				font-size: 0.8em;
+				&:last-child{
+					border-right: none;
+					padding-left: 4px;
+				}
+			}
+		}
+		h1{
+			font-size: 1.6em;
+			font-weight: light;
+			& span{
+				font-weight: bold;
+			}
+		}
+		p{
+			font-size: 1em;
+			text-align: left;
+		}
+    }
+
 }
