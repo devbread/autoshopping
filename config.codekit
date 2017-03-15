@@ -2716,7 +2716,7 @@
 		},
 	"\/contacto.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contacto.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2725,7 +2725,7 @@
 		},
 	"\/cotizacion.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cotizacion.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2779,7 +2779,7 @@
 		},
 	"\/eventos-noticias.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/eventos-noticias.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2788,7 +2788,7 @@
 		},
 	"\/eventos-single.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/eventos-single.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2797,7 +2797,7 @@
 		},
 	"\/ficha.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2842,6 +2842,17 @@
 		"initialSize": 1905,
 		"inputAbbreviatedPath": "\/img\/baic.jpg",
 		"outputAbbreviatedPath": "\/img\/baic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/baic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9096,
+		"inputAbbreviatedPath": "\/img\/baic.png",
+		"outputAbbreviatedPath": "\/img\/baic.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3117,6 +3128,17 @@
 		"initialSize": 3276,
 		"inputAbbreviatedPath": "\/img\/geely.jpg",
 		"outputAbbreviatedPath": "\/img\/geely.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/geely.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13340,
+		"inputAbbreviatedPath": "\/img\/geely.png",
+		"outputAbbreviatedPath": "\/img\/geely.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3517,6 +3539,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/promo_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287495,
+		"inputAbbreviatedPath": "\/img\/promo_01.png",
+		"outputAbbreviatedPath": "\/img\/promo_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promo_02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281928,
+		"inputAbbreviatedPath": "\/img\/promo_02.png",
+		"outputAbbreviatedPath": "\/img\/promo_02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promo_03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229786,
+		"inputAbbreviatedPath": "\/img\/promo_03.png",
+		"outputAbbreviatedPath": "\/img\/promo_03.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/quienes.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3557,6 +3612,17 @@
 		"initialSize": 3013,
 		"inputAbbreviatedPath": "\/img\/suzuki.jpg",
 		"outputAbbreviatedPath": "\/img\/suzuki.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/suzuki.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7965,
+		"inputAbbreviatedPath": "\/img\/suzuki.png",
+		"outputAbbreviatedPath": "\/img\/suzuki.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3642,9 +3708,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/contacto.jade",
-		"outputAbbreviatedPath": "\/contacto.html",
+		"outputAbbreviatedPath": "\/jade\/contacto.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/cotizacion.jade": {
@@ -3653,9 +3719,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/cotizacion.jade",
-		"outputAbbreviatedPath": "\/cotizacion.html",
+		"outputAbbreviatedPath": "\/jade\/cotizacion.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/eventos-noticias.jade": {
@@ -3664,9 +3730,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/eventos-noticias.jade",
-		"outputAbbreviatedPath": "\/eventos-noticias.html",
+		"outputAbbreviatedPath": "\/jade\/eventos-noticias.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/eventos-single.jade": {
@@ -3675,9 +3741,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/eventos-single.jade",
-		"outputAbbreviatedPath": "\/eventos-single.html",
+		"outputAbbreviatedPath": "\/jade\/eventos-single.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/ficha.jade": {
@@ -3686,9 +3752,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha.jade",
-		"outputAbbreviatedPath": "\/jade\/ficha.html",
+		"outputAbbreviatedPath": "\/ficha.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/footer.jade": {
@@ -3724,15 +3790,37 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/promociones.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/promociones.jade",
+		"outputAbbreviatedPath": "\/promociones.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/promociones_int.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/promociones_int.jade",
+		"outputAbbreviatedPath": "\/promociones_int.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/jade\/quienes.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/quienes.jade",
-		"outputAbbreviatedPath": "\/jade\/quienes.html",
+		"outputAbbreviatedPath": "\/quienes.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados.jade": {
@@ -3741,9 +3829,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados.jade",
-		"outputAbbreviatedPath": "\/jade\/resultados.html",
+		"outputAbbreviatedPath": "\/resultados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/js\/bootstrap.min.js": {
@@ -4030,9 +4118,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/promociones.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/promociones.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/promociones_int.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/promociones_int.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/quienes.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/quienes.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4041,7 +4147,7 @@
 		},
 	"\/resultados.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resultados.html",
 		"outputAbbreviatedPath": "No Output Path",

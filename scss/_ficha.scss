@@ -26,7 +26,11 @@
 			padding-left:0;
 		}
 		.icono-rrss{
+			float: left;
+			display: inline-flex;
 			.circulo-azul,.circulo-celeste,.circulo-anaranjado{
+				display: inline-block;
+				margin: 0 0 0 5px;
 				background-color:#3B5998;
 				border-radius:50%;
 				width: 30px;
@@ -42,16 +46,17 @@
 				background-color:#55ACEE;
 				padding:2px 7px;
 			}
-			
+			.circulo-anaranjado{
+				border-radius:50%;
+				width: 30px;
+				height: 30px;
+				background-color:#DC4E41;
+				padding:4px 7px;
+			}
 		}
-		.circulo-anaranjado{
-			border-radius:50%;
-			width: 30px;
-			height: 30px;
-			background-color:#DC4E41;
-			padding:4px 7px;
-		}
+		
 		.texto-compartir{
+			text-align: center;
 			margin:8px 0 ;
 			color:#3B5998;
 			font-size: 13px;
