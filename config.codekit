@@ -2788,7 +2788,7 @@
 		},
 	"\/eventos-single.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/eventos-single.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2886,6 +2886,17 @@
 		"initialSize": 3172,
 		"inputAbbreviatedPath": "\/img\/btnContact.png",
 		"outputAbbreviatedPath": "\/img\/btnContact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/camiones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1255,
+		"inputAbbreviatedPath": "\/img\/camiones.png",
+		"outputAbbreviatedPath": "\/img\/camiones.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3440,13 +3451,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/montreal.jpg": {
-		"fileType": 16384,
+	"\/img\/moto.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 70653,
-		"inputAbbreviatedPath": "\/img\/montreal.jpg",
-		"outputAbbreviatedPath": "\/img\/montreal.jpg",
+		"initialSize": 1519,
+		"inputAbbreviatedPath": "\/img\/moto.png",
+		"outputAbbreviatedPath": "\/img\/moto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3491,6 +3502,17 @@
 		"initialSize": 283,
 		"inputAbbreviatedPath": "\/img\/noticias.png",
 		"outputAbbreviatedPath": "\/img\/noticias.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nuevos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1409,
+		"inputAbbreviatedPath": "\/img\/nuevos.png",
+		"outputAbbreviatedPath": "\/img\/nuevos.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3605,6 +3627,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/servicios.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1937,
+		"inputAbbreviatedPath": "\/img\/servicios.png",
+		"outputAbbreviatedPath": "\/img\/servicios.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/suzuki.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3671,6 +3704,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/usados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1145,
+		"inputAbbreviatedPath": "\/img\/usados.png",
+		"outputAbbreviatedPath": "\/img\/usados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/usados_01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3684,7 +3728,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3741,9 +3785,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/eventos-single.jade",
-		"outputAbbreviatedPath": "\/jade\/eventos-single.html",
+		"outputAbbreviatedPath": "\/eventos-single.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/ficha.jade": {
@@ -3768,15 +3812,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/jade\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/pista.jade": {
