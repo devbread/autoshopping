@@ -6009,8 +6009,8 @@ header {
       border-right: none; }
   .footer-nav .btn-enviar-footer {
     color: white;
-    background-color: #215586;
-    border-color: #215586;
+    background-color: #215586 !important;
+    border-color: #215586 !important;
     margin-bottom: 5px; }
 
 .footer-down {
@@ -7125,6 +7125,9 @@ header {
         width: 30px;
         height: 30px;
         padding: 2px 11px; }
+        @media (min-width: 1200px) {
+          .superior-foto .banda-rrss .icono-rrss .circulo-azul, .superior-foto .banda-rrss .icono-rrss .circulo-celeste, .superior-foto .banda-rrss .icono-rrss .circulo-anaranjado {
+            margin: 0 0 0 12px; } }
         .superior-foto .banda-rrss .icono-rrss .circulo-azul i, .superior-foto .banda-rrss .icono-rrss .circulo-celeste i, .superior-foto .banda-rrss .icono-rrss .circulo-anaranjado i {
           color: white;
           font-size: 18px; }
@@ -7140,11 +7143,17 @@ header {
     .superior-foto .banda-rrss .texto-compartir {
       text-align: center;
       margin: 8px 0;
-      color: #3B5998;
-      font-size: 13px; }
+      color: #1176AD;
+      font-size: 14px; }
+      @media (min-width: 992px) {
+        .superior-foto .banda-rrss .texto-compartir {
+          font-size: 13px; } }
   .superior-foto .primera-tabla tr:first-of-type {
     color: white;
     background-color: #BCCA37; }
+  .superior-foto .nuevos-bg tr:first-of-type {
+    color: white;
+    background-color: #3CB9E1; }
   .superior-foto .table i {
     font-size: 30px; }
   .superior-foto .segunda-tabla {
@@ -7160,7 +7169,7 @@ header {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.22), inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   background-color: #BCCA37;
-  border-color: #BCCA37; }
+  border-color: transparent; }
 
 .recomendacion, .recomendacion-usados {
   background-color: #3CB9E1;
@@ -7350,7 +7359,7 @@ nav.page-navigation {
     .resultados .banda-rrss .texto-compartir {
       text-align: center;
       margin: 8px 0;
-      color: #3B5998;
+      color: #1176AD;
       font-size: 13px; }
   .resultados h1 {
     font-size: 20px; }
@@ -7394,7 +7403,7 @@ nav.page-navigation {
     min-height: 210px; }
     .resultados .thumbnail-promociones .texto-promo-int {
       font-size: 13px;
-      text-align: left; }
+      text-align: justify; }
     .resultados .thumbnail-promociones .btn-promo {
       margin-top: 10px;
       box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.22), inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
@@ -7448,3 +7457,32 @@ nav.page-navigation {
   background-image: none;
   margin-top: 10%;
   width: 5%; }
+
+btn {
+  /* Base: */
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.22), inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 6px; }
+
+.motos-bg {
+  background-color: #1176AD !important; }
+
+.camiones-bg {
+  background-color: #EA6C2D !important; }
+
+.usados-bg {
+  background-color: #BCCA37 !important; }
+
+.nuevos-bg {
+  background-color: #3CB9E1 !important; }
+
+.motos-border {
+  border-color: #1176AD !important; }
+
+.camiones-border {
+  border-color: #EA6C2D !important; }
+
+.usados-border {
+  border-color: #BCCA37 !important; }
+
+.nuevos-border {
+  border-color: #3CB9E1 !important; }

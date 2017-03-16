@@ -75,7 +75,7 @@ border-radius: 6px;
 		.texto-compartir{
 			text-align: center;
 			margin:8px 0 ;
-			color:#3B5998;
+			color:$blue;
 			font-size: 13px;
 
 		}
@@ -135,7 +135,7 @@ border-radius: 6px;
 		min-height: 210px;
 		.texto-promo-int{
 			font-size: 13px;
-			text-align:left;
+			text-align:justify;
 		}
 		.btn-promo{
 			margin-top: 10px;

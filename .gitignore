@@ -38,6 +38,19 @@ config.codekit
 
 *.codekit
 
+<<<<<<< HEAD
+config.codekit
+
+config.codekit
+
+config.codekit
+
+*.codekit
+
+config.codekit
+
+=======
+>>>>>>> test
 *.codekit
 
 *.codekit
