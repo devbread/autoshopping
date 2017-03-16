@@ -36,9 +36,16 @@
 				width: 30px;
 				height: 30px;
 				padding:2px 11px;
+				@include breakpoint(small){
+					margin: 0 0 0 12px;
+				}
+				@include breakpoint(medium){
+					margin: 0 0 0 5px;
+				}
 				@include breakpoint(large){
 					margin: 0 0 0 12px;
 				}
+
 				i{
 					color: white;
 					font-size: 18px;
@@ -71,6 +78,10 @@
 		}
 	}
 	.primera-tabla{
+		margin-bottom:3px;
+		th,td{
+			vertical-align: middle;
+		}
 		tr:first-of-type{
 			color:white;
 			background-color:$green;
@@ -91,6 +102,7 @@
 		text-align:center;
 		th{
 			text-align: center;
+			vertical-align: middle;
 		}
 	}
 }
@@ -113,7 +125,10 @@
 	margin-top:15px;
 	margin-bottom:15px;
 	text-align:center;
-	min-height:320px;
+	min-height:270px;
+	@include breakpoint(medium){
+		min-height:320px;
+	}
 	a{
 		color: white;
 		margin-top:10px;
