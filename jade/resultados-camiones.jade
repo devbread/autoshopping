@@ -64,7 +64,8 @@ html.no-js(lang='es')
                     img(src="img/btnContact.png", alt="")
     .container
       section.resultados
-        h2 Resultados de la búsqueda 50 resultados
+        h2 Resultados de la búsqueda 
+          span(style="font-weight:bold") 50 resultados
         .row
           .col-sm-6.col-md-4
             .thumbnail.caja-resultado.camiones-border
@@ -78,8 +79,8 @@ html.no-js(lang='es')
               .row
                 .col-xs-12
                   p
-                    a.btn.btn-primary.camiones-bg.camiones-border(href='#', role='button') Cotizar
-                    a.btn.btn-default.camiones-bg.camiones-border(href='#', role='button') Ver Ficha
+                    a.btn.btn-primary.camiones-bg.camiones-border.hidden-sm.hidden-md.hidden-lg(href='cotizacion.html', role='button') Cotizar
+                    a.btn.btn-default.camiones-bg.camiones-border(href='ficha-camiones.html', role='button') Ver Ficha
           .col-sm-6.col-md-4
             .thumbnail.caja-resultado.camiones-border
               img(src='img/thumbnail.png', alt='...')
@@ -92,8 +93,8 @@ html.no-js(lang='es')
               .row
                 .col-xs-12
                   p
-                    a.btn.btn-primary.camiones-bg.camiones-border(href='#', role='button') Cotizar
-                    a.btn.btn-default.camiones-bg.camiones-border(href='#', role='button') Ver Ficha
+                    a.btn.btn-primary.camiones-bg.camiones-border.hidden-sm.hidden-md.hidden-lg(href='cotizacion.html', role='button') Cotizar
+                    a.btn.btn-default.camiones-bg.camiones-border(href='ficha-camiones.html', role='button') Ver Ficha
           .col-sm-6.col-md-4
             .thumbnail.caja-resultado.camiones-border
               img(src='img/thumbnail.png', alt='...')
@@ -106,8 +107,8 @@ html.no-js(lang='es')
               .row
                 .col-xs-12
                   p
-                    a.btn.btn-primary.camiones-bg.camiones-border(href='#', role='button') Cotizar
-                    a.btn.btn-default.camiones-bg.camiones-border(href='#', role='button') Ver Ficha
+                    a.btn.btn-primary.camiones-bg.camiones-border.hidden-sm.hidden-md.hidden-lg(href='cotizacion.html', role='button') Cotizar
+                    a.btn.btn-default.camiones-bg.camiones-border(href='ficha-camiones.html', role='button') Ver Ficha
           .col-sm-6.col-md-4
             .thumbnail.caja-resultado.camiones-border
               img(src='img/thumbnail.png', alt='...')
@@ -120,8 +121,8 @@ html.no-js(lang='es')
               .row
                 .col-xs-12
                   p
-                    a.btn.btn-primary.camiones-bg.camiones-border(href='#', role='button') Cotizar
-                    a.btn.btn-default.camiones-bg.camiones-border(href='#', role='button') Ver Ficha
+                    a.btn.btn-primary.camiones-bg.camiones-border.hidden-sm.hidden-md.hidden-lg(href='cotizacion.html', role='button') Cotizar
+                    a.btn.btn-default.camiones-bg.camiones-border(href='ficha-camiones.html', role='button') Ver Ficha
           .col-sm-6.col-md-4
             .thumbnail.caja-resultado.camiones-border
               img(src='img/thumbnail.png', alt='...')
@@ -134,8 +135,8 @@ html.no-js(lang='es')
               .row
                 .col-xs-12
                   p
-                    a.btn.btn-primary.camiones-bg.camiones-border(href='#', role='button') Cotizar
-                    a.btn.btn-default.camiones-bg.camiones-border(href='#', role='button') Ver Ficha
+                    a.btn.btn-primary.camiones-bg.camiones-border.hidden-sm.hidden-md.hidden-lg(href='cotizacion.html', role='button') Cotizar
+                    a.btn.btn-default.camiones-bg.camiones-border(href='ficha-camiones.html', role='button') Ver Ficha
           .col-sm-6.col-md-4
             .thumbnail.caja-resultado.camiones-border
               img(src='img/thumbnail.png', alt='...')
@@ -148,8 +149,8 @@ html.no-js(lang='es')
               .row
                 .col-xs-12
                   p
-                    a.btn.btn-primary.camiones-bg.camiones-border(href='#', role='button') Cotizar
-                    a.btn.btn-default.camiones-bg.camiones-border(href='#', role='button') Ver Ficha
+                    a.btn.btn-primary.camiones-bg.camiones-border.hidden-sm.hidden-md.hidden-lg(href='cotizacion.html', role='button') Cotizar
+                    a.btn.btn-default.camiones-bg.camiones-border(href='ficha-camiones.html', role='button') Ver Ficha
       .container
         .row
           .col-sm-1
@@ -185,28 +186,37 @@ html.no-js(lang='es')
                   a.page-navigation-btn.btn(href='#', aria-label='Next')
                     span(aria-hidden='true') SIGUIENTE
           .col-sm-1
-      section.mainColor#selector.hidden-sm.hidden-xs
-        .container 
-          .row
-            .btnsCuadros
-              h1 Encuentra la alternativa que buscas en:
-              .col-md-1
-              .col-xs-6.col-sm-4.col-md-2
-                a.link_rect.color-1(href="#")
-                  img(src="img/ico-1.png", alt="Autos camiones")
-              .col-xs-6.col-sm-4.col-md-2
-                a.link_rect.color-2(href="#")
-                  img(src="img/ico-2.png", alt="Autos usados")
-              .col-xs-6.col-sm-4.col-md-2
-                a.link_rect.color-3(href="#")
-                  img(src="img/ico-3.png", alt="camiones")
-              .col-xs-6.col-sm-4.col-md-2
-                a.link_rect.color-4(href="#")
-                  img(src="img/ico-4.png", alt="Camiones")
-              .col-xs-12.col-sm-4.col-md-2
-                a.link_rect.color-5.lastCircle(href="#")
-                  img(src="img/ico-5.png", alt="Servicios")
-              .col-md-1
+        section.mainColor#selector
+          .container 
+            .row
+              .btnsCuadros
+                h1 Encuentra la alternativa que buscas en:
+                .col-md-1
+                .col-xs-12.plNo.col-sm-4.col-md-2
+                  a.link_rect.color-1(href="#")
+                    .icoSelector
+                      img.img-responsive(src="img/nuevos.png", alt="Autos Nuevos")
+                      p Autos Nuevos
+                .col-xs-12.col-sm-4.col-md-2
+                  a.link_rect.my-inline-block-class.color-2(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/usados.png", alt="Autos Nuevos")
+                      p Autos Usados
+                .col-xs-12.plNo.col-sm-4.col-md-2
+                  a.link_rect.my-inline-block-class.color-3(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/moto.png", alt="Autos Nuevos")
+                      p Motos
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-4(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/camiones.png", alt="Autos Nuevos")
+                      p Camiones
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-5.centro(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/servicios.png", alt="Autos Nuevos")
+                      p Servicios
     .container-fluid.footer-nav
       .container.no-padding
         nav
