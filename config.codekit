@@ -2705,6 +2705,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/buscador-autos-nuevos.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/buscador-autos-nuevos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/buscador-usados.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2942,6 +2951,116 @@
 		"initialSize": 1255,
 		"inputAbbreviatedPath": "\/img\/camiones.png",
 		"outputAbbreviatedPath": "\/img\/camiones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-camioneta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2149,
+		"inputAbbreviatedPath": "\/img\/cat-blue-camioneta.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-camioneta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-citycar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2360,
+		"inputAbbreviatedPath": "\/img\/cat-blue-citycar.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-citycar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-deportivo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1918,
+		"inputAbbreviatedPath": "\/img\/cat-blue-deportivo.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-deportivo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-electrico.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2941,
+		"inputAbbreviatedPath": "\/img\/cat-blue-electrico.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-electrico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-furgon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2028,
+		"inputAbbreviatedPath": "\/img\/cat-blue-furgon.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-furgon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-hatchback.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2043,
+		"inputAbbreviatedPath": "\/img\/cat-blue-hatchback.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-hatchback.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-minibus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2617,
+		"inputAbbreviatedPath": "\/img\/cat-blue-minibus.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-minibus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-sedan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1698,
+		"inputAbbreviatedPath": "\/img\/cat-blue-sedan.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-sedan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-suv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2170,
+		"inputAbbreviatedPath": "\/img\/cat-blue-suv.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-suv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-blue-todoterreno.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2217,
+		"inputAbbreviatedPath": "\/img\/cat-blue-todoterreno.png",
+		"outputAbbreviatedPath": "\/img\/cat-blue-todoterreno.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3779,6 +3898,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/jade\/buscador-autos-nuevos.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.jade",
+		"outputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/jade\/buscador-usados.jade": {
 		"compileDebug": 1,
