@@ -2707,7 +2707,7 @@
 		},
 	"\/buscador-autos-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2806,7 +2806,7 @@
 		},
 	"\/ficha.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3847,7 +3847,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3860,9 +3860,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.jade",
-		"outputAbbreviatedPath": "\/buscador-autos-nuevos.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-usados.jade": {
@@ -3926,9 +3926,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/ficha.jade",
-		"outputAbbreviatedPath": "\/ficha.html",
+		"outputAbbreviatedPath": "\/jade\/ficha.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/footer.jade": {
@@ -3944,7 +3944,7 @@
 		},
 	"\/jade\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -3957,9 +3957,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "\/jade\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/pista.jade": {
@@ -3979,9 +3979,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/promociones.jade",
-		"outputAbbreviatedPath": "\/promociones.html",
+		"outputAbbreviatedPath": "\/jade\/promociones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/promociones_int.jade": {
@@ -3990,9 +3990,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/promociones_int.jade",
-		"outputAbbreviatedPath": "\/promociones_int.html",
+		"outputAbbreviatedPath": "\/jade\/promociones_int.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/quienes.jade": {
@@ -4012,9 +4012,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados.jade",
-		"outputAbbreviatedPath": "\/resultados.html",
+		"outputAbbreviatedPath": "\/jade\/resultados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/js\/bootstrap.min.js": {
@@ -4330,7 +4330,7 @@
 		},
 	"\/resultados.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resultados.html",
 		"outputAbbreviatedPath": "No Output Path",
