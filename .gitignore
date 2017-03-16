@@ -38,6 +38,7 @@ config.codekit
 
 *.codekit
 
+<<<<<<< HEAD
 config.codekit
 
 config.codekit
@@ -48,4 +49,6 @@ config.codekit
 
 config.codekit
 
+=======
+>>>>>>> test
 *.codekit
