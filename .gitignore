@@ -57,4 +57,10 @@ config.codekit
 
 *.codekit
 
+<<<<<<< HEAD
 config.codekit
+=======
+*.codekit
+
+*.codekit
+>>>>>>> test
