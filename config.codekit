@@ -2707,7 +2707,7 @@
 		},
 	"\/buscador-autos-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2716,7 +2716,7 @@
 		},
 	"\/buscador-camiones.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-camiones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2725,7 +2725,7 @@
 		},
 	"\/buscador-motos.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-motos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2734,7 +2734,7 @@
 		},
 	"\/buscador-usados.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-usados.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2743,7 +2743,7 @@
 		},
 	"\/contacto.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contacto.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2869,7 +2869,7 @@
 		},
 	"\/ficha.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4286,9 +4286,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.jade",
-		"outputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.html",
+		"outputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-camiones.jade": {
@@ -4297,9 +4297,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-camiones.jade",
-		"outputAbbreviatedPath": "\/jade\/buscador-camiones.html",
+		"outputAbbreviatedPath": "\/buscador-camiones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-motos.jade": {
@@ -4308,9 +4308,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-motos.jade",
-		"outputAbbreviatedPath": "\/jade\/buscador-motos.html",
+		"outputAbbreviatedPath": "\/buscador-motos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-usados.jade": {
@@ -4319,10 +4319,19 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-usados.jade",
-		"outputAbbreviatedPath": "\/jade\/buscador-usados.html",
+		"outputAbbreviatedPath": "\/buscador-usados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/jade\/contacto.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/contacto.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/contacto.jade": {
 		"compileDebug": 1,
@@ -4330,9 +4339,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/contacto.jade",
-		"outputAbbreviatedPath": "\/jade\/contacto.html",
+		"outputAbbreviatedPath": "\/contacto.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/cotizacion.jade": {
@@ -4471,9 +4480,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/promociones.jade",
-		"outputAbbreviatedPath": "\/promociones.html",
+		"outputAbbreviatedPath": "\/jade\/promociones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/promociones_int.jade": {
@@ -4482,9 +4491,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/promociones_int.jade",
-		"outputAbbreviatedPath": "\/promociones_int.html",
+		"outputAbbreviatedPath": "\/jade\/promociones_int.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/quienes.jade": {
@@ -4685,6 +4694,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/easyResponsiveTabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/easyResponsiveTabs.js",
+		"outputAbbreviatedPath": "\/js\/min\/easyResponsiveTabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/flowtype.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -4735,6 +4755,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/easyResponsiveTabs-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/easyResponsiveTabs-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/easyResponsiveTabs-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -5026,6 +5057,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_secciones.scss",
 		"outputAbbreviatedPath": "\/css\/_secciones.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_tabs.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_tabs.scss",
+		"outputAbbreviatedPath": "\/css\/_tabs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

@@ -62,45 +62,58 @@ $(document).ready(function(){
         });
 
 
-            var $tabs = $('#horizontalTab');
-            $tabs.responsiveTabs({
-                rotate: false,
-                startCollapsed: 'false',
-                collapsible: 'accordion',
-                setHash: true,
+            // var $tabs = $('#horizontalTab');
+            // $tabs.responsiveTabs({
+            //     rotate: false,
+            //     startCollapsed: 'false',
+            //     collapsible: 'accordion',
+            //     setHash: true,
 
-                click: function(e, tab) {
-                    $('.info').html('Tab <strong>' + tab.id + '</strong> clicked!');
-                },
-                activate: function(e, tab) {
-                    $('.info').html('Tab <strong>' + tab.id + '</strong> activated!');
-                },
-                activateState: function(e, state) {
-                    //console.log(state);
-                    $('.info').html('Switched from <strong>' + state.oldState + '</strong> state to <strong>' + state.newState + '</strong> state!');
-                }
-            });
+            //     click: function(e, tab) {
+            //         $('.info').html('Tab <strong>' + tab.id + '</strong> clicked!');
+            //     },
+            //     activate: function(e, tab) {
+            //         $('.info').html('Tab <strong>' + tab.id + '</strong> activated!');
+            //     },
+            //     activateState: function(e, state) {
+            //         //console.log(state);
+            //         $('.info').html('Switched from <strong>' + state.oldState + '</strong> state to <strong>' + state.newState + '</strong> state!');
+            //     }
+            // });
 
+            // // $('#start-rotation').on('click', function() {
+            // //     $tabs.responsiveTabs('startRotation', 1000);
+            // // });
+            // // $('#stop-rotation').on('click', function() {
+            // //     $tabs.responsiveTabs('stopRotation');
+            // // });
             // $('#start-rotation').on('click', function() {
-            //     $tabs.responsiveTabs('startRotation', 1000);
+            //     $tabs.responsiveTabs('active');
             // });
-            // $('#stop-rotation').on('click', function() {
-            //     $tabs.responsiveTabs('stopRotation');
+            // $('#enable-tab').on('click', function() {
+            //     $tabs.responsiveTabs('enable', 3);
             // });
-            $('#start-rotation').on('click', function() {
-                $tabs.responsiveTabs('active');
-            });
-            $('#enable-tab').on('click', function() {
-                $tabs.responsiveTabs('enable', 3);
-            });
-            // $('#disable-tab').on('click', function() {
-            //     $tabs.responsiveTabs('disable', 3);
+            // // $('#disable-tab').on('click', function() {
+            // //     $tabs.responsiveTabs('disable', 3);
+            // // });
+            // $('.select-tab').on('click', function() {
+            //     $tabs.responsiveTabs('activate', $(this).val());
+            //     event.preventDefault();
             // });
-            $('.select-tab').on('click', function() {
-                $tabs.responsiveTabs('activate', $(this).val());
-                event.preventDefault();
-            });
-
+        //Horizontal Tab
+        $('#parentHorizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
 
 });
 
