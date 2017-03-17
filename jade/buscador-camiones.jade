@@ -62,13 +62,13 @@ html.no-js(lang='es')
                     img(src="img/btnContact.png", alt="")
         .container
           .row
-            .busqTitulo
-              //- span.iconSection
-              //-   img.img-responsive(src="img/icon-usado.jpg", alt="") 
+            .busqTitulo.camiones-bg
+              //- span.iconSection.mtcamiones
+                //- img.img-responsive(src="img/icon-camion.png", alt="") 
               .titImagetop
                 .titImagetopImg
-                  img.img-responsive(src="img/ico-usados.png", alt="")
-                  h1 Autos usados 
+                  img.img-responsive(src="img/ico-camion.png", alt="")
+                  h1 Camiones 
               a.buttonColapse(href="#")
                 i.ion-chevron-down.arrow-down
                 i.ion-chevron-up.arrow-up
@@ -88,7 +88,7 @@ html.no-js(lang='es')
           .row
             .col-xs-1
             .col-xs-10.colorBuscador
-              form.buscador-usado
+              form.buscador-camiones
                 .row
                   .col-md-1
                   .col-md-3
@@ -101,66 +101,25 @@ html.no-js(lang='es')
                     select
                       option Modelo
                   .col-md-1
-                button.formBusqueda.formBusqueda-usado Buscar
+                button.formBusqueda.formBusqueda-camiones Buscar
             .col-xs-1
 
           .row
             .col-xs-1
             .col-xs-10
-              .categoriasIcons
+              .categoriasIcons-camiones
                 h3 Categorías
                 ul
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-citycar.png", alt="citycar")
-                      |City Car
+                        img(src="img/cat-camiones-pesados.png", alt="camiones pesados")
+                      |Pesados
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-hatchback.png", alt="hatchback")
-                      |Hatchback
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-sedan.png", alt="sedán")
-                      |Sedán
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-deportivo.png", alt="deportivo")
-                      |Deportivo
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-suv.png", alt="suv")
-                      |SUV
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-camioneta.png", alt="camioneta")
-                      |Camioneta
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-minibus.png", alt="minibus")
-                      |Minibus
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-furgon.png", alt="minibus")
-                      |Furgón
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-todoterreno.png", alt="todo terreno")
-                      |Todo Terreno
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-electrico.png", alt="eléctrico")
-                      |Eléctrico
-            .col-xs-1
+                        img(src="img/cat-camiones-livianos.png", alt="camiones livianos")
+                      |Livianos
           .row
             .col-xs-1
             .col-xs-10
@@ -172,58 +131,46 @@ html.no-js(lang='es')
                       img(src="img/baic.jpg", alt="baic")
                   li
                     a(href="")
-                      img(src="img/brilliance.jpg", alt="brilliance")
-                  li
-                    a(href="")
-                      img(src="img/changan.jpg", alt="changan")
-                  li
-                    a(href="")
-                      img(src="img/geely.jpg", alt="geely")
-                  li
-                    a(href="")
-                      img(src="img/greatwall.jpg", alt="great wall")
-                  li
-                    a(href="")
                       img(src="img/hiunday.jpg", alt="hyundai")
                   li
                     a(href="")
                       img(src="img/jac.jpg", alt="jac")
                   li
                     a(href="")
-                      img(src="img/mahindra.jpg", alt="mahindra")
-                  li
-                    a(href="")
-                      img(src="img/mazda.jpg", alt="mazda")
-                  li
-                    a(href="")
-                      img(src="img/renault.jpg", alt="renault")
-                  li
-                    a(href="")
                       img(src="img/suzuki.jpg", alt="suzuki")
             .col-xs-1
         
-        section.mainColor#selector.ocultar.hidden-xs.visible-md
-          .container 
+        section.mainColor#selector.hidden-xs.visible-md
+          .container
             .row
               .btnsCuadros
                 h1 Encuentra la alternativa que buscas en:
                 .col-md-1
-                .col-xs-6.col-sm-4.col-md-2
+                .col-xs-12.plNo.col-sm-4.col-md-2
                   a.link_rect.color-1(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-2(href="#")
-                    img(src="img/ico-2.png", alt="Autos usados")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-3(href="#")
-                    img(src="img/ico-3.png", alt="Motos")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-4(href="#")
-                    img(src="img/ico-4.png", alt="Camiones")
+                    .icoSelector
+                      img.img-responsive(src="img/nuevos.png", alt="Autos Nuevos")
+                      p Autos Nuevos
                 .col-xs-12.col-sm-4.col-md-2
-                  a.link_rect.color-5.lastCircle(href="#")
-                    img(src="img/ico-5.png", alt="Servicios")
-                .col-md-1
+                  a.link_rect.my-inline-block-class.color-2(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/usados.png", alt="Autos Nuevos")
+                      p Autos Usados
+                .col-xs-12.plNo.col-sm-4.col-md-2
+                  a.link_rect.my-inline-block-class.color-3(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/moto.png", alt="Autos Nuevos")
+                      p Motos
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-4(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/camiones.png", alt="Autos Nuevos")
+                      p Camiones
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-5.centro(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/servicios.png", alt="Autos Nuevos")
+                      p Servicios
 
 
 
