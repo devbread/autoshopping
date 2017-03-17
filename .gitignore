@@ -57,8 +57,15 @@ config.codekit
 
 *.codekit
 
+<<<<<<< HEAD
+config.codekit
+=======
 *.codekit
 
 *.codekit
+<<<<<<< HEAD
 
 *.codekit
+=======
+>>>>>>> test
+>>>>>>> Master

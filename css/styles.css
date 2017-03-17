@@ -7302,6 +7302,8 @@ header {
   border-radius: 6px;
   background-color: #BCCA37;
   border-color: transparent; }
+.cuadro-cotizacion .fila-boton {
+  text-align: right; }
 
 .recomendacion, .recomendacion-usados {
   background-color: #3CB9E1;
@@ -7433,6 +7435,9 @@ nav.page-navigation {
     color: #B8B6B6; }
     nav.page-navigation .pagination > li > a.active {
       color: #1176AD; }
+
+body {
+  position: relative; }
 
 .btn {
   /* Base: */
@@ -7607,6 +7612,9 @@ nav.page-navigation {
       color: #1176AD; }
   .error-404 hr {
     width: 40%; }
+
+.promo-int {
+  margin-bottom: 100px; }
 
 .carousel-control.left, .carousel-control.right {
   background-image: none;

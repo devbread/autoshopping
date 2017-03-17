@@ -2707,7 +2707,7 @@
 		},
 	"\/buscador-autos-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2716,7 +2716,7 @@
 		},
 	"\/buscador-camiones.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-camiones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2725,7 +2725,7 @@
 		},
 	"\/buscador-motos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-motos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2734,7 +2734,7 @@
 		},
 	"\/buscador-usados.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-usados.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2743,7 +2743,7 @@
 		},
 	"\/contacto.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contacto.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4273,7 +4273,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4286,9 +4286,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.jade",
-		"outputAbbreviatedPath": "\/buscador-autos-nuevos.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-camiones.jade": {
@@ -4297,9 +4297,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-camiones.jade",
-		"outputAbbreviatedPath": "\/buscador-camiones.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-camiones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-motos.jade": {
@@ -4308,9 +4308,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-motos.jade",
-		"outputAbbreviatedPath": "\/buscador-motos.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-motos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-usados.jade": {
@@ -4319,14 +4319,14 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-usados.jade",
-		"outputAbbreviatedPath": "\/buscador-usados.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-usados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/contacto.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/contacto.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4339,9 +4339,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/contacto.jade",
-		"outputAbbreviatedPath": "\/contacto.html",
+		"outputAbbreviatedPath": "\/jade\/contacto.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/cotizacion.jade": {
@@ -4387,6 +4387,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/jade\/ficha-camiones.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/ficha-camiones.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/ficha-camiones.jade": {
 		"compileDebug": 1,
@@ -4442,15 +4451,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/jade\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
@@ -4859,7 +4859,7 @@
 		},
 	"\/promociones.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/promociones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4868,7 +4868,7 @@
 		},
 	"\/promociones_int.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/promociones_int.html",
 		"outputAbbreviatedPath": "No Output Path",
