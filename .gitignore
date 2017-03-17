@@ -53,6 +53,8 @@ config.codekit
 >>>>>>> test
 *.codekit
 
+config.codekit
+
 *.codekit
 
 *.codekit

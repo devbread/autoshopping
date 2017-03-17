@@ -2707,7 +2707,7 @@
 		},
 	"\/buscador-autos-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2716,7 +2716,7 @@
 		},
 	"\/buscador-camiones.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-camiones.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2725,7 +2725,7 @@
 		},
 	"\/buscador-motos.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-motos.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2734,7 +2734,7 @@
 		},
 	"\/buscador-usados.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-usados.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2804,6 +2804,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/error-404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/error-404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/eventos-noticias.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2860,7 +2869,7 @@
 		},
 	"\/ficha.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ficha.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -4222,7 +4231,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 840,
+		"initialSize": 1161,
 		"inputAbbreviatedPath": "\/img\/transmision.png",
 		"outputAbbreviatedPath": "\/img\/transmision.png",
 		"outputPathIsOutsideProject": 0,
@@ -4277,9 +4286,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.jade",
-		"outputAbbreviatedPath": "\/buscador-autos-nuevos.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-camiones.jade": {
@@ -4288,9 +4297,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-camiones.jade",
-		"outputAbbreviatedPath": "\/buscador-camiones.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-camiones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-motos.jade": {
@@ -4299,9 +4308,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-motos.jade",
-		"outputAbbreviatedPath": "\/buscador-motos.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-motos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-usados.jade": {
@@ -4310,9 +4319,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-usados.jade",
-		"outputAbbreviatedPath": "\/buscador-usados.html",
+		"outputAbbreviatedPath": "\/jade\/buscador-usados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/contacto.jade": {
@@ -4333,6 +4342,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/cotizacion.jade",
 		"outputAbbreviatedPath": "\/jade\/cotizacion.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/jade\/error-404.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/error-404.jade",
+		"outputAbbreviatedPath": "\/jade\/error-404.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -4358,15 +4378,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
-		},
-	"\/jade\/ficha-camiones.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/ficha-camiones.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/ficha-camiones.jade": {
 		"compileDebug": 1,
@@ -4438,9 +4449,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "\/jade\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/pista.jade": {
@@ -4460,9 +4471,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/promociones.jade",
-		"outputAbbreviatedPath": "\/jade\/promociones.html",
+		"outputAbbreviatedPath": "\/promociones.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/promociones_int.jade": {
@@ -4471,9 +4482,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/promociones_int.jade",
-		"outputAbbreviatedPath": "\/jade\/promociones_int.html",
+		"outputAbbreviatedPath": "\/promociones_int.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/quienes.jade": {
@@ -4482,9 +4493,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/quienes.jade",
-		"outputAbbreviatedPath": "\/quienes.html",
+		"outputAbbreviatedPath": "\/jade\/quienes.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/resultados-camiones.jade": {
@@ -4835,7 +4846,7 @@
 		},
 	"\/quienes.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/quienes.html",
 		"outputAbbreviatedPath": "No Output Path",
