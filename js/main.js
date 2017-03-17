@@ -34,12 +34,21 @@ $(document).ready(function(){
     });
 
     //open up, open up, your hearth, open up your hearth
+      // $(".navColapseNuevos").hide();
+      //   $(".arrow-up").hide();
+      //   $(".busqTitulo").click(function(){
+      //           $(this).next(".navColapseNuevos").slideToggle(500);
+      //           $(this).find(".arrow-up, .arrow-down").toggle(1);
+      //   });
+
+
       $(".navColapseNuevos").hide();
         $(".arrow-up").hide();
         $(".busqTitulo").click(function(){
                 $(this).next(".navColapseNuevos").slideToggle(500);
                 $(this).find(".arrow-up, .arrow-down").toggle(1);
         });
+        
         $('#toggleButton').click(function () {
             var button=this;
             $('#disclaimer').slideToggle('slow', function () {
@@ -92,7 +101,11 @@ $(document).ready(function(){
                 event.preventDefault();
             });
 
+
 });
+
+
+
 
 
 (function($, window) {
@@ -114,3 +127,15 @@ $(document).ready(function(){
         $(window).resize(autoheight); // when the window size changes
     });
 })(jQuery, window);
+
+
+// $(window).on("load, resize", function() {
+//     var viewportWidth = $(window).width();
+//     if (viewportWidth > 992) {
+//             $(".busqTitulo").removeClass("busqTitulo").addClass("peo");
+//     }
+// });
+
+
+
+

@@ -2707,16 +2707,34 @@
 		},
 	"\/buscador-autos-nuevos.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/buscador-camiones.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/buscador-camiones.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/buscador-motos.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/buscador-motos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/buscador-usados.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/buscador-usados.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -2857,6 +2875,39 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/arrow-select-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324,
+		"inputAbbreviatedPath": "\/img\/arrow-select-green.png",
+		"outputAbbreviatedPath": "\/img\/arrow-select-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-select-motos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321,
+		"inputAbbreviatedPath": "\/img\/arrow-select-motos.png",
+		"outputAbbreviatedPath": "\/img\/arrow-select-motos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-select-orange.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321,
+		"inputAbbreviatedPath": "\/img\/arrow-select-orange.png",
+		"outputAbbreviatedPath": "\/img\/arrow-select-orange.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/arrow-select.jpg": {
 		"fileType": 16384,
@@ -3056,6 +3107,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/cat-camiones-livianos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1464,
+		"inputAbbreviatedPath": "\/img\/cat-camiones-livianos.png",
+		"outputAbbreviatedPath": "\/img\/cat-camiones-livianos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-camiones-pesados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 946,
+		"inputAbbreviatedPath": "\/img\/cat-camiones-pesados.png",
+		"outputAbbreviatedPath": "\/img\/cat-camiones-pesados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/cat-green-camioneta.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3162,6 +3235,105 @@
 		"initialSize": 2790,
 		"inputAbbreviatedPath": "\/img\/cat-green-todoterreno.png",
 		"outputAbbreviatedPath": "\/img\/cat-green-todoterreno.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-atv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2521,
+		"inputAbbreviatedPath": "\/img\/cat-moto-atv.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-atv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-calle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2437,
+		"inputAbbreviatedPath": "\/img\/cat-moto-calle.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-calle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-cross.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2505,
+		"inputAbbreviatedPath": "\/img\/cat-moto-cross.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-cross.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-custome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2711,
+		"inputAbbreviatedPath": "\/img\/cat-moto-custome.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-custome.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-deportiva.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2238,
+		"inputAbbreviatedPath": "\/img\/cat-moto-deportiva.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-deportiva.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-enduro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2395,
+		"inputAbbreviatedPath": "\/img\/cat-moto-enduro.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-enduro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-infantil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2169,
+		"inputAbbreviatedPath": "\/img\/cat-moto-infantil.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-infantil.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-multi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2171,
+		"inputAbbreviatedPath": "\/img\/cat-moto-multi.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-multi.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cat-moto-scooter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1657,
+		"inputAbbreviatedPath": "\/img\/cat-moto-scooter.png",
+		"outputAbbreviatedPath": "\/img\/cat-moto-scooter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3430,6 +3602,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ico-camion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1865,
+		"inputAbbreviatedPath": "\/img\/ico-camion.png",
+		"outputAbbreviatedPath": "\/img\/ico-camion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-ini-camiones.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1011,
+		"inputAbbreviatedPath": "\/img\/ico-ini-camiones.png",
+		"outputAbbreviatedPath": "\/img\/ico-ini-camiones.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-ini-motos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1162,
+		"inputAbbreviatedPath": "\/img\/ico-ini-motos.png",
+		"outputAbbreviatedPath": "\/img\/ico-ini-motos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-ini-nuevos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1279,
+		"inputAbbreviatedPath": "\/img\/ico-ini-nuevos.png",
+		"outputAbbreviatedPath": "\/img\/ico-ini-nuevos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-ini-usados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1305,
+		"inputAbbreviatedPath": "\/img\/ico-ini-usados.png",
+		"outputAbbreviatedPath": "\/img\/ico-ini-usados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-moto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1952,
+		"inputAbbreviatedPath": "\/img\/ico-moto.png",
+		"outputAbbreviatedPath": "\/img\/ico-moto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-nuevos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2104,
+		"inputAbbreviatedPath": "\/img\/ico-nuevos.png",
+		"outputAbbreviatedPath": "\/img\/ico-nuevos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ico-usados.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2133,
+		"inputAbbreviatedPath": "\/img\/ico-usados.png",
+		"outputAbbreviatedPath": "\/img\/ico-usados.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-camion.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1232,
+		"inputAbbreviatedPath": "\/img\/icon-camion.png",
+		"outputAbbreviatedPath": "\/img\/icon-camion.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-contactos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3452,6 +3723,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon-motto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1315,
+		"inputAbbreviatedPath": "\/img\/icon-motto.png",
+		"outputAbbreviatedPath": "\/img\/icon-motto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1193,
+		"inputAbbreviatedPath": "\/img\/icon-new.png",
+		"outputAbbreviatedPath": "\/img\/icon-new.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-truck.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1020,
+		"inputAbbreviatedPath": "\/img\/icon-truck.png",
+		"outputAbbreviatedPath": "\/img\/icon-truck.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-usado.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3459,6 +3763,17 @@
 		"initialSize": 947,
 		"inputAbbreviatedPath": "\/img\/icon-usado.jpg",
 		"outputAbbreviatedPath": "\/img\/icon-usado.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-usado.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1071,
+		"inputAbbreviatedPath": "\/img\/icon-usado.png",
+		"outputAbbreviatedPath": "\/img\/icon-usado.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3529,6 +3844,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/kimco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3721,
+		"inputAbbreviatedPath": "\/img\/kimco.jpg",
+		"outputAbbreviatedPath": "\/img\/kimco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3569,6 +3895,17 @@
 		"initialSize": 2213,
 		"inputAbbreviatedPath": "\/img\/mahindra.jpg",
 		"outputAbbreviatedPath": "\/img\/mahindra.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/mail-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2986,
+		"inputAbbreviatedPath": "\/img\/mail-1.png",
+		"outputAbbreviatedPath": "\/img\/mail-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3705,6 +4042,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pista.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5172,
+		"inputAbbreviatedPath": "\/img\/pista.png",
+		"outputAbbreviatedPath": "\/img\/pista.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/promo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3745,6 +4093,17 @@
 		"initialSize": 229786,
 		"inputAbbreviatedPath": "\/img\/promo_03.png",
 		"outputAbbreviatedPath": "\/img\/promo_03.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/promociones-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1963,
+		"inputAbbreviatedPath": "\/img\/promociones-1.png",
+		"outputAbbreviatedPath": "\/img\/promociones-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3815,6 +4174,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/sym.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2337,
+		"inputAbbreviatedPath": "\/img\/sym.jpg",
+		"outputAbbreviatedPath": "\/img\/sym.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tel.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3881,14 +4251,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
+	"\/img\/zongshen.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 4138,
+		"inputAbbreviatedPath": "\/img\/zongshen.jpg",
+		"outputAbbreviatedPath": "\/img\/zongshen.jpg",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/jade\/buscador-autos-nuevos.jade": {
 		"compileDebug": 1,
@@ -3896,9 +4268,31 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.jade",
-		"outputAbbreviatedPath": "\/jade\/buscador-autos-nuevos.html",
+		"outputAbbreviatedPath": "\/buscador-autos-nuevos.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/buscador-camiones.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/buscador-camiones.jade",
+		"outputAbbreviatedPath": "\/buscador-camiones.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/buscador-motos.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/buscador-motos.jade",
+		"outputAbbreviatedPath": "\/buscador-motos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/buscador-usados.jade": {
@@ -3907,9 +4301,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/buscador-usados.jade",
-		"outputAbbreviatedPath": "\/jade\/buscador-usados.html",
+		"outputAbbreviatedPath": "\/buscador-usados.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/contacto.jade": {
@@ -4020,15 +4414,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
-		"outputAbbreviatedPath": "\/jade\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/pista.jade": {

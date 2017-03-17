@@ -33,7 +33,9 @@
 	margin-top: 20px !important;
 }
 
-
+.mtcamiones{
+	margin-top: 5px;
+}
 .mainColor{
 	padding: 20px;
 	background-color: $light-blue;
@@ -115,14 +117,15 @@
 				width: 80%;
 				display: inline-block;
 				@include breakpoint(small) {
-					width: 70%;
+					width: 80px;
+    				height: 60px;
 				}
-				@include breakpoint(medium){
-					width: 70%;
-				}
-				@include breakpoint(large){
-					width: 60%;
-				}
+				// @include breakpoint(medium){
+				// 	width: 70%;
+				// }
+				// @include breakpoint(large){
+				// 	width: 60%;
+				// }
 			}
 
 			@include breakpoint(small) {
@@ -518,6 +521,9 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 .busqTitulo{
 	padding:10px;
 	background-color: $green;
+	position: relative;
+	z-index: 0;
+
 	@include breakpoint(small){
 		padding: 10px 20px;
 	}
@@ -525,6 +531,7 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 		width: 83.3333333333%;
 		margin: 0 auto;
 		position: relative;
+
 	}
 	@include breakpoint(lg){
 		width: 100%;
@@ -543,7 +550,82 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 			margin-top: 8px;
 			left: 35%;
 		}
+		@include breakpoint(large){
+			position: absolute;
+			width: 5%;
+			margin-top: 5px;
+			left: 36%;
+		}
 	}
+	.titImagetop{
+    	float: left;
+    	@include breakpoint(medium){
+    		float: inherit;
+    		width: 30%;
+    		margin: 0 auto;
+    	}
+			.titImagetopImg{
+				img{
+				display: inline-block;
+				width: 23%;
+				}
+			@include breakpoint(medium){
+				text-align: center;
+			}
+				h1{
+				display: inline-block;
+				margin: 0;
+				color: $blanco;
+				font-size: 1.2em;
+				font-weight: bold;
+				vertical-align: middle;
+				 margin-left: 8px;
+				 @include breakpoint(medium){
+				 	font-size: 1.5em;
+				 }
+				}
+			}
+		.motoIcon{
+			width: 33% !important;
+			@include breakpoint(medium){
+				width: 23% !important;
+			}
+		}	
+	}
+	// h1{
+	// 	float: left;
+	// 	margin: 0;
+	// 	line-height: 42px;
+	// 	color: #ffffff;
+	// 	font-weight: bold;
+	// 	margin-bottom: 0;
+	// 	//margin-left: 15px;
+	// 	font-size: 1.3em;
+	// 	// @include breakpoint(medium){
+	// 	// 	line-height: 68px;
+	// 	// 	font-size: 1.6em;
+	// 	// 	width: 30%;
+	// 	// 	margin:0 auto;
+	// 	// 	float: none;
+	// 	// }
+	// 	// @include breakpoint(large){
+	// 	// 	line-height: 68px;
+	// 	// 	font-size: 1.6em;
+	// 	// 	margin:0 auto;
+	// 	// 	width: 305px;
+	// 	// 	float: none;
+	// 	// }
+	// 	& span{
+	// 		float: left;
+	// 		width: 25%;
+	// 		margin-right: 16px;
+
+	// 		@include breakpoint(medium){
+	// 			width: auto;
+	// 		}
+	// 	}
+	// }
+
 	p{
 		float:left;
 		line-height: 42px;
@@ -570,13 +652,17 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 		line-height: 0;
 		margin-top: 4px;
 		border-radius:3px;
+		@include breakpoint(medium){
+			display: none;
+		}
 	}
 }
+
 
 .navColapseNuevos{
 	width:100%;
 	@include breakpoint(medium){
-		display: none;
+		display: none !important;
 	}
 	ul{
 		margin: 0;
@@ -621,24 +707,24 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 		background-color: $bg-buscador;
 	}
 }
-.buscador{
+.buscador,.buscador-usado, .buscador-nuevos, .buscador-motos, .buscador-camiones, .buscador-servicios{
 	width:100%;
 	padding:40px 0;
 	select{
 		width: 100%;
-		border:1px solid $green;
+
 		padding:5px;
 		margin-bottom: 20px;
 		border-radius:3px;
 		-webkit-appearance: none;
 		background-color: $blanco;
-		background: $blanco url(../img/arrow-select.png) center right no-repeat;
+
 	}
 	.formBusqueda{
 		-webkit-appearance: none;
 		width: 90%;
 		margin: 0 auto;
-		background-color: $green;
+		// background-color: $green;
 		color:$blanco;
 		display: block;
 		text-align: center;
@@ -654,10 +740,50 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 	}
 }
 
+.buscador{}
+.buscador-usado{
+	select{
+		border:1px solid $green;
+		background: $blanco url(../img/arrow-select-green.png) center right no-repeat;
+	}
+	.formBusqueda-usado{
+		background-color: $green;
+	}
+}
+.buscador-nuevos{
+	select{
+		border:1px solid $light-blue;
+		background: $blanco url(../img/arrow-select.png) center right no-repeat;
+	}
+	.formBusqueda-nuevos{
+		background-color: $light-blue;
+	}
+}
+.buscador-motos{
+	select{
+		border:1px solid $blue;
+		background: $blanco url(../img/arrow-select-motos.png) center right no-repeat;
+	}
+	.formBusqueda-motos{
+		background-color: $blue !important;
+	}
+}
+.buscador-camiones{
+	select{
+		border:1px solid $orange;
+		background: $blanco url(../img/arrow-select-orange.png) center right no-repeat;
+	}
+	.formBusqueda-camiones{
+		background-color: $orange !important;
+	}
+}
+.buscador-servicios{
+
+}
 
 //categorias iconos
 
-.categoriasIcons{
+.categoriasIcons,.categoriasIcons-nuevos,.categoriasIcons-motos,.categoriasIcons-camiones{
 	width: 100%;
 	border-top:1px solid $green;
 	border-bottom:1px solid $green;
@@ -689,6 +815,7 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 		margin: 0;
 		padding: 0;
 		list-style: none;
+		text-align: center;
 		li{
 			display: inline-block;
 			margin-right: 6px;
@@ -727,6 +854,69 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 	}
 }
 
+.categoriasIcons-nuevos{
+	border-top:1px solid $light-blue;
+	border-bottom:1px solid $light-blue;
+	@include breakpoint(medium){
+		border-top:none;
+		border-bottom:none;
+		position: relative;
+		&:after{
+			content:"";
+			position: absolute;
+			width: 450px;
+			height: 1px;
+			background-color: $light-blue;
+			bottom: 0;
+			left:0;
+			right: 0;
+			margin: 0 auto;
+		} 
+	}
+}
+
+.categoriasIcons-motos{
+	border-top:1px solid $blue;
+	border-bottom:1px solid $blue;
+	@include breakpoint(medium){
+		border-top:none;
+		border-bottom:none;
+		position: relative;
+		&:after{
+			content:"";
+			position: absolute;
+			width: 450px;
+			height: 1px;
+			background-color: $blue;
+			bottom: 0;
+			left:0;
+			right: 0;
+			margin: 0 auto;
+		} 
+	}
+}
+
+.categoriasIcons-camiones{
+	border-top:1px solid $orange;
+	border-bottom:1px solid $orange;
+	@include breakpoint(medium){
+		border-top:none;
+		border-bottom:none;
+		position: relative;
+		&:after{
+			content:"";
+			position: absolute;
+			width: 450px;
+			height: 1px;
+			background-color: $orange;
+			bottom: 0;
+			left:0;
+			right: 0;
+			margin: 0 auto;
+		} 
+	}
+}
+
 //marcas categorías
 
 .marcascategorias{
@@ -745,6 +935,7 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 			margin: 0;
 			padding: 0;
 			list-style: none;
+			text-align: center;
 			li{
 				display: inline-block;
 				margin-right: 50px;

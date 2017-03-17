@@ -6045,6 +6045,9 @@ header {
 .mt20 {
   margin-top: 20px !important; }
 
+.mtcamiones {
+  margin-top: 5px; }
+
 .mainColor {
   padding: 20px;
   background-color: #3CB9E1;
@@ -6096,13 +6099,8 @@ header {
         display: inline-block; }
         @media (min-width: 768px) {
           .mainColor .btnsCuadros .link_rect img {
-            width: 70%; } }
-        @media (min-width: 992px) {
-          .mainColor .btnsCuadros .link_rect img {
-            width: 70%; } }
-        @media (min-width: 1200px) {
-          .mainColor .btnsCuadros .link_rect img {
-            width: 60%; } }
+            width: 80px;
+            height: 60px; } }
       @media (min-width: 768px) {
         .mainColor .btnsCuadros .link_rect {
           border-radius: 8px;
@@ -6413,7 +6411,9 @@ header {
 
 .busqTitulo {
   padding: 10px;
-  background-color: #BCCA37; }
+  background-color: #BCCA37;
+  position: relative;
+  z-index: 0; }
   @media (min-width: 768px) {
     .busqTitulo {
       padding: 10px 20px; } }
@@ -6434,6 +6434,41 @@ header {
         width: 5%;
         margin-top: 8px;
         left: 35%; } }
+    @media (min-width: 1200px) {
+      .busqTitulo .iconSection {
+        position: absolute;
+        width: 5%;
+        margin-top: 5px;
+        left: 36%; } }
+  .busqTitulo .titImagetop {
+    float: left; }
+    @media (min-width: 992px) {
+      .busqTitulo .titImagetop {
+        float: inherit;
+        width: 30%;
+        margin: 0 auto; } }
+    .busqTitulo .titImagetop .titImagetopImg img {
+      display: inline-block;
+      width: 23%; }
+    @media (min-width: 992px) {
+      .busqTitulo .titImagetop .titImagetopImg {
+        text-align: center; } }
+    .busqTitulo .titImagetop .titImagetopImg h1 {
+      display: inline-block;
+      margin: 0;
+      color: #ffffff;
+      font-size: 1.2em;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-left: 8px; }
+      @media (min-width: 992px) {
+        .busqTitulo .titImagetop .titImagetopImg h1 {
+          font-size: 1.5em; } }
+    .busqTitulo .titImagetop .motoIcon {
+      width: 33% !important; }
+      @media (min-width: 992px) {
+        .busqTitulo .titImagetop .motoIcon {
+          width: 23% !important; } }
   .busqTitulo p {
     float: left;
     line-height: 42px;
@@ -6459,12 +6494,15 @@ header {
     line-height: 0;
     margin-top: 4px;
     border-radius: 3px; }
+    @media (min-width: 992px) {
+      .busqTitulo .buttonColapse {
+        display: none; } }
 
 .navColapseNuevos {
   width: 100%; }
   @media (min-width: 992px) {
     .navColapseNuevos {
-      display: none; } }
+      display: none !important; } }
   .navColapseNuevos ul {
     margin: 0;
     padding: 0;
@@ -6493,23 +6531,20 @@ header {
   .colorBuscador {
     background-color: #E5E5E5; } }
 
-.buscador {
+.buscador, .buscador-usado, .buscador-nuevos, .buscador-motos, .buscador-camiones, .buscador-servicios {
   width: 100%;
   padding: 40px 0; }
-  .buscador select {
+  .buscador select, .buscador-usado select, .buscador-nuevos select, .buscador-motos select, .buscador-camiones select, .buscador-servicios select {
     width: 100%;
-    border: 1px solid #BCCA37;
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 3px;
     -webkit-appearance: none;
-    background-color: #ffffff;
-    background: #ffffff url(../img/arrow-select.png) center right no-repeat; }
-  .buscador .formBusqueda {
+    background-color: #ffffff; }
+  .buscador .formBusqueda, .buscador-usado .formBusqueda, .buscador-nuevos .formBusqueda, .buscador-motos .formBusqueda, .buscador-camiones .formBusqueda, .buscador-servicios .formBusqueda {
     -webkit-appearance: none;
     width: 90%;
     margin: 0 auto;
-    background-color: #BCCA37;
     color: #ffffff;
     display: block;
     text-align: center;
@@ -6520,21 +6555,45 @@ header {
     font-size: 1.2em;
     border-radius: 5px; }
     @media (min-width: 992px) {
-      .buscador .formBusqueda {
+      .buscador .formBusqueda, .buscador-usado .formBusqueda, .buscador-nuevos .formBusqueda, .buscador-motos .formBusqueda, .buscador-camiones .formBusqueda, .buscador-servicios .formBusqueda {
         width: 30%; } }
 
-.categoriasIcons {
+.buscador-usado select {
+  border: 1px solid #BCCA37;
+  background: #ffffff url(../img/arrow-select-green.png) center right no-repeat; }
+.buscador-usado .formBusqueda-usado {
+  background-color: #BCCA37; }
+
+.buscador-nuevos select {
+  border: 1px solid #3CB9E1;
+  background: #ffffff url(../img/arrow-select.png) center right no-repeat; }
+.buscador-nuevos .formBusqueda-nuevos {
+  background-color: #3CB9E1; }
+
+.buscador-motos select {
+  border: 1px solid #1176AD;
+  background: #ffffff url(../img/arrow-select-motos.png) center right no-repeat; }
+.buscador-motos .formBusqueda-motos {
+  background-color: #1176AD !important; }
+
+.buscador-camiones select {
+  border: 1px solid #EA6C2D;
+  background: #ffffff url(../img/arrow-select-orange.png) center right no-repeat; }
+.buscador-camiones .formBusqueda-camiones {
+  background-color: #EA6C2D !important; }
+
+.categoriasIcons, .categoriasIcons-nuevos, .categoriasIcons-motos, .categoriasIcons-camiones {
   width: 100%;
   border-top: 1px solid #BCCA37;
   border-bottom: 1px solid #BCCA37;
   padding: 20px 0;
   margin-bottom: 25px; }
   @media (min-width: 992px) {
-    .categoriasIcons {
+    .categoriasIcons, .categoriasIcons-nuevos, .categoriasIcons-motos, .categoriasIcons-camiones {
       border-top: none;
       border-bottom: none;
       position: relative; }
-      .categoriasIcons:after {
+      .categoriasIcons:after, .categoriasIcons-nuevos:after, .categoriasIcons-motos:after, .categoriasIcons-camiones:after {
         content: "";
         position: absolute;
         width: 450px;
@@ -6544,45 +6603,103 @@ header {
         left: 0;
         right: 0;
         margin: 0 auto; } }
-  .categoriasIcons h3 {
+  .categoriasIcons h3, .categoriasIcons-nuevos h3, .categoriasIcons-motos h3, .categoriasIcons-camiones h3 {
     color: #777575;
     text-align: center;
     font-size: 1.25em;
     margin: 0 0 20px 0; }
-  .categoriasIcons ul {
+  .categoriasIcons ul, .categoriasIcons-nuevos ul, .categoriasIcons-motos ul, .categoriasIcons-camiones ul {
     margin: 0;
     padding: 0;
-    list-style: none; }
-    .categoriasIcons ul li {
+    list-style: none;
+    text-align: center; }
+    .categoriasIcons ul li, .categoriasIcons-nuevos ul li, .categoriasIcons-motos ul li, .categoriasIcons-camiones ul li {
       display: inline-block;
       margin-right: 6px;
       margin-bottom: 20px;
       text-align: center; }
-      .categoriasIcons ul li:last-child {
+      .categoriasIcons ul li:last-child, .categoriasIcons-nuevos ul li:last-child, .categoriasIcons-motos ul li:last-child, .categoriasIcons-camiones ul li:last-child {
         margin-right: 0; }
       @media (min-width: 768px) {
-        .categoriasIcons ul li {
+        .categoriasIcons ul li, .categoriasIcons-nuevos ul li, .categoriasIcons-motos ul li, .categoriasIcons-camiones ul li {
           margin-right: 5px; } }
       @media (min-width: 992px) {
-        .categoriasIcons ul li {
+        .categoriasIcons ul li, .categoriasIcons-nuevos ul li, .categoriasIcons-motos ul li, .categoriasIcons-camiones ul li {
           margin-right: 1px; } }
       @media (min-width: 1200px) {
-        .categoriasIcons ul li {
+        .categoriasIcons ul li, .categoriasIcons-nuevos ul li, .categoriasIcons-motos ul li, .categoriasIcons-camiones ul li {
           margin-right: 19px; } }
-      .categoriasIcons ul li a {
+      .categoriasIcons ul li a, .categoriasIcons-nuevos ul li a, .categoriasIcons-motos ul li a, .categoriasIcons-camiones ul li a {
         color: #777575; }
         @media (min-width: 992px) {
-          .categoriasIcons ul li a {
+          .categoriasIcons ul li a, .categoriasIcons-nuevos ul li a, .categoriasIcons-motos ul li a, .categoriasIcons-camiones ul li a {
             font-size: 12px; } }
-        .categoriasIcons ul li a span {
+        .categoriasIcons ul li a span, .categoriasIcons-nuevos ul li a span, .categoriasIcons-motos ul li a span, .categoriasIcons-camiones ul li a span {
           width: 110px;
           text-align: center;
           display: block; }
-          .categoriasIcons ul li a span img {
+          .categoriasIcons ul li a span img, .categoriasIcons-nuevos ul li a span img, .categoriasIcons-motos ul li a span img, .categoriasIcons-camiones ul li a span img {
             width: 70%; }
           @media (min-width: 992px) {
-            .categoriasIcons ul li a span {
+            .categoriasIcons ul li a span, .categoriasIcons-nuevos ul li a span, .categoriasIcons-motos ul li a span, .categoriasIcons-camiones ul li a span {
               width: 73px; } }
+
+.categoriasIcons-nuevos {
+  border-top: 1px solid #3CB9E1;
+  border-bottom: 1px solid #3CB9E1; }
+  @media (min-width: 992px) {
+    .categoriasIcons-nuevos {
+      border-top: none;
+      border-bottom: none;
+      position: relative; }
+      .categoriasIcons-nuevos:after {
+        content: "";
+        position: absolute;
+        width: 450px;
+        height: 1px;
+        background-color: #3CB9E1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto; } }
+
+.categoriasIcons-motos {
+  border-top: 1px solid #1176AD;
+  border-bottom: 1px solid #1176AD; }
+  @media (min-width: 992px) {
+    .categoriasIcons-motos {
+      border-top: none;
+      border-bottom: none;
+      position: relative; }
+      .categoriasIcons-motos:after {
+        content: "";
+        position: absolute;
+        width: 450px;
+        height: 1px;
+        background-color: #1176AD;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto; } }
+
+.categoriasIcons-camiones {
+  border-top: 1px solid #EA6C2D;
+  border-bottom: 1px solid #EA6C2D; }
+  @media (min-width: 992px) {
+    .categoriasIcons-camiones {
+      border-top: none;
+      border-bottom: none;
+      position: relative; }
+      .categoriasIcons-camiones:after {
+        content: "";
+        position: absolute;
+        width: 450px;
+        height: 1px;
+        background-color: #EA6C2D;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto; } }
 
 .marcascategorias {
   width: 100%;
@@ -6598,7 +6715,8 @@ header {
   .marcascategorias ul {
     margin: 0;
     padding: 0;
-    list-style: none; }
+    list-style: none;
+    text-align: center; }
     .marcascategorias ul li {
       display: inline-block;
       margin-right: 50px; }
