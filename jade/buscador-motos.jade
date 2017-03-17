@@ -62,13 +62,14 @@ html.no-js(lang='es')
                     img(src="img/btnContact.png", alt="")
         .container
           .row
-            .busqTitulo
+            .busqTitulo.motos-bg
               //- span.iconSection
               //-   img.img-responsive(src="img/icon-usado.jpg", alt="") 
+              //- p Motos
               .titImagetop
                 .titImagetopImg
-                  img.img-responsive(src="img/ico-usados.png", alt="")
-                  h1 Autos usados 
+                  img.img-responsive.motoIcon(src="img/ico-moto.png", alt="")
+                  h1 Motos 
               a.buttonColapse(href="#")
                 i.ion-chevron-down.arrow-down
                 i.ion-chevron-up.arrow-up
@@ -88,7 +89,7 @@ html.no-js(lang='es')
           .row
             .col-xs-1
             .col-xs-10.colorBuscador
-              form.buscador-usado
+              form.buscador-motos
                 .row
                   .col-md-1
                   .col-md-3
@@ -101,65 +102,60 @@ html.no-js(lang='es')
                     select
                       option Modelo
                   .col-md-1
-                button.formBusqueda.formBusqueda-usado Buscar
+                button.formBusqueda.formBusqueda-motos Buscar
             .col-xs-1
 
           .row
             .col-xs-1
             .col-xs-10
-              .categoriasIcons
+              .categoriasIcons-motos
                 h3 Categorías
                 ul
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-citycar.png", alt="citycar")
-                      |City Car
+                        img(src="img/cat-moto-atv.png", alt="ATV")
+                      |ATV
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-hatchback.png", alt="hatchback")
-                      |Hatchback
+                        img(src="img/cat-moto-calle.png", alt="Calle")
+                      |Calle
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-sedan.png", alt="sedán")
-                      |Sedán
+                        img(src="img/cat-moto-scooter.png", alt="Scooter")
+                      |Scooter
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-deportivo.png", alt="deportivo")
-                      |Deportivo
+                        img(src="img/cat-moto-custome.png", alt="Custome/Retro")
+                      |Custome/Retro
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-suv.png", alt="suv")
-                      |SUV
+                        img(src="img/cat-moto-deportiva.png", alt="Deportiva")
+                      |Deportiva
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-camioneta.png", alt="camioneta")
-                      |Camioneta
+                        img(src="img/cat-moto-multi.png", alt="Multipropósito")
+                      |Multipropósito
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-minibus.png", alt="minibus")
-                      |Minibus
+                        img(src="img/cat-moto-enduro.png", alt="Enduro")
+                      |Enduro
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-furgon.png", alt="minibus")
-                      |Furgón
+                        img(src="img/cat-moto-cross.png", alt="Motocross")
+                      |Motocross
                   li
                     a(href="") 
                       span 
-                        img(src="img/cat-green-todoterreno.png", alt="todo terreno")
-                      |Todo Terreno
-                  li
-                    a(href="") 
-                      span 
-                        img(src="img/cat-green-electrico.png", alt="eléctrico")
-                      |Eléctrico
+                        img(src="img/cat-moto-infantil.png", alt="Infantil")
+                      |Infantil
             .col-xs-1
           .row
             .col-xs-1
@@ -169,61 +165,49 @@ html.no-js(lang='es')
                 ul
                   li
                     a(href="")
-                      img(src="img/baic.jpg", alt="baic")
-                  li
-                    a(href="")
-                      img(src="img/brilliance.jpg", alt="brilliance")
-                  li
-                    a(href="")
-                      img(src="img/changan.jpg", alt="changan")
-                  li
-                    a(href="")
-                      img(src="img/geely.jpg", alt="geely")
-                  li
-                    a(href="")
-                      img(src="img/greatwall.jpg", alt="great wall")
-                  li
-                    a(href="")
-                      img(src="img/hiunday.jpg", alt="hyundai")
-                  li
-                    a(href="")
-                      img(src="img/jac.jpg", alt="jac")
-                  li
-                    a(href="")
-                      img(src="img/mahindra.jpg", alt="mahindra")
-                  li
-                    a(href="")
-                      img(src="img/mazda.jpg", alt="mazda")
-                  li
-                    a(href="")
-                      img(src="img/renault.jpg", alt="renault")
+                      img(src="img/kimco.jpg", alt="kimco")
                   li
                     a(href="")
                       img(src="img/suzuki.jpg", alt="suzuki")
+                  li
+                    a(href="")
+                      img(src="img/sym.jpg", alt="sym")
+                  li
+                    a(href="")
+                      img(src="img/zongshen.jpg", alt="zongshen")
             .col-xs-1
         
-        section.mainColor#selector.ocultar.hidden-xs.visible-md
+        section.mainColor#selector.hidden-xs.visible-md
           .container 
             .row
               .btnsCuadros
                 h1 Encuentra la alternativa que buscas en:
                 .col-md-1
-                .col-xs-6.col-sm-4.col-md-2
+                .col-xs-12.plNo.col-sm-4.col-md-2
                   a.link_rect.color-1(href="#")
-                    img(src="img/ico-1.png", alt="Autos Nuevos")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-2(href="#")
-                    img(src="img/ico-2.png", alt="Autos usados")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-3(href="#")
-                    img(src="img/ico-3.png", alt="Motos")
-                .col-xs-6.col-sm-4.col-md-2
-                  a.link_rect.color-4(href="#")
-                    img(src="img/ico-4.png", alt="Camiones")
+                    .icoSelector
+                      img.img-responsive(src="img/nuevos.png", alt="Autos Nuevos")
+                      p Autos Nuevos
                 .col-xs-12.col-sm-4.col-md-2
-                  a.link_rect.color-5.lastCircle(href="#")
-                    img(src="img/ico-5.png", alt="Servicios")
-                .col-md-1
+                  a.link_rect.my-inline-block-class.color-2(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/usados.png", alt="Autos Nuevos")
+                      p Autos Usados
+                .col-xs-12.plNo.col-sm-4.col-md-2
+                  a.link_rect.my-inline-block-class.color-3(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/moto.png", alt="Autos Nuevos")
+                      p Motos
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-4(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/camiones.png", alt="Autos Nuevos")
+                      p Camiones
+                .col-xs-12.col-sm-6.col-md-2
+                  a.link_rect.my-inline-block-class.color-5.centro(href="#")
+                    .icoSelector()
+                      img.img-responsive(src="img/servicios.png", alt="Autos Nuevos")
+                      p Servicios
 
 
 
