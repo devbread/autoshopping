@@ -7182,6 +7182,8 @@ header {
   border-radius: 6px;
   background-color: #BCCA37;
   border-color: transparent; }
+.cuadro-cotizacion .fila-boton {
+  text-align: right; }
 
 .recomendacion, .recomendacion-usados {
   background-color: #3CB9E1;
@@ -7313,6 +7315,9 @@ nav.page-navigation {
     color: #B8B6B6; }
     nav.page-navigation .pagination > li > a.active {
       color: #1176AD; }
+
+body {
+  position: relative; }
 
 .btn {
   /* Base: */
