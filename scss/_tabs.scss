@@ -51,6 +51,10 @@ h2.resp-accordion {
 .resp-tab-content {
     display: none;
     padding: 15px 15px 15px 15px;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    @include breakpoint(medium){
+        border-bottom: none;
+    }
 }
 
 .resp-tab-active {

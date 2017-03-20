@@ -23,23 +23,23 @@ html.no-js(lang='es')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#')
+              a(href='index.html')
                 span.icolink-1 
                 |Inicio
             li.pushy-link
-              a(href='#') 
+              a(href='contacto.html') 
                 span.icolink-2 
                 |Sucursales
             li.pushy-link
-              a(href='#') 
+              a(href='eventos-noticias.html') 
                 span.icolink-3 
                 |Eventos y noticias
             li.pushy-link
-              a(href='#')
+              a(href='quienes.html')
                 span.icolink-4  
                 |Quienes somos
             li.pushy-link
-              a(href='#')
+              a(href='contacto.html')
                 span.icolink-5 
                 |Contáctenos
           form.formMovil
@@ -77,58 +77,81 @@ html.no-js(lang='es')
                 p Para reservas de nuestra pista de pruebas contactarse al número 
                   strong (2) 2701 2407.
             .col-sm-1
+        section.cajas-info.hidden-xs.hidden-sm
+            .container
+              .row
+                .col-md-1
+                .col-md-10
+                    .row
+                      .col-md-2
+
+                      .col-md-4
+                        .caja-info__contacto
+                          .caja-info__icoInfo
+                            img.responsive(src="img/mail-1.png", alt="") 
+                          h3 Contacto
+                          p 
+                            a(href="contacto.html")|Estamos atentos de resolver cualquier duda o consulta que tenga sobre autos.
+                      .col-md-4
+                        .caja-info__promos
+                          .caja-info__icoInfo
+                            img.responsive(src="img/promociones-1.png", alt="")
+                          h3 Promociones
+                          p 
+                            a(href="promociones.html")|Sorpréndete y conoce las mejores promociones de autos o servicios.
+                      .col-md-2
+
 
         .container-fluid.footer-nav
-            .container.no-padding
-              nav
-                .col-md-2.col-sm-6.caja-footer
-                  h4 General
-                  ul
-                    li.footer-link
-                      a(href='#') Inicio
-                    li.footer-link
-                      a(href='#') Sucursales
-                    li.footer-link
-                      a(href='#') Eventos y noticias
-                    li.footer-link
-                      a(href='#') Quienes somos
-                    li.footer-link
-                      a(href='#') Contáctenos
-                .col-md-2.col-sm-6.caja-footer
-                  h4 Horarios
-                  ul
-                    li.footer-link
-                      a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
-                    
-                .col-md-2.col-sm-6.caja-footer
-                  h4 Dirección
-                  ul
-                    li.footer-link
-                      a(href='#') Santiago:<br> Departamental #4500,<br> Macul.
-                .col-md-3.col-sm-6.caja-footer
-                  h4 Contáctanos
-                  ul
-                    li.footer-link
-                      a(href='#') Teléfono: (2) 2701 2407
-                    li.footer-link
-                      a(href='#') contacto@autoshopping.cl
-                .col-xs-1
-                .col-md-3.col-xs-10
-                  ul 
-                    li.footer-link
-                      .input-group
-                        input(type="text" placeholder="Suscríbete").form-control
-                        span.input-group-btn
-                          button(type="button").btn.btn-default.btn-enviar-footer Enviar
-                    li.footer-link
-                      a(href='#') Encuentranos
-                    li.footer-link
-                      a(href='#') 
-                        i.ion-social-facebook
-                .col-xs-1
-          .container-fluid.footer-down
-            p.disclaimer
-              | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+          .container.no-padding
+            nav
+              .col-md-2.col-sm-6.caja-footer.no-padding
+                h4 General
+                ul
+                  li.footer-link
+                    a(href='index.html') Inicio
+                  li.footer-link
+                    a(href='contacto.html') Sucursales
+                  li.footer-link
+                    a(href='eventos-noticias.html') Eventos y noticias
+                  li.footer-link
+                    a(href='quienes.html') Quiénes somos
+                  li.footer-link
+                    a(href='contacto.html') Contáctenos
+              .col-md-2.col-sm-6.caja-footer
+                h4 Horarios
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+                  
+              .col-md-2.col-sm-6.caja-footer
+                h4 Dirección
+                ul
+                  li.footer-link
+                    a(href='https://goo.gl/maps/PRpxWXcnqZ72', target="_blank") Santiago:<br> Departamental #4500,<br> Macul.
+              .col-md-3.col-sm-6.caja-footer
+                h4 Contáctanos
+                ul
+                  li.footer-link
+                    a(href='tel:227012407') Teléfono: (2) 2701 2407
+                  li.footer-link
+                    a(href='mailto:contacto@autoshopping.cl') contacto@autoshopping.cl
+              .col-md-3.col-xs-12
+                ul 
+                  li.footer-link
+                    .input-group
+                      input(type="text" placeholder="Suscríbete").form-control
+                      span.input-group-btn
+                        button(type="button").btn.btn-default.btn-enviar-footer Enviar
+                  li.footer-link
+                    a(href='https://www.facebook.com/Autoshoppingchile/', target="_blank") Encuentranos
+                  li.footer-link
+                    a(href='https://www.facebook.com/Autoshoppingchile/', target="_blank") 
+                      i.ion-social-facebook
+              
+        .container-fluid.footer-down
+          p.disclaimer
+            | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
       
     script(src='js/jquery.min.js')
     script(src='js/bootstrap.min.js')
