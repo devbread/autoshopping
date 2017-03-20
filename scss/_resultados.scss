@@ -22,7 +22,7 @@ section.resultados{
 		}
 		.btn-default{
 			@include breakpoint(small){
-				width: 96%;
+				width: 48%;
 			}
 		}
 	}

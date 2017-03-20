@@ -5995,7 +5995,14 @@ header {
       padding: 0px;
       font-size: 12px; }
       .footer-nav ul li i {
-        font-size: 2em; }
+        font-size: 2em;
+        background-color: #ffffff;
+        width: 30px;
+        height: 30px;
+        color: #033E76;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%; }
   @media (min-width: 992px) {
     .footer-nav {
       text-align: left; } }
@@ -6539,6 +6546,7 @@ header {
     margin-bottom: 20px;
     border-radius: 3px;
     -webkit-appearance: none;
+    -moz-appearance: none;
     background-color: #ffffff; }
   .buscador .formBusqueda, .buscador-usado .formBusqueda, .buscador-nuevos .formBusqueda, .buscador-motos .formBusqueda, .buscador-camiones .formBusqueda, .buscador-servicios .formBusqueda {
     -webkit-appearance: none;
@@ -6844,248 +6852,252 @@ header {
 
   .r-tabs .r-tabs-accordion-title {
     display: block; } }
-#parentHorizontalTab .imgLeft {
-  margin-top: 20px;
-  border-bottom: 10px solid #033E76; }
-#parentHorizontalTab .zonaContactos {
-  text-align: center;
-  color: #004275;
-  background-color: #F9F9F9;
-  border-radius: 8px;
-  height: 100px;
-  padding: 30px 0;
-  margin-top: 30px;
-  display: none; }
-  @media (min-width: 992px) {
-    #parentHorizontalTab .zonaContactos {
-      display: block; } }
-  #parentHorizontalTab .zonaContactos p {
-    background: transparent url("../img/tel.jpg") left center no-repeat;
-    font-size: 0.9em;
-    height: 40px;
-    line-height: 40px;
+#parentHorizontalTab {
+  margin-top: 20px !important; }
+  #parentHorizontalTab .imgLeft {
+    margin-top: 20px;
+    border-bottom: 10px solid #033E76; }
+  #parentHorizontalTab .zonaContactos {
     text-align: center;
-    margin: 0 auto;
-    width: 75%;
-    color: #004275; }
-  #parentHorizontalTab .zonaContactos .mail {
-    background: transparent url("../img/mail.jpg") left center no-repeat;
-    font-size: 0.9em;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin: 0 auto;
-    width: 75%;
-    padding: 40px;
-    color: #004275; }
-  #parentHorizontalTab .zonaContactos .fb {
-    background: transparent url("../img/fb.jpg") left center no-repeat;
-    font-size: 0.9em;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    margin: 0 auto;
-    width: 75%;
-    padding: 40px;
-    color: #004275; }
-#parentHorizontalTab #tab-1 h2, #parentHorizontalTab #tab-2 h2, #parentHorizontalTab #tab-3 h2, #parentHorizontalTab #tab-4 h2 {
-  color: #777575;
-  font-size: 1.5em;
-  font-weight: bold;
-  text-align: center; }
-  @media (min-width: 768px) {
-    #parentHorizontalTab #tab-1 h2, #parentHorizontalTab #tab-2 h2, #parentHorizontalTab #tab-3 h2, #parentHorizontalTab #tab-4 h2 {
-      text-align: left; } }
-#parentHorizontalTab #tab-1 .imgLeft, #parentHorizontalTab #tab-2 .imgLeft, #parentHorizontalTab #tab-3 .imgLeft, #parentHorizontalTab #tab-4 .imgLeft {
-  margin-top: 20px;
-  border-bottom: 10px solid #033E76; }
-#parentHorizontalTab .formSantiago, #parentHorizontalTab .formSerena, #parentHorizontalTab .formVina, #parentHorizontalTab .formConce, #parentHorizontalTab .formCotizacion {
-  margin-top: 20px;
-  position: relative;
-  padding-bottom: 20px; }
-  #parentHorizontalTab .formSantiago:after, #parentHorizontalTab .formSerena:after, #parentHorizontalTab .formVina:after, #parentHorizontalTab .formConce:after, #parentHorizontalTab .formCotizacion:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    background-color: #00B6ED; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .formSantiago:after, #parentHorizontalTab .formSerena:after, #parentHorizontalTab .formVina:after, #parentHorizontalTab .formConce:after, #parentHorizontalTab .formCotizacion:after {
-        display: none; } }
-  #parentHorizontalTab .formSantiago .inputswraper-top, #parentHorizontalTab .formSerena .inputswraper-top, #parentHorizontalTab .formVina .inputswraper-top, #parentHorizontalTab .formConce .inputswraper-top, #parentHorizontalTab .formCotizacion .inputswraper-top {
-    -webkit-border-top-left-radius: 8px;
-    -webkit-border-top-right-radius: 8px;
-    -moz-border-radius-topleft: 8px;
-    -moz-border-radius-topright: 8px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px; }
-  #parentHorizontalTab .formSantiago .inputswraper-bottom, #parentHorizontalTab .formSerena .inputswraper-bottom, #parentHorizontalTab .formVina .inputswraper-bottom, #parentHorizontalTab .formConce .inputswraper-bottom, #parentHorizontalTab .formCotizacion .inputswraper-bottom {
-    -webkit-border-bottom-right-radius: 8px;
-    -webkit-border-bottom-left-radius: 8px;
-    -moz-border-radius-bottomright: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px; }
-  #parentHorizontalTab .formSantiago input[type="text"], #parentHorizontalTab .formSantiago textarea, #parentHorizontalTab .formSerena input[type="text"], #parentHorizontalTab .formSerena textarea, #parentHorizontalTab .formVina input[type="text"], #parentHorizontalTab .formVina textarea, #parentHorizontalTab .formConce input[type="text"], #parentHorizontalTab .formConce textarea, #parentHorizontalTab .formCotizacion input[type="text"], #parentHorizontalTab .formCotizacion textarea {
-    width: 100%;
-    padding: 10px;
-    border: none; }
-  #parentHorizontalTab .formSantiago input[type="text"], #parentHorizontalTab .formSerena input[type="text"], #parentHorizontalTab .formVina input[type="text"], #parentHorizontalTab .formConce input[type="text"], #parentHorizontalTab .formCotizacion input[type="text"] {
-    border: 1px solid #00B6ED;
-    padding: 10px; }
-    #parentHorizontalTab .formSantiago input[type="text"]:nth-of-type(2), #parentHorizontalTab .formSerena input[type="text"]:nth-of-type(2), #parentHorizontalTab .formVina input[type="text"]:nth-of-type(2), #parentHorizontalTab .formConce input[type="text"]:nth-of-type(2), #parentHorizontalTab .formCotizacion input[type="text"]:nth-of-type(2) {
-      border-bottom: 0;
-      border-top: 0; }
-    #parentHorizontalTab .formSantiago input[type="text"]:last-child, #parentHorizontalTab .formSerena input[type="text"]:last-child, #parentHorizontalTab .formVina input[type="text"]:last-child, #parentHorizontalTab .formConce input[type="text"]:last-child, #parentHorizontalTab .formCotizacion input[type="text"]:last-child {
-      border-top: none; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .formSantiago input[type="text"], #parentHorizontalTab .formSerena input[type="text"], #parentHorizontalTab .formVina input[type="text"], #parentHorizontalTab .formConce input[type="text"], #parentHorizontalTab .formCotizacion input[type="text"] {
-        float: left;
-        width: 48% !important;
-        border-top: 1px solid #C6CFDA !important;
-        border-bottom: 1px solid #C6CFDA !important;
-        border-left: 1px solid #C6CFDA !important;
-        border-right: 1px solid #C6CFDA !important;
-        border-radius: 4px;
-        margin-right: 4%;
-        margin-bottom: 4%; }
-        #parentHorizontalTab .formSantiago input[type="text"]:nth-of-type(even), #parentHorizontalTab .formSerena input[type="text"]:nth-of-type(even), #parentHorizontalTab .formVina input[type="text"]:nth-of-type(even), #parentHorizontalTab .formConce input[type="text"]:nth-of-type(even), #parentHorizontalTab .formCotizacion input[type="text"]:nth-of-type(even) {
-          margin-right: 0; } }
-  #parentHorizontalTab .formSantiago textarea, #parentHorizontalTab .formSerena textarea, #parentHorizontalTab .formVina textarea, #parentHorizontalTab .formConce textarea, #parentHorizontalTab .formCotizacion textarea {
-    border: 1px solid #00B6ED;
-    padding: 10px;
+    color: #004275;
+    background-color: #F9F9F9;
     border-radius: 8px;
-    margin-top: 15px;
-    height: 175px; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .formSantiago textarea, #parentHorizontalTab .formSerena textarea, #parentHorizontalTab .formVina textarea, #parentHorizontalTab .formConce textarea, #parentHorizontalTab .formCotizacion textarea {
-        border: 1px solid #C6CFDA !important;
-        margin-top: 4px;
-        height: 140px; } }
-  #parentHorizontalTab .formSantiago input[type="submit"], #parentHorizontalTab .formSerena input[type="submit"], #parentHorizontalTab .formVina input[type="submit"], #parentHorizontalTab .formConce input[type="submit"], #parentHorizontalTab .formCotizacion input[type="submit"] {
-    width: 80%;
-    background-color: #00B6ED;
-    padding: 8px 40px;
-    color: #ffffff;
-    text-align: center;
-    border-radius: 6px;
-    border: none;
-    margin: 25px auto;
-    display: block;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: bold; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .formSantiago input[type="submit"], #parentHorizontalTab .formSerena input[type="submit"], #parentHorizontalTab .formVina input[type="submit"], #parentHorizontalTab .formConce input[type="submit"], #parentHorizontalTab .formCotizacion input[type="submit"] {
-        float: right;
-        background-color: #033E76;
-        width: 130px;
-        height: 40px;
-        padding: 0;
-        line-height: 41px; } }
-#parentHorizontalTab .dataAtencion {
-  margin-top: 40px; }
-  @media (min-width: 992px) {
-    #parentHorizontalTab .dataAtencion {
-      padding: 20px; } }
-  #parentHorizontalTab .dataAtencion .icocontact {
+    height: 100px;
+    padding: 30px 0;
+    margin-top: 30px;
     display: none; }
     @media (min-width: 992px) {
-      #parentHorizontalTab .dataAtencion .icocontact {
-        display: block;
-        float: left;
-        margin-right: 15px; } }
-  #parentHorizontalTab .dataAtencion h4 {
-    color: #6A6A6A;
+      #parentHorizontalTab .zonaContactos {
+        display: block; } }
+    #parentHorizontalTab .zonaContactos p {
+      background: transparent url("../img/tel.jpg") left center no-repeat;
+      font-size: 0.9em;
+      height: 40px;
+      line-height: 40px;
+      text-align: left;
+      padding-left: 40px;
+      margin: 0 auto;
+      width: 75%;
+      color: #004275; }
+    #parentHorizontalTab .zonaContactos .mail {
+      background: transparent url("../img/mail.jpg") left center no-repeat;
+      font-size: 0.9em;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin: 0 auto;
+      width: 75%;
+      padding: 40px;
+      color: #004275; }
+    #parentHorizontalTab .zonaContactos .fb {
+      background: transparent url("../img/fb.jpg") left center no-repeat;
+      font-size: 0.9em;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin: 0 auto;
+      width: 75%;
+      padding: 40px;
+      color: #004275; }
+  #parentHorizontalTab #tab-1 h2, #parentHorizontalTab #tab-2 h2, #parentHorizontalTab #tab-3 h2, #parentHorizontalTab #tab-4 h2 {
+    color: #777575;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; }
+    @media (min-width: 768px) {
+      #parentHorizontalTab #tab-1 h2, #parentHorizontalTab #tab-2 h2, #parentHorizontalTab #tab-3 h2, #parentHorizontalTab #tab-4 h2 {
+        text-align: left; } }
+  #parentHorizontalTab #tab-1 .imgLeft, #parentHorizontalTab #tab-2 .imgLeft, #parentHorizontalTab #tab-3 .imgLeft, #parentHorizontalTab #tab-4 .imgLeft {
+    margin-top: 20px;
+    border-bottom: 10px solid #033E76; }
+  #parentHorizontalTab .formSantiago, #parentHorizontalTab .formSerena, #parentHorizontalTab .formVina, #parentHorizontalTab .formConce, #parentHorizontalTab .formCotizacion {
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 20px; }
+    #parentHorizontalTab .formSantiago:after, #parentHorizontalTab .formSerena:after, #parentHorizontalTab .formVina:after, #parentHorizontalTab .formConce:after, #parentHorizontalTab .formCotizacion:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      background-color: #00B6ED; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .formSantiago:after, #parentHorizontalTab .formSerena:after, #parentHorizontalTab .formVina:after, #parentHorizontalTab .formConce:after, #parentHorizontalTab .formCotizacion:after {
+          display: none; } }
+    #parentHorizontalTab .formSantiago .inputswraper-top, #parentHorizontalTab .formSerena .inputswraper-top, #parentHorizontalTab .formVina .inputswraper-top, #parentHorizontalTab .formConce .inputswraper-top, #parentHorizontalTab .formCotizacion .inputswraper-top {
+      -webkit-border-top-left-radius: 8px;
+      -webkit-border-top-right-radius: 8px;
+      -moz-border-radius-topleft: 8px;
+      -moz-border-radius-topright: 8px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px; }
+    #parentHorizontalTab .formSantiago .inputswraper-bottom, #parentHorizontalTab .formSerena .inputswraper-bottom, #parentHorizontalTab .formVina .inputswraper-bottom, #parentHorizontalTab .formConce .inputswraper-bottom, #parentHorizontalTab .formCotizacion .inputswraper-bottom {
+      -webkit-border-bottom-right-radius: 8px;
+      -webkit-border-bottom-left-radius: 8px;
+      -moz-border-radius-bottomright: 8px;
+      -moz-border-radius-bottomleft: 8px;
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px; }
+    #parentHorizontalTab .formSantiago input[type="text"], #parentHorizontalTab .formSantiago textarea, #parentHorizontalTab .formSerena input[type="text"], #parentHorizontalTab .formSerena textarea, #parentHorizontalTab .formVina input[type="text"], #parentHorizontalTab .formVina textarea, #parentHorizontalTab .formConce input[type="text"], #parentHorizontalTab .formConce textarea, #parentHorizontalTab .formCotizacion input[type="text"], #parentHorizontalTab .formCotizacion textarea {
+      width: 100%;
+      padding: 10px;
+      border: none; }
+    #parentHorizontalTab .formSantiago input[type="text"], #parentHorizontalTab .formSerena input[type="text"], #parentHorizontalTab .formVina input[type="text"], #parentHorizontalTab .formConce input[type="text"], #parentHorizontalTab .formCotizacion input[type="text"] {
+      border: 1px solid #00B6ED;
+      padding: 10px; }
+      #parentHorizontalTab .formSantiago input[type="text"]:nth-of-type(2), #parentHorizontalTab .formSerena input[type="text"]:nth-of-type(2), #parentHorizontalTab .formVina input[type="text"]:nth-of-type(2), #parentHorizontalTab .formConce input[type="text"]:nth-of-type(2), #parentHorizontalTab .formCotizacion input[type="text"]:nth-of-type(2) {
+        border-bottom: 0;
+        border-top: 0; }
+      #parentHorizontalTab .formSantiago input[type="text"]:last-child, #parentHorizontalTab .formSerena input[type="text"]:last-child, #parentHorizontalTab .formVina input[type="text"]:last-child, #parentHorizontalTab .formConce input[type="text"]:last-child, #parentHorizontalTab .formCotizacion input[type="text"]:last-child {
+        border-top: none; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .formSantiago input[type="text"], #parentHorizontalTab .formSerena input[type="text"], #parentHorizontalTab .formVina input[type="text"], #parentHorizontalTab .formConce input[type="text"], #parentHorizontalTab .formCotizacion input[type="text"] {
+          float: left;
+          width: 48% !important;
+          border-top: 1px solid #C6CFDA !important;
+          border-bottom: 1px solid #C6CFDA !important;
+          border-left: 1px solid #C6CFDA !important;
+          border-right: 1px solid #C6CFDA !important;
+          border-radius: 4px;
+          margin-right: 4%;
+          margin-bottom: 4%; }
+          #parentHorizontalTab .formSantiago input[type="text"]:nth-of-type(even), #parentHorizontalTab .formSerena input[type="text"]:nth-of-type(even), #parentHorizontalTab .formVina input[type="text"]:nth-of-type(even), #parentHorizontalTab .formConce input[type="text"]:nth-of-type(even), #parentHorizontalTab .formCotizacion input[type="text"]:nth-of-type(even) {
+            margin-right: 0; } }
+    #parentHorizontalTab .formSantiago textarea, #parentHorizontalTab .formSerena textarea, #parentHorizontalTab .formVina textarea, #parentHorizontalTab .formConce textarea, #parentHorizontalTab .formCotizacion textarea {
+      border: 1px solid #00B6ED;
+      padding: 10px;
+      border-radius: 8px;
+      margin-top: 15px;
+      height: 175px; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .formSantiago textarea, #parentHorizontalTab .formSerena textarea, #parentHorizontalTab .formVina textarea, #parentHorizontalTab .formConce textarea, #parentHorizontalTab .formCotizacion textarea {
+          border: 1px solid #C6CFDA !important;
+          margin-top: 4px;
+          height: 140px; } }
+    #parentHorizontalTab .formSantiago input[type="submit"], #parentHorizontalTab .formSerena input[type="submit"], #parentHorizontalTab .formVina input[type="submit"], #parentHorizontalTab .formConce input[type="submit"], #parentHorizontalTab .formCotizacion input[type="submit"] {
+      width: 80%;
+      background-color: #00B6ED;
+      padding: 8px 40px;
+      color: #ffffff;
+      text-align: center;
+      border-radius: 6px;
+      border: none;
+      margin: 25px auto;
+      display: block;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: bold; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .formSantiago input[type="submit"], #parentHorizontalTab .formSerena input[type="submit"], #parentHorizontalTab .formVina input[type="submit"], #parentHorizontalTab .formConce input[type="submit"], #parentHorizontalTab .formCotizacion input[type="submit"] {
+          float: right;
+          background-color: #033E76;
+          width: 130px;
+          height: 40px;
+          padding: 0;
+          line-height: 41px; } }
+  #parentHorizontalTab .dataAtencion {
+    margin-top: 40px; }
+    @media (min-width: 992px) {
+      #parentHorizontalTab .dataAtencion {
+        padding: 20px; } }
+    #parentHorizontalTab .dataAtencion .icocontact {
+      display: none; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .dataAtencion .icocontact {
+          display: block;
+          float: left;
+          margin-right: 15px; } }
+    #parentHorizontalTab .dataAtencion h4 {
+      color: #6A6A6A;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 5px; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .dataAtencion h4 {
+          font-size: 20px;
+          margin-top: 4px; } }
+    #parentHorizontalTab .dataAtencion p {
+      color: #6A6A6A;
+      font-size: 0.9em; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .dataAtencion p {
+          font-size: 1em; } }
+    #parentHorizontalTab .dataAtencion .back {
+      background: #4990E2;
+      color: #ffffff;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 3px;
+      display: block;
+      font-weight: bold;
+      width: 60%;
+      padding: 10px;
+      margin: 20px auto; }
+      @media (min-width: 768px) {
+        #parentHorizontalTab .dataAtencion .back {
+          display: none; } }
+  #parentHorizontalTab .modelo {
+    font-size: 25px;
     text-align: left;
     font-weight: bold;
-    margin-bottom: 5px; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .dataAtencion h4 {
-        font-size: 20px;
-        margin-top: 4px; } }
-  #parentHorizontalTab .dataAtencion p {
     color: #6A6A6A;
-    font-size: 0.9em; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .dataAtencion p {
-        font-size: 1em; } }
-  #parentHorizontalTab .dataAtencion .back {
-    background: #4990E2;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 3px;
-    display: block;
-    font-weight: bold;
-    width: 60%;
-    padding: 10px;
-    margin: 20px auto; }
-    @media (min-width: 768px) {
-      #parentHorizontalTab .dataAtencion .back {
-        display: none; } }
-#parentHorizontalTab .modelo {
-  font-size: 25px;
-  text-align: left;
-  font-weight: bold;
-  color: #6A6A6A;
-  margin-bottom: 0; }
-#parentHorizontalTab .precio {
-  color: #6A6A6A;
-  font-weight: normal;
-  font-size: 18px;
-  margin-top: 0; }
-#parentHorizontalTab .formCotizacion {
-  /* to hide the checkbox itself */
-  /* unchecked icon */
-  /* space between checkbox and label */
-  /* checked icon */
-  /* allow space for check mark */ }
-  #parentHorizontalTab .formCotizacion:after {
-    display: none; }
-  #parentHorizontalTab .formCotizacion .checkwrapper {
-    width: 100%;
-    float: left;
-    margin: 20px 0 20px 0; }
-    #parentHorizontalTab .formCotizacion .checkwrapper .div-span {
-      position: relative; }
-      #parentHorizontalTab .formCotizacion .checkwrapper .div-span label {
-        margin-bottom: 15px; }
-        #parentHorizontalTab .formCotizacion .checkwrapper .div-span label span {
-          color: #4A90E2;
-          position: absolute;
-          top: 1px;
-          left: 30px;
-          font-weight: normal; }
-  #parentHorizontalTab .formCotizacion input[type=checkbox] {
-    display: none; }
-  #parentHorizontalTab .formCotizacion input[type=checkbox] + label:before {
-    display: inline-block;
-    font-weight: normal; }
-  #parentHorizontalTab .formCotizacion input[type=checkbox] + label:before {
-    content: url(../img/check.png);
-    width: 22px;
-    height: 22px;
-    background-color: #ffffff;
-    border-radius: 2px;
-    border: 2px solid #4990E2; }
-  #parentHorizontalTab .formCotizacion input[type=checkbox] + label:before {
-    letter-spacing: 10px; }
-  #parentHorizontalTab .formCotizacion input[type=checkbox]:checked + label:before {
-    content: url(../img/check.png);
-    width: 22px;
-    height: 22px;
-    background-color: #4990E2;
-    border: 2px solid #4990E2; }
-  #parentHorizontalTab .formCotizacion input[type=checkbox]:checked + label:before {
-    letter-spacing: 10px; }
-  #parentHorizontalTab .formCotizacion .btncotizar {
-    background-color: #4990E2 !important; }
-    @media (min-width: 992px) {
-      #parentHorizontalTab .formCotizacion .btncotizar {
-        background-color: #4990E2 !important;
-        float: left !important; } }
+    margin-bottom: 0;
+    margin-top: 20px; }
+  #parentHorizontalTab .precio {
+    color: #6A6A6A;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0; }
+  #parentHorizontalTab .formCotizacion {
+    /* to hide the checkbox itself */
+    /* unchecked icon */
+    /* space between checkbox and label */
+    /* checked icon */
+    /* allow space for check mark */ }
+    #parentHorizontalTab .formCotizacion:after {
+      display: none; }
+    #parentHorizontalTab .formCotizacion .checkwrapper {
+      width: 100%;
+      float: left;
+      margin: 20px 0 20px 0; }
+      #parentHorizontalTab .formCotizacion .checkwrapper .div-span {
+        position: relative; }
+        #parentHorizontalTab .formCotizacion .checkwrapper .div-span label {
+          margin-bottom: 15px; }
+          #parentHorizontalTab .formCotizacion .checkwrapper .div-span label span {
+            color: #4A90E2;
+            position: absolute;
+            top: 1px;
+            left: 30px;
+            font-weight: normal; }
+    #parentHorizontalTab .formCotizacion input[type=checkbox] {
+      display: none; }
+    #parentHorizontalTab .formCotizacion input[type=checkbox] + label:before {
+      display: inline-block;
+      font-weight: normal; }
+    #parentHorizontalTab .formCotizacion input[type=checkbox] + label:before {
+      content: url(../img/check.png);
+      width: 22px;
+      height: 22px;
+      background-color: #ffffff;
+      border-radius: 2px;
+      border: 2px solid #4990E2; }
+    #parentHorizontalTab .formCotizacion input[type=checkbox] + label:before {
+      letter-spacing: 10px; }
+    #parentHorizontalTab .formCotizacion input[type=checkbox]:checked + label:before {
+      content: url(../img/check.png);
+      width: 22px;
+      height: 22px;
+      background-color: #4990E2;
+      border: 2px solid #4990E2; }
+    #parentHorizontalTab .formCotizacion input[type=checkbox]:checked + label:before {
+      letter-spacing: 10px; }
+    #parentHorizontalTab .formCotizacion .btncotizar {
+      background-color: #4990E2 !important; }
+      @media (min-width: 992px) {
+        #parentHorizontalTab .formCotizacion .btncotizar {
+          background-color: #4990E2 !important;
+          float: left !important; } }
 
 .masterplan {
   display: none; }
@@ -7414,7 +7426,7 @@ section.resultados .caja-resultado {
     border-radius: 6px; }
   @media (min-width: 768px) {
     section.resultados .caja-resultado .btn-default {
-      width: 96%; } }
+      width: 48%; } }
 section.resultados img {
   width: 100%; }
 section.resultados .logo-concesionario {
@@ -7575,24 +7587,43 @@ body {
 .texto-pista {
   position: relative;
   width: 100%;
-  height: 160px;
-  margin: 70px auto 39px auto;
-  background-color: #033E76;
-  padding: 20px 160px 20px 400px; }
+  margin: 70px auto 10px auto;
+  padding: 20px;
+  background-color: #033E76; }
+  @media (min-width: 992px) {
+    .texto-pista {
+      padding: 10px 160px 20px 320px;
+      height: 160px;
+      margin: 70px auto 39px auto; } }
+  @media (min-width: 1200px) {
+    .texto-pista {
+      padding: 20px 160px 20px 350px; } }
   .texto-pista p, .texto-pista h3 {
     color: white; }
   .texto-pista h3 {
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 0 0 10px 0; }
+    @media (min-width: 992px) {
+      .texto-pista h3 {
+        margin-top: 20px;
+        margin-bottom: 10px; } }
   .texto-pista img {
     position: absolute;
     top: -40px;
-    left: 40px; }
+    left: 40px;
+    display: none; }
+    @media (min-width: 992px) {
+      .texto-pista img {
+        display: block; } }
 
 .texto-bajo-pista {
   background-color: #f9f9f9;
   text-align: center;
   margin-bottom: 40px;
-  padding: 30px 0; }
+  padding: 30px; }
+  @media (min-width: 992px) {
+    .texto-bajo-pista {
+      padding: 30px 0; } }
 
 #toggleButton {
   margin-bottom: 20px;
@@ -7621,7 +7652,7 @@ body {
   margin-top: 10%;
   width: 5%; }
 
-btn {
+.btn {
   /* Base: */
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.22), inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
   border-radius: 6px; }
@@ -7681,7 +7712,11 @@ h2.resp-accordion {
 
 .resp-tab-content {
   display: none;
-  padding: 15px 15px 15px 15px; }
+  padding: 15px 15px 15px 15px;
+  border-bottom: 1px solid #c1c1c1; }
+  @media (min-width: 992px) {
+    .resp-tab-content {
+      border-bottom: none; } }
 
 .resp-tab-active {
   padding: 12px 14px 14px 14px !important; }

@@ -23,23 +23,23 @@ html.no-js(lang='es')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#')
+              a(href='index.html')
                 span.icolink-1 
                 |Inicio
             li.pushy-link
-              a(href='#') 
+              a(href='contacto.html') 
                 span.icolink-2 
                 |Sucursales
             li.pushy-link
-              a(href='#') 
+              a(href='eventos-noticias.html') 
                 span.icolink-3 
                 |Eventos y noticias
             li.pushy-link
-              a(href='#')
+              a(href='quienes.html')
                 span.icolink-4  
                 |Quienes somos
             li.pushy-link
-              a(href='#')
+              a(href='contacto.html')
                 span.icolink-5 
                 |Contáctenos
           form.formMovil
@@ -61,7 +61,7 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="#") 
+                  a(href="contacto.html") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
@@ -76,15 +76,15 @@ html.no-js(lang='es')
             .navColapseNuevos
               ul
                 li
-                  a.nuevos(href="") Autos nuevos
+                  a.nuevos(href="buscador-autos-usados.html") Autos nuevos
                 li
-                  a.usados(href="") Autos usados
+                  a.usados(href="buscador-usados.html") Autos usados
                 li
-                  a.motos(href="") Motos
+                  a.motos(href="buscador-motos.html") Motos
                 li
-                  a.camiones(href="") Camiones
+                  a.camiones(href="buscador-camiones.html") Camiones
                 li
-                  a.servicios(href="") Servicios
+                  a.servicios(href="servicios.html") Servicios
           section.resultados
             .row
               .col-sm-1
@@ -107,63 +107,90 @@ html.no-js(lang='es')
                   .caption.col-md-6
                     h3 Concesionarios
                     p Actualmente nuestros operadores son Derco y Gildemeister, con mas de 12 marcas de prestigio y líderes de mercado. Con una amplia gama de vehículos que van desde los City Cars, Vehículos familiares, Todo Terreno, Motos hasta transporte de pasajeros.
-                .pista-prueba
+                .pista-prueba.visible-xs.hidden-md.hidden-lg
                   h3 Pista de prueba
                   .embed-responsive.embed-responsive-16by9
                     iframe.embed-responsive-item(width="560" height="315" src="https://www.youtube.com/embed/JGwWNGJdvx8" frameborder="0" allowfullscreen)
               .col-sm-1
+        section.cajas-info
+          .container
+            .row
+              .col-md-1
+              .col-md-10
+                  .row
+                    .col-md-4
+                      .caja-info__contacto
+                        .caja-info__icoInfo
+                          img.responsive(src="img/mail-1.png", alt="") 
+                        h3 Contacto
+                        p 
+                          a(href="contacto.html")|Estamos atentos de resolver cualquier duda o consulta que tenga sobre autos.
+                    .col-md-4
+                      .caja-info__promos
+                        .caja-info__icoInfo
+                          img.responsive(src="img/promociones-1.png", alt="")
+                        h3 Promociones
+                        p 
+                          a(href="promociones.html")|Sorpréndete y conoce las mejores promociones de autos o servicios.
+                    .col-md-4
+                      .caja-info__pistas
+                        .caja-info__icoInfo
+                          img.responsive(src="img/pista.png", alt="")
+                        h3 Pista de prueba
+                        p 
+                          a(href="pista.html")|Estamos atentos de resolver cualquier duda o consulta qu etenga sobre autos.
 
         .container-fluid.footer-nav
-            .container.no-padding
-              nav
-                .col-md-2.col-sm-6.caja-footer
-                  h4 General
-                  ul
-                    li.footer-link
-                      a(href='#') Inicio
-                    li.footer-link
-                      a(href='#') Sucursales
-                    li.footer-link
-                      a(href='#') Eventos y noticias
-                    li.footer-link
-                      a(href='#') Quienes somos
-                    li.footer-link
-                      a(href='#') Contáctenos
-                .col-md-2.col-sm-6.caja-footer
-                  h4 Horarios
-                  ul
-                    li.footer-link
-                      a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
-                    
-                .col-md-2.col-sm-6.caja-footer
-                  h4 Dirección
-                  ul
-                    li.footer-link
-                      a(href='#') Santiago:<br> Departamental #4500,<br> Macul.
-                .col-md-3.col-sm-6.caja-footer
-                  h4 Contáctanos
-                  ul
-                    li.footer-link
-                      a(href='#') Teléfono: (2) 2701 2407
-                    li.footer-link
-                      a(href='#') contacto@autoshopping.cl
-                .col-xs-1
-                .col-md-3.col-xs-10
-                  ul 
-                    li.footer-link
-                      .input-group
-                        input(type="text" placeholder="Suscríbete").form-control
-                        span.input-group-btn
-                          button(type="button").btn.btn-default.btn-enviar-footer Enviar
-                    li.footer-link
-                      a(href='#') Encuentranos
-                    li.footer-link
-                      a(href='#') 
-                        i.ion-social-facebook
-                .col-xs-1
-          .container-fluid.footer-down
-            p.disclaimer
-              | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+          .container.no-padding
+            nav
+              .col-md-2.col-sm-6.caja-footer.no-padding
+                h4 General
+                ul
+                  li.footer-link
+                    a(href='index.html') Inicio
+                  li.footer-link
+                    a(href='contacto.html') Sucursales
+                  li.footer-link
+                    a(href='eventos-noticias.html') Eventos y noticias
+                  li.footer-link
+                    a(href='quienes.html') Quiénes somos
+                  li.footer-link
+                    a(href='contacto.html') Contáctenos
+              .col-md-2.col-sm-6.caja-footer
+                h4 Horarios
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+                  
+              .col-md-2.col-sm-6.caja-footer
+                h4 Dirección
+                ul
+                  li.footer-link
+                    a(href='https://goo.gl/maps/PRpxWXcnqZ72', target="_blank") Santiago:<br> Departamental #4500,<br> Macul.
+              .col-md-3.col-sm-6.caja-footer
+                h4 Contáctanos
+                ul
+                  li.footer-link
+                    a(href='tel:227012407') Teléfono: (2) 2701 2407
+                  li.footer-link
+                    a(href='mailto:contacto@autoshopping.cl') contacto@autoshopping.cl
+              .col-md-3.col-xs-12
+                ul 
+                  li.footer-link
+                    .input-group
+                      input(type="text" placeholder="Suscríbete").form-control
+                      span.input-group-btn
+                        button(type="button").btn.btn-default.btn-enviar-footer Enviar
+                  li.footer-link
+                    a(href='https://www.facebook.com/Autoshoppingchile/', target="_blank") Encuentranos
+                  li.footer-link
+                    a(href='https://www.facebook.com/Autoshoppingchile/', target="_blank") 
+                      i.ion-social-facebook
+              
+        .container-fluid.footer-down
+          p.disclaimer
+            | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+
       
     script(src='js/jquery.min.js')
     script(src='js/bootstrap.min.js')
