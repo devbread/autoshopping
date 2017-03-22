@@ -1,0 +1,453 @@
+doctype html
+html.no-js(lang='es')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='x-ua-compatible', content='ie=edge')
+        title
+        meta(name='description', content='')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='apple-touch-icon', href='apple-touch-icon.png')
+        //- Place favicon.ico in the root directory
+
+        link(rel='stylesheet', href='css/styles.css')
+        link(rel='stylesheet', href='css/pushy.css')
+        link(rel='stylesheet', href='css/owl.carousel.min.css')
+        link(rel='stylesheet', href='css/owl.theme.default.min.css')
+        link(rel='stylesheet', href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+
+        script(src='js/modernizr.js')
+    body
+            //- Pushy Menu
+            nav.pushy.pushy-right(data-focus='#first-link')
+                .pushy-content
+                  ul
+                    li.pushy-link
+                      a(href='index.html')
+                        span.icolink-1 
+                        |Inicio
+                    li.pushy-link
+                      a(href='contacto.html') 
+                        span.icolink-2 
+                        |Sucursales
+                    li.pushy-link
+                      a(href='eventos-noticias.html') 
+                        span.icolink-3 
+                        |Eventos y noticias
+                    li.pushy-link
+                      a(href='quienes.html')
+                        span.icolink-4  
+                        |Quienes somos
+                    li.pushy-link
+                      a(href='contacto.html')
+                        span.icolink-5 
+                        |Contáctenos
+                    form.formMovil
+                        input.searchMovil(type="search", placeholder="buscar en el sitio")
+                        button.buscarMovil
+                            i.ion-ios-search-strong
+            //- Site Overlay
+            .site-overlay
+            #container
+                .container
+                    .row
+                        header.col-sm-12
+                            a.logo(href="index.html")
+                                img.img-responsive(src="img/logo.png", alt="")
+                            button.menu-btn 
+                                i.ion-navicon
+                            form.buscadorDesktop
+                                input.desk(type="search", placeholder="Buscar en el sitio")
+                                button.desk-search
+                                    i.ion-ios-search-strong
+                                .btnContact
+                                    a(href="contacto.html") 
+                                        img(src="img/btnContact.png", alt="")
+                .container            
+                    section.ficha
+                        .row
+                            .superior-foto.col-md-8
+                                .row
+                                    .col-md-7.col-sm-6
+                                        .cuadro-foto
+                                            h2 FORD MUSTANG
+                                            .bg
+                                                //- a.link_rect(title="Image 1" href="#")
+                                                //-     img(src="img/ford_01.jpg", alt="Autos Nuevos" id="image-1" class="thumbnail img-responsive reset-thumbnail" style="width:100%;")
+                                                //- .overlay
+                                                    //- img(src="img/ford_01.jpg", alt="Autos Nuevos" id="image-1" class="thumbnail img-responsive reset-thumbnail" style="width:100%;")
+                                                    //- .cuadro-gris
+                                                    //-     i.ion-plus-circled
+                                                    //-     p FOTOS
+                                                .ih-item.square.effect13.bottom_to_top
+                                                  a(href='#')
+                                                    .img
+                                                      img(src="img/ford_01.jpg", alt="Autos Nuevos" id="image-1" class="thumbnail img-responsive reset-thumbnail" style="width:100%;")
+                                                    .info
+                                                      h3 ver galería
+                                                        //- i.ion-plus-circled
+                                                      //- p ver fotos
+
+                                                
+                                        .row.banda-rrss
+                                            .col-xs-4.col-sm-4.col-md-5.col-lg-6.no-padding-left
+                                                hr
+                                            .col-xs-3.col-sm-3.col-md-3.col-lg-2.no-padding
+                                                p.texto-compartir Compartir 
+                                                    i.ion-arrow-right-b
+                                            .col-xs-5.col-sm-5.col-md-4.icono-rrss
+                                                a(href='#')
+                                                    .circulo-azul  
+                                                        i.ion-social-facebook
+                                                a(href='#')
+                                                    .circulo-celeste  
+                                                        i.ion-social-twitter
+                                                a(href='#')
+                                                    .circulo-anaranjado
+                                                        img(src="img/g+.png")
+                                    .col-md-5.col-sm-6
+                                        table.table.table-striped.primera-tabla
+                                            tr.camiones-bg
+                                                th Precio
+                                                td(colspan="2" align="right") $15.000.999
+                                            tr
+                                                td
+                                                    i.ion-android-calendar
+                                                th Año
+                                                td(align="right") 2012
+                                            tr
+                                                td 
+                                                    i.ion-ios-speedometer-outline
+                                                th Kilometraje
+                                                td(align="right") 131.746
+                                            tr
+                                                td 
+                                                    img(src="img/transmision.png")
+                                                th Transmisión
+                                                td(align="right") Manual
+                                        table.table.table-striped
+                                            tr
+                                                th Concesionario
+                                                td(align="right") 
+                                                    img(src="img/logo_derco.png")
+                                            tr
+                                                th Nombre
+                                                td(align="right") Patricio Ulloa
+                                            tr
+                                                th Mail
+                                                td(align="right") ulloa@derco.cl
+                                            tr
+                                                th Telefono
+                                                td(align="right") 9 5118 6558
+                                    .col-md-6.hidden-xs.hidden-sm
+                                        table.table.table-striped.segunda-tabla.bordered
+                                            tr(align="center")
+                                                th Año
+                                                td 2010
+                                            tr(align="center")
+                                                th Precio
+                                                td $5.000.999
+                                            tr(align="center")
+                                                th Kilometraje
+                                                td 131.746
+                                            tr(align="center")
+                                                th Tipo
+                                                td Automóvil
+                                            tr(align="center")
+                                                th Cilndrada
+                                                td 1.300 cc.
+                                            tr(align="center")
+                                                th Llantas
+                                                td No
+                                            tr(align="center")
+                                                th Frenos ABS
+                                                td No
+                                            tr(align="center")
+                                                th Airbag
+                                                td Si
+                                            tr(align="center")
+                                                th Espejo Eléctrico
+                                                td Si
+                                    .col-md-6.hidden-xs.hidden-sm
+                                        table.table.table-striped.segunda-tabla.bordered
+                                            tr(align="center")
+                                                th Velocidad Crucero
+                                                td No
+                                            tr(align="center")
+                                                th 4x4
+                                                td No
+                                            tr(align="center")
+                                                th Aire Acondicionado
+                                                td Si
+                                            tr(align="center")
+                                                th Cierre Centralizado
+                                                td Si
+                                            tr(align="center")
+                                                th Dirección Hidráulica
+                                                td No
+                                            tr(align="center")
+                                                th Alza Vidrios
+                                                td Si
+                                            tr(align="center")
+                                                th Alarma
+                                                td Si
+                                            tr(align="center")
+                                                th Tapiz Cuero
+                                                td No
+                                            tr(align="center")
+                                                th Local
+                                                td Departamental
+                                .col-xs-12.hidden-md.hidden-lg.no-padding
+                                    button#toggleButton
+                                        span Más Detalles >
+                                    .col-md-6#disclaimer.no-padding(style="display:none;")
+                                        table.table.table-striped.segunda-tabla.bordered
+                                            tr(align="center")
+                                                th Año
+                                                td 2010
+                                            tr(align="center")
+                                                th Precio
+                                                td $5.000.999
+                                            tr(align="center")
+                                                th Kilometraje
+                                                td 131.746
+                                            tr(align="center")
+                                                th Tipo
+                                                td Automóvil
+                                            tr(align="center")
+                                                th Cilndrada
+                                                td 1.300 cc.
+                                            tr(align="center")
+                                                th Llantas
+                                                td No
+                                            tr(align="center")
+                                                th Frenos ABS
+                                                td No
+                                            tr(align="center")
+                                                th Airbag
+                                                td Si
+                                            tr(align="center")
+                                                th Espejo Eléctrico
+                                                td Si
+                                        table.table.table-striped.segunda-tabla.bordered.no-padding
+                                            tr(align="center")
+                                                th Velocidad Crucero
+                                                td No
+                                            tr(align="center")
+                                                th 4x4
+                                                td No
+                                            tr(align="center")
+                                                th Aire Acondicionado
+                                                td Si
+                                            tr(align="center")
+                                                th Cierre Centralizado
+                                                td Si
+                                            tr(align="center")
+                                                th Dirección Hidráulica
+                                                td No
+                                            tr(align="center")
+                                                th Alza Vidrios
+                                                td Si
+                                            tr(align="center")
+                                                th Alarma
+                                                td Si
+                                            tr(align="center")
+                                                th Tapiz Cuero
+                                                td No
+                                            tr(align="center")
+                                                th Local
+                                                td Departamental
+                            .hidden#img-repo
+                                .item#image-1
+                                    img(title="Image 11" src="img/img_01.jpg").thumbnail.img-responsive
+                                .item#image-1
+                                    img(title="Image 12" src="img/img_02.jpg").thumbnail.img-responsive
+                                .item#image-1
+                                    img(title="Image 13" src="img/img_03.jpg").thumbnail.img-responsive
+                            #modal-gallery.modal(role='dialog')
+                                .modal-dialog
+                                    .modal-content
+                                        .modal-header
+                                            button.close(type='button', data-dismiss='modal') ×
+                                        .modal-body
+                                            #modal-carousel.carousel
+                                                .carousel-inner
+                                                a.carousel-control.left(href='#modal-carousel', data-slide='prev')
+                                                    i.glyphicon.glyphicon-chevron-left
+                                                a.carousel-control.right(href='#modal-carousel', data-slide='next')
+                                                    i.glyphicon.glyphicon-chevron-right
+
+                            #sidebar.sidebar-offcanvas.col-md-4.hidden-sm.hidden-xs
+                                .cuadro-cotizacion
+                                    form#contact_form.well.form-horizontal(action=' ', method='post')
+                                        fieldset
+                                            // Form Name
+                                            legend Cotiza aquí
+                                            // Text input
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='first_name', placeholder='Nombre', type='text')
+                                            // Text input
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='last_name', placeholder='Apellido', type='text')
+                                            // Text input
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='phone', placeholder='(845)555-1212', type='text')
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='email', placeholder='Mail', type='text')
+                                            // Text input
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='address', placeholder='Marca', type='text')
+                                            // Text input
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='city', placeholder='Modelo', type='text')
+                                            
+                                            // Text input
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    input.form-control(name='zip', placeholder='Año', type='text')
+                                            // Text area
+                                            .form-group
+                                                .col-md-12.inputGroupContainer
+                                                    textarea.form-control(name='comment', placeholder='Comentarios')
+                                            // Success message
+                                            #success_message.alert.alert-success.hidden(role='alert')
+                                                | Success 
+                                                i.glyphicon.glyphicon-thumbs-up
+                                                |  Thanks for contacting us, we will get back to you shortly.
+                                            // Button
+                                            .form-group
+                                                label.col-md-8.control-label
+                                                .col-md-4.fila-boton
+                                                    button.btn.btn-warning.camiones-bg(type='submit')
+                                                        | Enviar 
+                .container.hidden-md.hidden-lg
+                    .row
+                        .col-xs-1
+                        .col-xs-10
+                            .row
+                                .col-sm-6
+                                    a(href="#").btn-success.btn.btn-100 LLAMAR
+                                .col-sm-6
+                                    a(href="cotizacion.html").btn-primary.btn.btn-100 COTIZAR
+                        .col-xs-1
+
+
+                .container
+                    .recomendacion
+                        h3 ADEMÁS TE RECOMENDAMOS ESTOS MODELOS NUEVOS
+                        .col-md-4.col-sm-4
+                            img(src="img/recomendado_01.png" style="display:block;")
+                            a(href="#" style="display:block;") Hyundai HR-V • año 2017 • $18.980.000
+                        .col-md-4.col-sm-4
+                            img(src="img/recomendado_01.png" style="display:block;")
+                            a(href="#" style="display:block;") Chevrolet Cruze • año 2017 • $9.390.000
+                        .col-md-4.col-sm-4
+                            img(src="img/recomendado_01.png" style="display:block;")
+                            a(href="#" style="display:block;") Subaru Impreza • año 2017 • $11.390.000
+                .container
+                    section.recomendacion-usados
+                        h3 ADEMÁS TE RECOMENDAMOS ESTOS MODELOS USADOS
+                        .col-md-4.col-sm-4
+                            img(src="img/usados_01.png" style="display:block;")
+                            a(href="#" style="display:block;") Hyundai HR-V • año 2017 • $18.980.000
+                        .col-md-4.col-sm-4
+                            img(src="img/usados_01.png" style="display:block;")
+                            a(href="#" style="display:block;") Chevrolet Cruze • año 2017 • $9.390.000
+                        .col-md-4.col-sm-4
+                            img(src="img/usados_01.png" style="display:block;")
+                            a(href="#" style="display:block;") Subaru Impreza • año 2017 • $11.390.000
+                section.mainColor#selector.hidden-xs.hidden-sm
+                  .container 
+                    .row
+                      .btnsCuadros
+                        h1 Encuentra la alternativa que buscas en:
+                        .col-md-1
+                        .col-xs-12.plNo.col-sm-4.col-md-2
+                          a.link_rect.color-1(href="buscador-autos-nuevos.html")
+                            .icoSelector
+                              img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
+                              p Autos Nuevos
+                        .col-xs-12.col-sm-4.col-md-2
+                          a.link_rect.my-inline-block-class.color-2(href="buscador-usados.html")
+                            .icoSelector()
+                              img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Nuevos")
+                              p Autos Usados
+                        .col-xs-12.plNo.col-sm-4.col-md-2
+                          a.link_rect.my-inline-block-class.color-3(href="buscador-motos.html")
+                            .icoSelector()
+                              img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
+                              p Motos
+                        .col-xs-12.col-sm-6.col-md-2
+                          a.link_rect.my-inline-block-class.color-4(href="buscador-camiones.html")
+                            .icoSelector()
+                              img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
+                              p Camiones
+                        .col-xs-12.col-sm-6.col-md-2
+                          a.link_rect.my-inline-block-class.color-5.centro(href="servicios.html")
+                            .icoSelector()
+                              img.img-responsive(src="img/servicios.png", alt="servicios")
+                              p Servicios
+                                .col-md-1
+        .container-fluid.footer-nav
+          .container.no-padding
+            nav
+              .col-md-2.col-sm-6.caja-footer.no-padding
+                h4 General
+                ul
+                  li.footer-link
+                    a(href='index.html') Inicio
+                  li.footer-link
+                    a(href='contacto.html') Sucursales
+                  li.footer-link
+                    a(href='eventos-noticias.html') Eventos y noticias
+                  li.footer-link
+                    a(href='quienes.html') Quiénes somos
+                  li.footer-link
+                    a(href='contacto.html') Contáctenos
+              .col-md-2.col-sm-6.caja-footer
+                h4 Horarios
+                ul
+                  li.footer-link
+                    a(href='#') Santiago:  <br>Lunes a domingo  de<br> 10.00 a 20.00 hrs.
+                  
+              .col-md-2.col-sm-6.caja-footer
+                h4 Dirección
+                ul
+                  li.footer-link
+                    a(href='https://goo.gl/maps/PRpxWXcnqZ72', target="_blank") Santiago:<br> Departamental #4500,<br> Macul.
+              .col-md-3.col-sm-6.caja-footer
+                h4 Contáctanos
+                ul
+                  li.footer-link
+                    a(href='tel:227012407') Teléfono: (2) 2701 2407
+                  li.footer-link
+                    a(href='mailto:contacto@autoshopping.cl') contacto@autoshopping.cl
+              .col-md-3.col-xs-12
+                ul 
+                  li.footer-link
+                    .input-group
+                      input(type="text" placeholder="Suscríbete").form-control
+                      span.input-group-btn
+                        button(type="button").btn.btn-default.btn-enviar-footer Enviar
+                  li.footer-link
+                    a(href='https://www.facebook.com/Autoshoppingchile/', target="_blank") Encuentranos
+                  li.footer-link
+                    a(href='https://www.facebook.com/Autoshoppingchile/', target="_blank") 
+                      i.ion-social-facebook
+              
+        .container-fluid.footer-down
+          p.disclaimer
+            | El uso de este sitio web implica la aceptación de los Términos y Condiciones y de las Políticas de Privacidad de Autoshopping.cl
+                        
+    script(src='js/jquery.min.js')
+    script(src='js/lightbox.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/owl.carousel.min.js')
+    script(src='js/main.js')
+    script(src='js/flowtype.js')
+    script(src='js/pushy.min.js')
