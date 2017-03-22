@@ -79,3 +79,5 @@ config.codekit
 *.codekit
 
 *.codekit
+
+config.codekit
