@@ -2831,6 +2831,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/ficha-camiones-2.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ficha-camiones-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/ficha-camiones.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2884,6 +2893,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/amicar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18820,
+		"inputAbbreviatedPath": "\/img\/amicar.jpg",
+		"outputAbbreviatedPath": "\/img\/amicar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/arrow-select-green.png": {
 		"fileType": 32768,
@@ -3413,6 +3433,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/escuela-motos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67650,
+		"inputAbbreviatedPath": "\/img\/escuela-motos.jpg",
+		"outputAbbreviatedPath": "\/img\/escuela-motos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/estacionamientos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59429,
+		"inputAbbreviatedPath": "\/img\/estacionamientos.jpg",
+		"outputAbbreviatedPath": "\/img\/estacionamientos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/fb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3798,6 +3840,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/img-service-interior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205264,
+		"inputAbbreviatedPath": "\/img\/img-service-interior.jpg",
+		"outputAbbreviatedPath": "\/img\/img-service-interior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/img_01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3860,6 +3913,17 @@
 		"initialSize": 3721,
 		"inputAbbreviatedPath": "\/img\/kimco.jpg",
 		"outputAbbreviatedPath": "\/img\/kimco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lavado.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77619,
+		"inputAbbreviatedPath": "\/img\/lavado.jpg",
+		"outputAbbreviatedPath": "\/img\/lavado.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4051,6 +4115,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/pista-pruebas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55097,
+		"inputAbbreviatedPath": "\/img\/pista-pruebas.jpg",
+		"outputAbbreviatedPath": "\/img\/pista-pruebas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pista.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4150,6 +4225,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/serv-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2951,
+		"inputAbbreviatedPath": "\/img\/serv-1.png",
+		"outputAbbreviatedPath": "\/img\/serv-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/serv-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1463,
+		"inputAbbreviatedPath": "\/img\/serv-2.png",
+		"outputAbbreviatedPath": "\/img\/serv-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/serv-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2237,
+		"inputAbbreviatedPath": "\/img\/serv-3.png",
+		"outputAbbreviatedPath": "\/img\/serv-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/serv-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1126,
+		"inputAbbreviatedPath": "\/img\/serv-4.png",
+		"outputAbbreviatedPath": "\/img\/serv-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/serv-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1555,
+		"inputAbbreviatedPath": "\/img\/serv-5.png",
+		"outputAbbreviatedPath": "\/img\/serv-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/serv-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2188,
+		"inputAbbreviatedPath": "\/img\/serv-6.png",
+		"outputAbbreviatedPath": "\/img\/serv-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/servicios.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4223,6 +4364,17 @@
 		"initialSize": 133937,
 		"inputAbbreviatedPath": "\/img\/thumbnail.png",
 		"outputAbbreviatedPath": "\/img\/thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/transferencias.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51645,
+		"inputAbbreviatedPath": "\/img\/transferencias.jpg",
+		"outputAbbreviatedPath": "\/img\/transferencias.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4379,6 +4531,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/jade\/ficha-camiones-2.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/ficha-camiones-2.jade",
+		"outputAbbreviatedPath": "\/ficha-camiones.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/jade\/ficha-camiones.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -4411,15 +4574,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
-		},
-	"\/jade\/ficha-usados.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/ficha-usados.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/ficha-usados.jade": {
 		"compileDebug": 1,
@@ -4538,6 +4692,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/resultados-usados.jade",
 		"outputAbbreviatedPath": "\/resultados-usados.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/servicios-single.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/servicios-single.jade",
+		"outputAbbreviatedPath": "\/servicios-single.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/servicios.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/servicios.jade",
+		"outputAbbreviatedPath": "\/servicios.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -5070,6 +5246,24 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/servicios-single.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/servicios-single.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/servicios.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/servicios.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/styles.scss": {
 		"createSourceMap": 0,
