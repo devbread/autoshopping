@@ -11562,9 +11562,12 @@ header {
     padding: 8px 15px;
     display: block;
     margin-top: 1em;
-    width: 10%;
+    width: 25%;
     margin: 1em auto;
     position: relative; }
+    @media (min-width: 992px) {
+      .resultados .servicios a.back {
+        width: 10%; } }
     .resultados .servicios a.back:after {
       content: "";
       position: absolute;
