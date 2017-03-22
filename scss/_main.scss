@@ -1587,9 +1587,12 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 			padding: 8px 15px;
 			display: block;
 			margin-top: 1em;
-			width: 10%;
+			width: 25%;
 			margin:1em auto;
 			position: relative;
+			@include breakpoint(medium){
+				width: 10%;
+			}
 			&:after{
 				content: "";
 				position: absolute;
