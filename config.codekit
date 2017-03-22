@@ -4702,9 +4702,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/servicios-single.jade",
-		"outputAbbreviatedPath": "\/jade\/servicios-single.html",
+		"outputAbbreviatedPath": "\/servicios-single.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/jade\/servicios.jade": {
