@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+.fixclear{
+	clear: both;
+}
+
 .ocultar{
 	display: none;
 	@include breakpoint(medium){
@@ -1564,4 +1568,69 @@ ul.nav.nav-tabs.nav-stacked.text-center{
 		}
     }
 
+}
+
+//servicios
+
+.resultados{
+	.servicios{
+		margin: 1.5em 0 1em 0;
+		.boxColors_img-img{
+			border-radius: 8px;
+		}
+	}
+	.boxColors{
+		padding: 10px;
+		border-radius: 8px;	
+		margin-bottom: 1.5em;
+		h3{
+			color: #6A6A6A;
+			font-weight: bold;
+			line-height: 35px;
+			margin-bottom: 1em;
+			& .icoServicio{
+				float: left;
+				width: 35px;
+				margin-right: 10px;
+
+			}
+		}
+		p{
+			color: #8C8C8E;
+			text-align: left;
+			line-height: 20px;
+			font-size: 1em;
+		}
+		a.more{
+			color: #2985CB;
+			position: relative;
+			font-size: 0.9em;
+			&:after{
+				content:"";
+				position: absolute;
+				width: 0;
+				height: 0;
+				right:-15px;
+				top: 28%;
+				border-style: solid;
+				border-width: 5px 0 5px 10px;
+				border-color: transparent transparent transparent #2985cb;
+			}
+		}
+		.boxColors_img{
+			margin-top: 20px;
+		}
+		.boxColors_img-img{
+			border-radius: 8px;
+		}
+		.boxColors_img-borde{
+			border:1px solid #979797;
+		}
+	}
+	.borde-1{border:1px solid #7ED321;}
+	.borde-2{border:1px solid #F8E81C;}
+	.borde-3{border:1px solid #EA6C2D;}
+	.borde-4{border:1px solid #2985CB;}
+	.borde-5{border:1px solid #42C3E5;}
+	.borde-6{border:1px solid #2D096B;}
 }
