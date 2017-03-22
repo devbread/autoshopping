@@ -4702,9 +4702,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/servicios-single.jade",
-		"outputAbbreviatedPath": "\/servicios-single.html",
+		"outputAbbreviatedPath": "\/jade\/servicios-single.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/js\/bootstrap.min.js": {
