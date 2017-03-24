@@ -61,17 +61,26 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
             .busqTitulo.quienes-titulo.hidden-md.hidden-lg
-              h1 Quienes Somos 
-                span
-                  img.img-responsive.iconSection(src="img/icon_people.png", alt="") 
-                a.buttonColapse(href="#")
-                  i.ion-chevron-down.arrow-down
-                  i.ion-chevron-up.arrow-up
+              //- h1 Quienes Somos 
+              //-   span
+              //-     img.img-responsive.iconSection(src="img/icon_people.png", alt="") 
+              //-   a.buttonColapse(href="#")
+              //-     i.ion-chevron-down.arrow-down
+              //-     i.ion-chevron-up.arrow-up
+              //- .clearfix
+              span.iconSection
+                img.img-responsive(src="img/icon_people.png", alt="")
+              .titImagetop
+                .titImagetopImg
+                  h1 Quienes Somos
+              a.buttonColapse(href="#")
+                i.ion-chevron-down.arrow-down
+                i.ion-chevron-up.arrow-up
               .clearfix
             .navColapseNuevos
               ul
@@ -139,6 +148,10 @@ html.no-js(lang='es')
                         h3 Pista de prueba
                         p 
                           a(href="pista.html")|Estamos atentos de resolver cualquier duda o consulta qu etenga sobre autos.
+
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
 
         .container-fluid.footer-nav
           .container.no-padding

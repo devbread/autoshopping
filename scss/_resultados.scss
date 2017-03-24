@@ -46,6 +46,7 @@ nav.page-navigation{
 			background-color:$blue;
 		}
 	}
+
 	.pagination > li > a{
 		border:none;
 		padding:8px 15px;
@@ -55,5 +56,12 @@ nav.page-navigation{
 			color: $blue;
 		}
 		
+	}
+}
+
+nav.page-navigation ul li.nop{
+	display: none;
+	@include breakpoint(medium){
+		display: inline;
 	}
 }

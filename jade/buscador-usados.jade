@@ -58,13 +58,16 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="#") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
             .busqTitulo
               //- span.iconSection
-              //-   img.img-responsive(src="img/icon-usado.jpg", alt="") 
+              //-   img.img-responsive(src="img/icon-usado.jpg", alt="")
+              .back
+                a.back_link(href="javascript:history.back(1)")
+                  i.ion-chevron-left 
               .titImagetop
                 .titImagetopImg
                   img.img-responsive(src="img/ico-usados.png", alt="")
@@ -93,10 +96,11 @@ html.no-js(lang='es')
                   .col-md-1
                   .col-md-3
                     select
-                      option Tipo
+                      option Marca
                   .col-md-4
                     select
-                      option Marca
+                      option Tipo
+                      input.input-oculto-usados.inputOculto(type="text", placeholder="buscar modelo")
                   .col-md-3
                     select
                       option Modelo
@@ -202,39 +206,47 @@ html.no-js(lang='es')
                       img(src="img/suzuki.jpg", alt="suzuki")
             .col-xs-1
         
-        section.mainColor#selector.hidden-xs.hidden-sm
+        section.mainColor#selector.hidden-xs.visible-md.visible-lg
           .container 
             .row
-              .btnsCuadros
+              .btnsTransform
                 h1 Encuentra la alternativa que buscas en:
                 .col-md-1
-                .col-xs-12.plNo.col-sm-4.col-md-2
-                  a.link_rect.color-1(href="buscador-autos-nuevos.html")
-                    .icoSelector
-                      img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
-                      p Autos Nuevos
-                .col-xs-12.col-sm-4.col-md-2
-                  a.link_rect.my-inline-block-class.color-2(href="buscador-usados.html")
-                    .icoSelector()
-                      img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Nuevos")
-                      p Autos Usados
-                .col-xs-12.plNo.col-sm-4.col-md-2
-                  a.link_rect.my-inline-block-class.color-3(href="buscador-motos.html")
-                    .icoSelector()
-                      img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
-                      p Motos
-                .col-xs-12.col-sm-6.col-md-2
-                  a.link_rect.my-inline-block-class.color-4(href="buscador-camiones.html")
-                    .icoSelector()
-                      img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
-                      p Camiones
-                .col-xs-12.col-sm-6.col-md-2
-                  a.link_rect.my-inline-block-class.color-5.centro(href="servicios.html")
-                    .icoSelector()
-                      img.img-responsive(src="img/servicios.png", alt="servicios")
-                      p Servicios
+                .col-xs-6.plNo.col-sm-4.col-md-2
+                  a.btnsTransform__circle(href="buscador-autos-nuevos.html")
+                    .circle-text-1
+                      div
+                        img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
+                        p Autos Nuevos
+                .col-xs-6.plNo.col-sm-4.col-md-2
+                  a.btnsTransform__circle(href="buscador-usados.html")
+                    .circle-text-2
+                      div
+                        img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Usados")
+                        p Autos Usados
+                .col-xs-6.plNo.col-sm-4.col-md-2
+                  a.btnsTransform__circle(href="buscador-motos.html")
+                    .circle-text-3
+                      div
+                        img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
+                        p Motos
+                .col-xs-6.col-sm-offset-2.col-sm-4.col-md-2.col-md-offset-0
+                  a.btnsTransform__circle(href="buscador-camiones.html")
+                    .circle-text-4
+                      div
+                        img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
+                        p Camiones
+                .col-xs-6.col-xs-offset-3.col-sm-offset-0.col-sm-4.col-md-2.col-md-offset-0
+                  a.btnsTransform__circle(href="servicios.html")
+                    .circle-text-5
+                      div
+                        img.img-responsive(src="img/servicios.png", alt="Servicios")
+                        p Servicios
+              .fixclear
 
-
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
 
 
 

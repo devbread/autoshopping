@@ -37,15 +37,19 @@
             <form class="buscadorDesktop">
               <input type="search" placeholder="Buscar en el sitio" class="desk">
               <button class="desk-search"><i class="ion-ios-search-strong"></i></button>
-              <div class="btnContact"><a href="contacto.html"> <img src="img/btnContact.png" alt=""></a></div>
+              <div class="btnContact"><a href="#"> <img src="img/btnContact.png" alt=""></a></div>
             </form>
           </header>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="busqTitulo azulnormal"><span class="iconSection"><img src="img/icon-contactos.png" alt="" class="img-responsive"></span>
-            <p>Contáctanos</p><a href="#" class="buttonColapse"><i class="ion-chevron-down arrow-down"></i><i class="ion-chevron-up arrow-up"></i></a>
+          <div class="busqTitulo azulnormal hidden-md hidden-lg"><span class="iconSection"><img src="img/icon-cotizacion.png" alt="" class="img-responsive"></span>
+            <div class="titImagetop">
+              <div class="titImagetopImg">
+                <h1>Contacto</h1>
+              </div>
+            </div><a href="#" class="buttonColapse"><i class="ion-chevron-down arrow-down"></i><i class="ion-chevron-up arrow-up"></i></a>
             <div class="clearfix"></div>
           </div>
           <div class="navColapseNuevos">
@@ -78,15 +82,74 @@
                             <div class="imgLeft"><img src="img/pic.png" alt="" class="img-responsive"></div>
                           </div>
                           <div class="col-md-6">
-                            <h2>Hablemos1</h2>
+                            <h2>Sucursal Santiago</h2>
                             <form class="formSantiago">
-                              <div class="inputswraper">
-                                <input type="text" placeholder="Nombre" class="inputswraper-top">
-                                <input type="text" placeholder="Apellido">
-                                <input type="text" placeholder="Teléfono">
-                                <input type="text" placeholder="Email" class="inputswraper-bottom">
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Nombre" class="contact border-radius-top"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Apellido" class="contact"><span class="validator-2"><img src="img/wrong.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Teléfono" class="contact"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Email" class="contact border-radius-bottom"><span class="validator-2"><img src="img/wrong.png"></span>
                               </div>
                               <textarea placeholder="Escriba su comentario..."></textarea>
+                              <label class="warning">
+                                <p class="texto-error">*campos obligatorios</p>
+                                <p class="texto-validado">Gracias, su mensaje fue enviado</p>
+                              </label>
+                              <input type="submit" value="Enviar">
+                            </form>
+                          </div>
+                        </div>
+                        <div class="zonaContactos">
+                          <div class="col-md-12">
+                            <div class="row">
+                              <div class="col-md-4">
+                                <p>(2) 2246 4306</p>
+                              </div>
+                              <div class="col-md-4"><a href="mailto:contacto@autoshopping.cl" class="mail">contacto@autoshopping.cl</a></div>
+                              <div class="col-md-4"><a href="https://www.facebook.com/Autoshoppingchile/" target="_blank" class="fb">autoshoppingchile</a></div>
+                              <div class="clearfix"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div id="ubicacion" class="dataAtencion colorForm"><span class="icocontact"> <img src="img/contact.png" alt=""></span>
+                          <h4>Horario de atención</h4>
+                          <p>Lunes a domingo de 10:00 a 20:00 hrs.</p>
+                          <div id="ubicacion" class="maps">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="row colorForm">
+                          <div class="col-md-6 hidden-xs hidden-sm">
+                            <div class="imgLeft"><img src="img/pic.png" alt="" class="img-responsive"></div>
+                          </div>
+                          <div class="col-md-6">
+                            <h2>Sucursal La Serena</h2>
+                            <form class="formSantiago">
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Nombre" class="contact border-radius-top"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Apellido" class="contact"><span class="validator-2"><img src="img/wrong.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Teléfono" class="contact"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Email" class="contact border-radius-bottom"><span class="validator-2"><img src="img/wrong.png"></span>
+                              </div>
+                              <textarea placeholder="Escriba su comentario..."></textarea>
+                              <label class="warning">
+                                <p class="texto-error">*campos obligatorios</p>
+                                <p class="texto-validado">Gracias, su mensaje fue enviado</p>
+                              </label>
                               <input type="submit" value="Enviar">
                             </form>
                           </div>
@@ -117,15 +180,25 @@
                             <div class="imgLeft"><img src="img/pic.png" alt="" class="img-responsive"></div>
                           </div>
                           <div class="col-md-6">
-                            <h2>Hablemos2</h2>
+                            <h2>Sucursal Viña del Mar </h2>
                             <form class="formSantiago">
-                              <div class="inputswraper">
-                                <input type="text" placeholder="Nombre" class="inputswraper-top">
-                                <input type="text" placeholder="Apellido">
-                                <input type="text" placeholder="Teléfono">
-                                <input type="text" placeholder="Email" class="inputswraper-bottom">
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Nombre" class="contact border-radius-top"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Apellido" class="contact"><span class="validator-2"><img src="img/wrong.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Teléfono" class="contact"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Email" class="contact border-radius-bottom"><span class="validator-2"><img src="img/wrong.png"></span>
                               </div>
                               <textarea placeholder="Escriba su comentario..."></textarea>
+                              <label class="warning">
+                                <p class="texto-error">*campos obligatorios</p>
+                                <p class="texto-validado">Gracias, su mensaje fue enviado</p>
+                              </label>
                               <input type="submit" value="Enviar">
                             </form>
                           </div>
@@ -156,54 +229,25 @@
                             <div class="imgLeft"><img src="img/pic.png" alt="" class="img-responsive"></div>
                           </div>
                           <div class="col-md-6">
-                            <h2>Hablemos3</h2>
+                            <h2>Sucursal Concepción</h2>
                             <form class="formSantiago">
-                              <div class="inputswraper">
-                                <input type="text" placeholder="Nombre" class="inputswraper-top">
-                                <input type="text" placeholder="Apellido">
-                                <input type="text" placeholder="Teléfono">
-                                <input type="text" placeholder="Email" class="inputswraper-bottom">
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Nombre" class="contact border-radius-top"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Apellido" class="contact"><span class="validator-2"><img src="img/wrong.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Teléfono" class="contact"><span class="validator-2"><img src="img/check-2.png"></span>
+                              </div>
+                              <div class="inputswraper-2">
+                                <input type="text" placeholder="*Email" class="contact border-radius-bottom"><span class="validator-2"><img src="img/wrong.png"></span>
                               </div>
                               <textarea placeholder="Escriba su comentario..."></textarea>
-                              <input type="submit" value="Enviar">
-                            </form>
-                          </div>
-                        </div>
-                        <div class="zonaContactos">
-                          <div class="col-md-12">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <p>(2) 2246 4306</p>
-                              </div>
-                              <div class="col-md-4"><a href="mailto:contacto@autoshopping.cl" class="mail">contacto@autoshopping.cl</a></div>
-                              <div class="col-md-4"><a href="https://www.facebook.com/Autoshoppingchile/" target="_blank" class="fb">autoshoppingchile</a></div>
-                              <div class="clearfix"></div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="dataAtencion colorForm"><span class="icocontact"> <img src="img/contact.png" alt=""></span>
-                          <h4>Horario de atención</h4>
-                          <p>Lunes a domingo de 10:00 a 20:00 hrs.</p>
-                          <div class="maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                          </div>
-                        </div>
-                      </div>
-                      <div>
-                        <div class="row colorForm">
-                          <div class="col-md-6 hidden-xs hidden-sm">
-                            <div class="imgLeft"><img src="img/pic.png" alt="" class="img-responsive"></div>
-                          </div>
-                          <div class="col-md-6">
-                            <h2>Hablemos4</h2>
-                            <form class="formSantiago">
-                              <div class="inputswraper">
-                                <input type="text" placeholder="Nombre" class="inputswraper-top">
-                                <input type="text" placeholder="Apellido">
-                                <input type="text" placeholder="Teléfono">
-                                <input type="text" placeholder="Email" class="inputswraper-bottom">
-                              </div>
-                              <textarea placeholder="Escriba su comentario..."></textarea>
+                              <label class="warning">
+                                <p class="texto-error">*campos obligatorios</p>
+                                <p class="texto-validado">Gracias, su mensaje fue enviado</p>
+                              </label>
                               <input type="submit" value="Enviar">
                             </form>
                           </div>
@@ -248,6 +292,9 @@
             </section>
           </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row"><a href="javascript:history.back(1)" class="backjsO">volver</a></div>
       </div>
       <div class="container-fluid footer-nav">
         <div class="container no-padding">

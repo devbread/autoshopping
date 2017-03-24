@@ -22,23 +22,23 @@ html.no-js(lang='es')
         .pushy-content
           ul
             li.pushy-link
-              a(href='#')
+              a(href='index.html')
                 span.icolink-1 
                 |Inicio
             li.pushy-link
-              a(href='#') 
+              a(href='contacto.html') 
                 span.icolink-2 
                 |Sucursales
             li.pushy-link
-              a(href='#') 
+              a(href='eventos-noticias.html') 
                 span.icolink-3 
                 |Eventos y noticias
             li.pushy-link
-              a(href='#')
+              a(href='quienes.html')
                 span.icolink-4  
                 |Quienes somos
             li.pushy-link
-              a(href='#')
+              a(href='contacto.html')
                 span.icolink-5 
                 |Contáctenos
           form.formMovil
@@ -60,7 +60,7 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="#") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container            
           section.ficha
@@ -281,43 +281,46 @@ html.no-js(lang='es')
                       legend Cotiza aquí
                       // Text input
                       .form-group
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='first_name', placeholder='Nombre', type='text')
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='first_name', placeholder='*Nombre', type='text')
+                              span
+                                  img(src="img/check-2.png")
                       // Text input
                       .form-group
-                       
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='last_name', placeholder='Apellido', type='text')
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='last_name', placeholder='*Apellido', type='text')
+                              span
+                                  img(src="img/wrong.png")
                       // Text input
                       .form-group
-                     
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='phone', placeholder='(845)555-1212', type='text')
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='phone', placeholder='*(845)555-1212', type='text')
+                              span
+                                  img(src="img/check-2.png")
+                      .form-group
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='email', placeholder='*Mail', type='text')
+                              span
+                                  img(src="img/wrong.png")
+                      // Text input
+                      .form-group
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='address', placeholder='*Marca', type='text')
+                              span
+                                  img(src="img/check-2.png")
+                      // Text input
+                      .form-group
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='city', placeholder='*Modelo', type='text')
+                              span
+                                  img(src="img/wrong.png")
                       
-                      .form-group
-                    
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='email', placeholder='Mail', type='text')
                       // Text input
                       .form-group
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='address', placeholder='Marca', type='text')
-                      // Text input
-                      .form-group
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='city', placeholder='Modelo', type='text')
-                      
-                      // Text input
-                      .form-group
-                        .col-md-12.inputGroupContainer
-                          
-                          input.form-control(name='zip', placeholder='Año', type='text')
+                          .col-md-12.inputGroupContainer
+                              input.form-control(name='zip', placeholder='*Año', type='text')
+                              span
+                                  img(src="img/check-2.png")
                       // Text area
                       .form-group
                         .col-md-12.inputGroupContainer
@@ -331,6 +334,8 @@ html.no-js(lang='es')
                       // Button
                       .form-group
                         label.col-md-8.control-label
+                          p.texto-error *campos obligatorios
+                          p.texto-validado Gracias, su cotización esta siendo procesada
                         .col-md-4.fila-boton
                           button.btn.btn-warning(type='submit')
                             | Enviar 
@@ -340,9 +345,9 @@ html.no-js(lang='es')
             .col-xs-10
               .row
                 .col-sm-6
-                  btn.btn-success.btn.btn-100 LLAMAR
+                    a(href="#").btn-success.btn.btn-100 LLAMAR
                 .col-sm-6
-                  btn.btn-primary.btn.btn-100 COTIZAR
+                    a(href="cotizacion.html").btn-primary.btn.btn-100 COTIZAR
             .col-xs-1
 
 
@@ -370,38 +375,49 @@ html.no-js(lang='es')
             .col-md-4
               img(src="img/usados_01.png" style="display:block;")
               a(href="#" style="display:block;") Subaru Impreza • año 2017 • $11.390.000
-        section.mainColor#selector.hidden-sm.hidden-xs
-              .container 
-                .row
-                  .btnsCuadros
-                    h1 Encuentra la alternativa que buscas en:
-                    .col-md-1
-                    .col-xs-12.plNo.col-sm-4.col-md-2
-                      a.link_rect.color-1(href="buscador-autos-nuevos.html")
-                        .icoSelector
-                          img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
-                          p Autos Nuevos
-                    .col-xs-12.col-sm-4.col-md-2
-                      a.link_rect.my-inline-block-class.color-2(href="buscador-usados.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Nuevos")
-                          p Autos Usados
-                    .col-xs-12.plNo.col-sm-4.col-md-2
-                      a.link_rect.my-inline-block-class.color-3(href="buscador-motos.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
-                          p Motos
-                    .col-xs-12.col-sm-6.col-md-2
-                      a.link_rect.my-inline-block-class.color-4(href="buscador-camiones.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
-                          p Camiones
-                    .col-xs-12.col-sm-6.col-md-2
-                      a.link_rect.my-inline-block-class.color-5.centro(href="servicios.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/servicios.png", alt="servicios")
-                          p Servicios
+        section.mainColor#selector.hidden-xs.visible-md.visible-lg
+          .container 
+            .row
+              .btnsTransform
+                h1 Encuentra la alternativa que buscas en:
                 .col-md-1
+                .col-xs-6.plNo.col-sm-4.col-md-2
+                  a.btnsTransform__circle(href="buscador-autos-nuevos.html")
+                    .circle-text-1
+                      div
+                        img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
+                        p Autos Nuevos
+                .col-xs-6.plNo.col-sm-4.col-md-2
+                  a.btnsTransform__circle(href="buscador-usados.html")
+                    .circle-text-2
+                      div
+                        img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Usados")
+                        p Autos Usados
+                .col-xs-6.plNo.col-sm-4.col-md-2
+                  a.btnsTransform__circle(href="buscador-motos.html")
+                    .circle-text-3
+                      div
+                        img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
+                        p Motos
+                .col-xs-6.col-sm-offset-2.col-sm-4.col-md-2.col-md-offset-0
+                  a.btnsTransform__circle(href="buscador-camiones.html")
+                    .circle-text-4
+                      div
+                        img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
+                        p Camiones
+                .col-xs-6.col-xs-offset-3.col-sm-offset-0.col-sm-4.col-md-2.col-md-offset-0
+                  a.btnsTransform__circle(href="servicios.html")
+                    .circle-text-5
+                      div
+                        img.img-responsive(src="img/servicios.png", alt="Servicios")
+                        p Servicios
+              .fixclear
+                .col-md-1
+
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
+                  
         .container-fluid.footer-nav
           .container.no-padding
             nav

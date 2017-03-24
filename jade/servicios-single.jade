@@ -61,17 +61,20 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
             .busqTitulo.quienes-titulo.hidden-md.hidden-lg
-              h1 Servicios
-                //- span
-                //-   img.img-responsive.iconSection(src="img/icon_people.png", alt="") 
-                a.buttonColapse(href="#")
-                  i.ion-chevron-down.arrow-down
-                  i.ion-chevron-up.arrow-up
+              .back
+                a.back_link(href="javascript:history.back(1)")
+                  i.ion-chevron-left 
+              .titImagetop
+                .titImagetopImg
+                  h1 Servicios
+              a.buttonColapse(href="#")
+                i.ion-chevron-down.arrow-down
+                i.ion-chevron-up.arrow-up
               .clearfix
             .navColapseNuevos
               ul

@@ -37,15 +37,20 @@
             <form class="buscadorDesktop">
               <input type="search" placeholder="Buscar en el sitio" class="desk">
               <button class="desk-search"><i class="ion-ios-search-strong"></i></button>
-              <div class="btnContact"><a href="contacto.html"> <img src="img/btnContact.png" alt=""></a></div>
+              <div class="btnContact"><a href="contacto.html#ubicacion"> <img src="img/btnContact.png" alt=""></a></div>
             </form>
           </header>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="busqTitulo azulnormal"><span class="iconSection"><img src="img/icon-cotizacion.png" alt="" class="img-responsive"></span>
-            <p>Cotización</p><a href="#" class="buttonColapse"><i class="ion-chevron-down arrow-down"></i><i class="ion-chevron-up arrow-up"></i></a>
+          <div class="busqTitulo azulnormal">
+            <div class="back"><a href="javascript:history.back(1)" class="back_link"><i class="ion-chevron-left"></i></a></div>
+            <div class="titImagetop">
+              <div class="titImagetopImg">
+                <h1>Cotización </h1>
+              </div>
+            </div><a href="#" class="buttonColapse"><i class="ion-chevron-down arrow-down"></i><i class="ion-chevron-up arrow-up"></i></a>
             <div class="clearfix"></div>
           </div>
           <div class="navColapseNuevos">
@@ -71,11 +76,25 @@
                     </div>
                     <form class="formCotizacion">
                       <div class="inputswraper">
-                        <input type="text" placeholder="Nombre" class="inputswraper-top">
-                        <input type="text" placeholder="Apellido">
-                        <input type="text" placeholder="Teléfono">
-                        <input type="text" placeholder="RUT" class="inputswraper-bottom">
-                        <input type="text" placeholder="Email" class="inputswraper-bottom">
+                        <input type="text" placeholder="*Nombre" class="border-radius-top"><span class="validator"><img src="img/check-2.png"></span>
+                      </div>
+                      <div class="inputswraper">
+                        <input type="text" placeholder="*Apellido"><span class="validator"><img src="img/wrong.png"></span>
+                      </div>
+                      <div class="inputswraper">
+                        <input type="text" placeholder="*Teléfono"><span class="validator"><img src="img/check-2.png"></span>
+                      </div>
+                      <div class="inputswraper">
+                        <input type="text" placeholder="*RUT" class="inputswraper-bottom"><span class="validator"><img src="img/wrong.png"></span>
+                      </div>
+                      <div class="inputswraper">
+                        <input type="text" placeholder="*Email" class="border-radius-bottom"><span class="validator"><img src="img/check-2.png"></span>
+                        <div class="checkwrapper">
+                          <label class="warning">
+                            <p class="texto-error">*campos obligatorios</p>
+                            <p class="texto-validado">Gracias, su mensaje fue enviado</p>
+                          </label>
+                        </div>
                         <div class="checkwrapper">
                           <div>
                             <div class="div-span">
@@ -102,6 +121,9 @@
             </section>
           </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row"><a href="javascript:history.back(1)" class="backjsO">volver</a></div>
         
       </div>
       

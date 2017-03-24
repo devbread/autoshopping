@@ -58,18 +58,40 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
             .busqTitulo.azulnormal
-              span.iconSection
-                img.img-responsive(src="img/icon-cotizacion.png", alt="") 
-              p Cotización
+              //- span.iconSection
+              //-   img.img-responsive(src="img/icon-cotizacion.png", alt="") 
+              //- p Cotización
+              //- a.buttonColapse(href="#")
+              //-   i.ion-chevron-down.arrow-down
+              //-   i.ion-chevron-up.arrow-up
+              //- .clearfix
+              //- span.iconSection
+              //-   img.img-responsive(src="img/icon-cotizacion.png", alt="") 
+              //- .titImagetop
+              //-   .titImagetopImg
+              //-     h1 Cotización
+              //- a.buttonColapse(href="#")
+              //-   i.ion-chevron-down.arrow-down
+              //-   i.ion-chevron-up.arrow-up
+              //- .clearfix
+
+              .back
+                a.back_link(href="javascript:history.back(1)")
+                  i.ion-chevron-left
+              .titImagetop
+                .titImagetopImg
+                  //- img.img-responsive.motoIcon(src="img/ico-moto.png", alt="")
+                  h1 Cotización 
               a.buttonColapse(href="#")
                 i.ion-chevron-down.arrow-down
                 i.ion-chevron-up.arrow-up
               .clearfix
+
             .navColapseNuevos
               ul
                 li
@@ -97,11 +119,31 @@ html.no-js(lang='es')
                           |Precio Referencial
                       form.formCotizacion
                         .inputswraper
-                          input.inputswraper-top(type="text", placeholder="Nombre")
-                          input(type="text", placeholder="Apellido")
-                          input(type="text", placeholder="Teléfono")
-                          input.inputswraper-bottom(type="text", placeholder="RUT")
-                          input.inputswraper-bottom(type="text", placeholder="Email")
+                          input.border-radius-top(type='text',placeholder="*Nombre")
+                          span.validator
+                            img(src='img/check-2.png')
+                          //- input.inputswraper-top(type="text", placeholder="Nombre")
+                        .inputswraper
+                          input(type="text", placeholder="*Apellido")
+                          span.validator
+                            img(src='img/wrong.png')
+                        .inputswraper
+                          input(type="text", placeholder="*Teléfono")
+                          span.validator
+                            img(src='img/check-2.png')
+                        .inputswraper
+                          input.inputswraper-bottom(type="text", placeholder="*RUT")
+                          span.validator
+                            img(src='img/wrong.png')
+                        .inputswraper
+                          input.border-radius-bottom(type="text", placeholder="*Email")
+                          span.validator
+                            img(src='img/check-2.png')
+                          .checkwrapper
+                            label.warning
+                              p.texto-error *campos obligatorios
+                              p.texto-validado Gracias, su mensaje fue enviado
+
                           .checkwrapper
                             div
                               .div-span
@@ -113,10 +155,12 @@ html.no-js(lang='es')
                               .div-span
                                 input#box3(type='checkbox')
                                 label(for='box3') <span>Dejar su auto en parte de pago</span>
-                        //- textarea(placeholder="Escriba su comentario...")
                         input.btncotizar(type="submit", value="Enviar")
 
                   .col-md-1.hidden-xs.hidden-sm
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
 
           //- .row
           //-   .col-xs-12

@@ -60,7 +60,7 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           section.resultados
@@ -69,7 +69,7 @@ html.no-js(lang='es')
             .row
               .col-sm-6.col-md-4
                 .thumbnail.caja-resultado
-                  img(src='img/thumbnail.png', alt='...')
+                  img(src='img/img-resultado.jpg', alt='...')
                   .caption.col-xs-8
                     h3 Hyundai Tucson
                     p.precio-resultados $13.000.990
@@ -83,7 +83,7 @@ html.no-js(lang='es')
                         a.btn.btn-default(href='#', role='button') Ver Ficha
               .col-sm-6.col-md-4
                 .thumbnail.caja-resultado
-                  img(src='img/thumbnail.png', alt='...')
+                  img(src='img/img-resultado.jpg', alt='...')
                   .caption.col-xs-8
                     h3 Hyundai Tucson
                     p.precio-resultados $13.000.990
@@ -97,7 +97,7 @@ html.no-js(lang='es')
                         a.btn.btn-default(href='#', role='button') Ver Ficha
               .col-sm-6.col-md-4
                 .thumbnail.caja-resultado
-                  img(src='img/thumbnail.png', alt='...')
+                  img(src='img/img-resultado.jpg', alt='...')
                   .caption.col-xs-8
                     h3 Hyundai Tucson
                     p.precio-resultados $13.000.990
@@ -111,7 +111,7 @@ html.no-js(lang='es')
                         a.btn.btn-default(href='#', role='button') Ver Ficha
               .col-sm-6.col-md-4
                 .thumbnail.caja-resultado
-                  img(src='img/thumbnail.png', alt='...')
+                  img(src='img/img-resultado.jpg', alt='...')
                   .caption.col-xs-8
                     h3 Hyundai Tucson
                     p.precio-resultados $13.000.990
@@ -125,7 +125,7 @@ html.no-js(lang='es')
                         a.btn.btn-default(href='#', role='button') Ver Ficha
               .col-sm-6.col-md-4
                 .thumbnail.caja-resultado
-                  img(src='img/thumbnail.png', alt='...')
+                  img(src='img/img-resultado.jpg', alt='...')
                   .caption.col-xs-8
                     h3 Hyundai Tucson
                     p.precio-resultados $13.000.990
@@ -139,7 +139,7 @@ html.no-js(lang='es')
                         a.btn.btn-default(href='#', role='button') Ver Ficha
               .col-sm-6.col-md-4
                 .thumbnail.caja-resultado
-                  img(src='img/thumbnail.png', alt='...')
+                  img(src='img/img-resultado.jpg', alt='...')
                   .caption.col-xs-8
                     h3 Hyundai Tucson
                     p.precio-resultados $13.000.990
@@ -162,25 +162,25 @@ html.no-js(lang='es')
                     li
                       a.page-navigation-btn.btn(href='#', aria-label='Previous')
                         span(aria-hidden='true') ATRÁS
-                    li
+                    li.nop
                       a(class="active" href='#') 1
-                    li
+                    li.nop
                       a(href='#') 2
-                    li
+                    li.nop
                       a(href='#') 3
-                    li
+                    li.nop
                       a(href='#') 4
-                    li
+                    li.nop
                       a(href='#') 5
-                    li
+                    li.nop
                       a(href='#') 6
-                    li
+                    li.nop
                       a(href='#') 7
-                    li
+                    li.nop
                       a(href='#') 8
-                    li
+                    li.nop
                       a(href='#') 9
-                    li
+                    li.nop
                       a(href='#') 10
                     li
                       a.page-navigation-btn.btn(href='#', aria-label='Next')
@@ -188,36 +188,47 @@ html.no-js(lang='es')
               .col-sm-1
           section.mainColor#selector.hidden-sm.hidden-xs
               .container 
-                .row
-                  .btnsCuadros
-                    h1 Encuentra la alternativa que buscas en:
-                    .col-md-1
-                    .col-xs-12.plNo.col-sm-4.col-md-2
-                      a.link_rect.color-1(href="buscador-autos-nuevos.html")
-                        .icoSelector
-                          img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
-                          p Autos Nuevos
-                    .col-xs-12.col-sm-4.col-md-2
-                      a.link_rect.my-inline-block-class.color-2(href="buscador-usados.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Nuevos")
-                          p Autos Usados
-                    .col-xs-12.plNo.col-sm-4.col-md-2
-                      a.link_rect.my-inline-block-class.color-3(href="buscador-motos.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
-                          p Motos
-                    .col-xs-12.col-sm-6.col-md-2
-                      a.link_rect.my-inline-block-class.color-4(href="buscador-camiones.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
-                          p Camiones
-                    .col-xs-12.col-sm-6.col-md-2
-                      a.link_rect.my-inline-block-class.color-5.centro(href="servicios.html")
-                        .icoSelector()
-                          img.img-responsive(src="img/servicios.png", alt="servicios")
-                          p Servicios
-                  .col-md-1
+                  .row
+                    .btnsTransform
+                      h1 Encuentra la alternativa que buscas en:
+                      .col-md-1
+                      .col-xs-6.plNo.col-sm-4.col-md-2
+                        a.btnsTransform__circle(href="buscador-autos-nuevos.html")
+                          .circle-text-1
+                            div
+                              img.img-responsive(src="img/ico-ini-nuevos.png", alt="Autos Nuevos")
+                              p Autos Nuevos
+                      .col-xs-6.plNo.col-sm-4.col-md-2
+                        a.btnsTransform__circle(href="buscador-usados.html")
+                          .circle-text-2
+                            div
+                              img.img-responsive(src="img/ico-ini-usados.png", alt="Autos Usados")
+                              p Autos Usados
+                      .col-xs-6.plNo.col-sm-4.col-md-2
+                        a.btnsTransform__circle(href="buscador-motos.html")
+                          .circle-text-3
+                            div
+                              img.img-responsive(src="img/ico-ini-motos.png", alt="Motos")
+                              p Motos
+                      .col-xs-6.col-sm-offset-2.col-sm-4.col-md-2.col-md-offset-0
+                        a.btnsTransform__circle(href="buscador-camiones.html")
+                          .circle-text-4
+                            div
+                              img.img-responsive(src="img/ico-ini-camiones.png", alt="Camiones")
+                              p Camiones
+                      .col-xs-6.col-xs-offset-3.col-sm-offset-0.col-sm-4.col-md-2.col-md-offset-0
+                        a.btnsTransform__circle(href="servicios.html")
+                          .circle-text-5
+                            div
+                              img.img-responsive(src="img/servicios.png", alt="Servicios")
+                              p Servicios
+                    .fixclear
+                      .col-md-1
+
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
+
         .container-fluid.footer-nav
           .container.no-padding
             nav

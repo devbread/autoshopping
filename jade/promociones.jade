@@ -61,17 +61,20 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
-            .busqTitulo.quienes-titulo.hidden-md.hidden-lg.hidden-sm.hidden-xs
-              h1 Quienes Somos 
-                span
-                  img.img-responsive.iconSection(src="img/icon_people.png", alt="") 
-                a.buttonColapse(href="#")
-                  i.ion-chevron-down.arrow-down
-                  i.ion-chevron-up.arrow-up
+            .busqTitulo.quienes-titulo.hidden-md.hidden-lg
+              .back
+                a.back_link(href="javascript:history.back(1)")
+                  i.ion-chevron-left 
+              .titImagetop
+                .titImagetopImg
+                  h1 Promociones 
+              a.buttonColapse(href="#")
+                i.ion-chevron-down.arrow-down
+                i.ion-chevron-up.arrow-up
               .clearfix
             .navColapseNuevos
               ul
@@ -89,7 +92,7 @@ html.no-js(lang='es')
             .row
               .col-sm-1
               .col-xs-12.col-sm-10
-                .container
+                .container.visible-md.visible-lg
                   .row
                     .col-xs-2.col-lg-2.col-sm-3
                       h1 Promociones
@@ -143,6 +146,9 @@ html.no-js(lang='es')
                                     a(href="pista.html")|Estamos atentos de resolver cualquier duda o consulta qu etenga sobre autos.
                               .col-md-2
               .col-sm-1
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
 
 
         .container-fluid.footer-nav

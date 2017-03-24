@@ -61,18 +61,26 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="contacto.html#ubicacion") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
             .busqTitulo.quienes-titulo.hidden-md.hidden-lg
-              h1 Servicios
+                //- h1 Servicios
                 //- span
                 //-   img.img-responsive.iconSection(src="img/icon_people.png", alt="") 
+                //- span.iconSection
+                //-   img.img-responsive(src="img/icon_people.png", alt="")
+                .back
+                  a.back_link(href="javascript:history.back(1)")
+                    i.ion-chevron-left 
+                .titImagetop
+                  .titImagetopImg
+                    h1 Servicios
                 a.buttonColapse(href="#")
                   i.ion-chevron-down.arrow-down
                   i.ion-chevron-up.arrow-up
-              .clearfix
+                .clearfix
             .navColapseNuevos
               ul
                 li
@@ -162,14 +170,11 @@ html.no-js(lang='es')
                         a.more(href="servicios-single.html") Más información
                         .boxColors_img
                           img.boxColors_img-img(src="img/pista-pruebas.jpg", alt="")
-
-
-
-
-
-
               .col-sm-1
 
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
 
         .container-fluid.footer-nav
           .container.no-padding

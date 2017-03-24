@@ -58,14 +58,26 @@ html.no-js(lang='es')
                 button.desk-search
                   i.ion-ios-search-strong
                 .btnContact
-                  a(href="contacto.html") 
+                  a(href="#") 
                     img(src="img/btnContact.png", alt="")
         .container
           .row
-            .busqTitulo.azulnormal
+            .busqTitulo.azulnormal.hidden-md.hidden-lg
+              //- span.iconSection
+              //-   img.img-responsive(src="img/icon-contactos.png", alt="") 
+              //- p Contáctanos
+              //- a.buttonColapse(href="#")
+              //-   i.ion-chevron-down.arrow-down
+              //-   i.ion-chevron-up.arrow-up
+              //- .clearfix
               span.iconSection
-                img.img-responsive(src="img/icon-contactos.png", alt="") 
-              p Contáctanos
+                img.img-responsive(src="img/icon-cotizacion.png", alt="") 
+              //- .back
+              //-   a.back_link(href="javascript:history.back(1)")
+              //-     i.ion-chevron-left 
+              .titImagetop
+                .titImagetopImg
+                  h1 Contacto
               a.buttonColapse(href="#")
                 i.ion-chevron-down.arrow-down
                 i.ion-chevron-up.arrow-up
@@ -102,14 +114,75 @@ html.no-js(lang='es')
                                 .imgLeft
                                   img.img-responsive(src="img/pic.png", alt="")
                               .col-md-6
-                                h2 Hablemos1
+                                h2 Sucursal Santiago
                                 form.formSantiago
-                                    .inputswraper
-                                      input.inputswraper-top(type="text", placeholder="Nombre")
-                                      input(type="text", placeholder="Apellido")
-                                      input(type="text", placeholder="Teléfono")
-                                      input.inputswraper-bottom(type="text", placeholder="Email")
+                                    .inputswraper-2
+                                      input.contact.border-radius-top(type="text", placeholder="*Nombre")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Apellido")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Teléfono")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact.border-radius-bottom(type="text", placeholder="*Email")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
                                     textarea(placeholder="Escriba su comentario...")
+                                    label.warning
+                                      p.texto-error *campos obligatorios
+                                      p.texto-validado Gracias, su mensaje fue enviado
+                                    input(type="submit", value="Enviar")
+                            .zonaContactos
+                              .col-md-12
+                                .row
+                                  .col-md-4
+                                    p (2) 2246 4306
+                                  .col-md-4
+                                    a.mail(href="mailto:contacto@autoshopping.cl") contacto@autoshopping.cl
+                                  .col-md-4
+                                    a.fb(href="https://www.facebook.com/Autoshoppingchile/", target="_blank") autoshoppingchile
+                                  .clearfix
+                            .dataAtencion.colorForm#ubicacion
+                              span.icocontact 
+                                img(src="img/contact.png", alt="")
+                              h4 Horario de atención
+                              p Lunes a domingo de 10:00 a 20:00 hrs.
+                              .maps#ubicacion
+                                iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343', width='100%', height='400px', frameborder='0', style='border:0', allowfullscreen='')
+                              //- a.back(href="#") Volver
+                          div
+                            .row.colorForm
+                              .col-md-6.hidden-xs.hidden-sm
+                                .imgLeft
+                                  img.img-responsive(src="img/pic.png", alt="")
+                              .col-md-6
+                                h2 Sucursal La Serena
+                                form.formSantiago
+                                    .inputswraper-2
+                                      input.contact.border-radius-top(type="text", placeholder="*Nombre")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Apellido")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Teléfono")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact.border-radius-bottom(type="text", placeholder="*Email")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
+                                    textarea(placeholder="Escriba su comentario...")
+                                    label.warning
+                                      p.texto-error *campos obligatorios
+                                      p.texto-validado Gracias, su mensaje fue enviado
                                     input(type="submit", value="Enviar")
                             .zonaContactos
                               .col-md-12
@@ -135,14 +208,28 @@ html.no-js(lang='es')
                                 .imgLeft
                                   img.img-responsive(src="img/pic.png", alt="")
                               .col-md-6
-                                h2 Hablemos2
+                                h2 Sucursal Viña del Mar 
                                 form.formSantiago
-                                    .inputswraper
-                                      input.inputswraper-top(type="text", placeholder="Nombre")
-                                      input(type="text", placeholder="Apellido")
-                                      input(type="text", placeholder="Teléfono")
-                                      input.inputswraper-bottom(type="text", placeholder="Email")
+                                    .inputswraper-2
+                                      input.contact.border-radius-top(type="text", placeholder="*Nombre")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Apellido")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Teléfono")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact.border-radius-bottom(type="text", placeholder="*Email")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
                                     textarea(placeholder="Escriba su comentario...")
+                                    label.warning
+                                      p.texto-error *campos obligatorios
+                                      p.texto-validado Gracias, su mensaje fue enviado
                                     input(type="submit", value="Enviar")
                             .zonaContactos
                               .col-md-12
@@ -168,47 +255,28 @@ html.no-js(lang='es')
                                 .imgLeft
                                   img.img-responsive(src="img/pic.png", alt="")
                               .col-md-6
-                                h2 Hablemos3
+                                h2 Sucursal Concepción
                                 form.formSantiago
-                                    .inputswraper
-                                      input.inputswraper-top(type="text", placeholder="Nombre")
-                                      input(type="text", placeholder="Apellido")
-                                      input(type="text", placeholder="Teléfono")
-                                      input.inputswraper-bottom(type="text", placeholder="Email")
+                                    .inputswraper-2
+                                      input.contact.border-radius-top(type="text", placeholder="*Nombre")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Apellido")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
+                                    .inputswraper-2
+                                      input.contact(type="text", placeholder="*Teléfono")
+                                      span.validator-2
+                                        img(src='img/check-2.png')
+                                    .inputswraper-2
+                                      input.contact.border-radius-bottom(type="text", placeholder="*Email")
+                                      span.validator-2
+                                        img(src='img/wrong.png')
                                     textarea(placeholder="Escriba su comentario...")
-                                    input(type="submit", value="Enviar")
-                            .zonaContactos
-                              .col-md-12
-                                .row
-                                  .col-md-4
-                                    p (2) 2246 4306
-                                  .col-md-4
-                                    a.mail(href="mailto:contacto@autoshopping.cl") contacto@autoshopping.cl
-                                  .col-md-4
-                                    a.fb(href="https://www.facebook.com/Autoshoppingchile/", target="_blank") autoshoppingchile
-                                  .clearfix
-                            .dataAtencion.colorForm
-                              span.icocontact 
-                                img(src="img/contact.png", alt="")
-                              h4 Horario de atención
-                              p Lunes a domingo de 10:00 a 20:00 hrs.
-                              .maps
-                                iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.6880273758748!2d-70.59612268449085!3d-33.5094929807571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d19f0d6fa84b%3A0x9cfe4b9d6ac5a300!2sAutoshopping!5e0!3m2!1ses!2scl!4v1489443405343', width='100%', height='400px', frameborder='0', style='border:0', allowfullscreen='')
-                              //- a.back(href="#") Volver
-                          div
-                            .row.colorForm
-                              .col-md-6.hidden-xs.hidden-sm
-                                .imgLeft
-                                  img.img-responsive(src="img/pic.png", alt="")
-                              .col-md-6
-                                h2 Hablemos4
-                                form.formSantiago
-                                    .inputswraper
-                                      input.inputswraper-top(type="text", placeholder="Nombre")
-                                      input(type="text", placeholder="Apellido")
-                                      input(type="text", placeholder="Teléfono")
-                                      input.inputswraper-bottom(type="text", placeholder="Email")
-                                    textarea(placeholder="Escriba su comentario...")
+                                    label.warning
+                                      p.texto-error *campos obligatorios
+                                      p.texto-validado Gracias, su mensaje fue enviado
                                     input(type="submit", value="Enviar")
                             .zonaContactos
                               .col-md-12
@@ -240,6 +308,9 @@ html.no-js(lang='es')
                   .col-xs-12.col-md-10
                     img.img-responsive(src="img/masterplan.jpg", alt="Masterplan")
                   .col-md-1.hidden-xs.hidden-sm
+        .container
+          .row
+            a.backjsO(href="javascript:history.back(1)") volver
 
 
 

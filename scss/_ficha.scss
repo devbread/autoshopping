@@ -120,6 +120,28 @@
 	.fila-boton{
 		text-align: right;
 	}
+
+	.form-horizontal{
+		.form-control{
+			padding: 20px 10px;
+		}
+		.inputGroupContainer{
+			position: relative;
+			span{
+				position: absolute;
+				right: 20px;
+				top: 5px;
+			}
+		}
+		.texto-error {
+			text-align: left;
+			color: red;
+		}
+		.texto-validado {
+			text-align: left;
+			color: $green;
+		}
+	}//fin form horizontal
 }
 .recomendacion,.recomendacion-usados{
 	background-color:$light-blue;
